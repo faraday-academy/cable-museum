@@ -1,12 +1,51 @@
 <template>
   <v-app>
+    <!-- Navigation Drawer for Mobile -->
+    <v-navigation-drawer
+      v-model="drawer"
+      temporary
+      location="left"
+      class="nav-drawer"
+    >
+      <v-list density="comfortable" class="pa-2">
+        <v-list-item
+          v-for="nav in navigationItems"
+          :key="nav.value"
+          :value="nav.value"
+          :active="store.currentView === nav.value"
+          @click="handleNavClick(nav.value)"
+          class="nav-item"
+        >
+          <template #prepend>
+            <v-icon :icon="nav.icon" />
+          </template>
+          <v-list-item-title>{{ nav.title }}</v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+
     <v-app-bar elevation="4" color="primary" density="comfortable">
+      <v-app-bar-nav-icon
+        v-if="$vuetify.display.mobile"
+        @click="drawer = !drawer"
+        class="d-md-none"
+      />
+
       <v-app-bar-title class="d-flex align-center gap-2">
         <v-icon icon="mdi-cable-data" class="me-2" />
         <span class="logo-text">Cable Museum</span>
       </v-app-bar-title>
       <v-spacer />
-      <v-btn-toggle v-model="store.currentView" mandatory group color="primary" variant="outlined">
+
+      <!-- Desktop Navigation -->
+      <v-btn-toggle
+        v-if="!$vuetify.display.mobile"
+        v-model="store.currentView"
+        mandatory
+        group
+        color="primary"
+        variant="outlined"
+      >
         <v-btn value="museum" @click="store.setView('museum')"
           :class="{ 'active-nav': store.currentView === 'museum' }">
           <v-icon icon="mdi-timeline" class="me-1" />
@@ -26,6 +65,7 @@
           Legends
         </v-btn>
       </v-btn-toggle>
+
       <v-btn icon href="https://github.com/" target="_blank" rel="noopener">
         <v-icon icon="mdi-github" />
       </v-btn>
@@ -72,8 +112,24 @@ import CableBuilder from './components/CableBuilder.vue'
 import Passport from './components/Passport.vue'
 import LegendsPage from './components/LegendsPage.vue'
 import EraDialog from './components/EraDialog.vue'
+
 const store = useMuseumStore()
 const sparkles = ref<HTMLDivElement | null>(null)
+const drawer = ref(false)
+
+// Navigation items for the mobile drawer
+const navigationItems = [
+  { title: 'Museum', value: 'museum', icon: 'mdi-timeline' },
+  { title: 'Cable Builder', value: 'builder', icon: 'mdi-wrench' },
+  { title: 'Passport', value: 'passport', icon: 'mdi-passport' },
+  { title: 'Legends', value: 'legends', icon: 'mdi-crown' }
+]
+
+// Handle navigation clicks and close drawer
+function handleNavClick(view: 'museum' | 'builder' | 'passport' | 'legends') {
+  store.setView(view)
+  drawer.value = false
+}
 
 onMounted(async () => {
   await store.loadContent()
@@ -114,6 +170,27 @@ onMounted(async () => {
 
 .legends-layout {
   padding: 20px;
+}
+
+.nav-drawer {
+  background: linear-gradient(180deg, #1a1a2e, #16213e);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  width: 280px;
+}
+
+.nav-item {
+  margin-bottom: 4px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.nav-item:hover {
+  background-color: rgba(34, 211, 238, 0.1);
+}
+
+.nav-item :deep(.v-list-item__overlay) {
+  background: linear-gradient(135deg, #22d3ee, #a78bfa);
+  opacity: 0.2;
 }
 
 .active-nav {
@@ -226,6 +303,10 @@ onMounted(async () => {
 
   .hero-pane {
     order: 1;
+  }
+
+  .nav-drawer :deep(.v-navigation-drawer__content) {
+    padding-top: 64px; /* Account for app bar height */
   }
 }
 </style>

@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // Adjust base if your GitHub repo is a different name
 export default defineConfig({
-  base: '/cable-museum/',
+  base: '/',
   plugins: [
     vue(),
     vuetify({ autoImport: true }),
@@ -19,8 +19,8 @@ export default defineConfig({
         theme_color: '#111827',
         background_color: '#0b1020',
         display: 'standalone',
-        start_url: '/cable-museum/',
-        scope: '/cable-museum/',
+        start_url: '/',
+        scope: '/',
         icons: [
           {
             src: 'icons/icon.svg',
