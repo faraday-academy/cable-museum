@@ -3,9 +3,10 @@ import vue from '@vitejs/plugin-vue'
 import vuetify from 'vite-plugin-vuetify'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// Adjust base if your GitHub repo is a different name
 export default defineConfig({
-  base: '/',
+  // MUST include trailing slash for GitHub Pages project sites
+  base: '/cable-museum/',
+
   plugins: [
     vue(),
     vuetify({ autoImport: true }),
@@ -19,15 +20,11 @@ export default defineConfig({
         theme_color: '#111827',
         background_color: '#0b1020',
         display: 'standalone',
-        start_url: '/',
-        scope: '/',
+        // PWA paths should match the base, *with* trailing slash
+        start_url: '/cable-museum/',
+        scope: '/cable-museum/',
         icons: [
-          {
-            src: 'icons/icon.svg',
-            sizes: '512x512',
-            type: 'image/svg+xml',
-            purpose: 'any maskable'
-          }
+          { src: 'icons/icon.svg', sizes: '512x512', type: 'image/svg+xml', purpose: 'any maskable' }
         ]
       },
       workbox: {
@@ -35,12 +32,10 @@ export default defineConfig({
       }
     })
   ],
+
   resolve: {
-    alias: {
-      '@': '/src'
-    }
+    alias: { '@': '/src' }
   },
-  server: {
-    port: 5173
-  }
+
+  server: { port: 5173 }
 })
