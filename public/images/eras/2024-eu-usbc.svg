@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" fill="#f0f0f0"/>
+  <rect x="35" y="40" width="30" height="20" rx="10" fill="#000000"/>
+  <rect x="40" y="45" width="20" height="10" fill="#ffd700"/>
+  <path d="M25 50 L35 50" stroke="#000" stroke-width="2"/>
+  <circle cx="70" cy="50" r="8" fill="#003399"/>
+  <text x="70" y="55" text-anchor="middle" font-size="6" fill="#fff">EU</text>
+  <text x="50" y="85" text-anchor="middle" font-size="8" fill="#333">USB-C Mandate</text>
+</svg>

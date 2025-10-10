@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <rect width="300" height="200" fill="#0b0d17"/>
+  <circle cx="150" cy="80" r="30" fill="#22d3ee" opacity="0.3"/>
+  <circle cx="150" cy="75" r="25" fill="#a78bfa"/>
+  <rect x="140" y="65" width="20" height="15" rx="2" fill="#f472b6"/>
+  <circle cx="145" cy="72" r="2" fill="#fff"/>
+  <circle cx="155" cy="72" r="2" fill="#fff"/>
+  <path d="M145 80 Q150 85 155 80" stroke="#fff" stroke-width="1" fill="none"/>
+  <text x="150" y="130" text-anchor="middle" fill="#22d3ee" font-size="14" font-weight="bold">Charles Kao</text>
+  <text x="150" y="150" text-anchor="middle" fill="#a78bfa" font-size="10">Father of Fiber Optics</text>
+  <text x="150" y="165" text-anchor="middle" fill="#f472b6" font-size="8">💡🔬</text>
+</svg>

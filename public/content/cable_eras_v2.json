@@ -1,0 +1,1124 @@
+[
+  {
+    "id": "1850-dover-calais",
+    "title": "First Submarine Telegraph Cable (Dover–Calais)",
+    "years": "1850",
+    "summary": "The earliest operational undersea telegraph linked England and France.",
+    "keyAdvancement": "Undersea insulated copper conductors",
+    "image": "images/eras/1850-dover-calais.svg",
+    "video": "https://www.youtube.com/embed/0a6c9fK5dCk",
+    "facts": [
+      "Gutta-percha insulation protected copper in seawater.",
+      "Demonstrated feasibility of submarine links."
+    ],
+    "links": [
+      {
+        "label": "History of Submarine Telegraphy",
+        "href": "https://en.wikipedia.org/wiki/Submarine_communications_cable"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1850-dover-calais1.svg",
+      "images/gallery/1850-dover-calais2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#b87333'/><circle cx='50' cy='50' r='40' fill='none' stroke='#000' stroke-width='2'/>",
+      "parts": [
+        {
+          "name": "Copper Conductor",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#b87333"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What insulated early submarine conductors?",
+        "options": [
+          "PVC",
+          "Gutta-percha",
+          "Polyethylene",
+          "Paper"
+        ],
+        "correct": 1,
+        "fact": "Gutta-percha was the standard underwater insulator for decades."
+      }
+    ]
+  },
+  {
+    "id": "1858-transatlantic",
+    "title": "First Transatlantic Telegraph Cable",
+    "years": "1858",
+    "summary": "Intercontinental telegraphy worked—briefly—proving the concept despite rapid signal loss.",
+    "keyAdvancement": "Intercontinental copper telegraphy",
+    "image": "images/eras/1858-transatlantic.svg",
+    "video": "https://www.youtube.com/embed/0a6c9fK5dCk",
+    "facts": [
+      "Queen Victoria exchanged messages with President Buchanan.",
+      "High voltages degraded the cable quickly."
+    ],
+    "links": [
+      {
+        "label": "1858 Atlantic Cable",
+        "href": "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1858-transatlantic1.svg",
+      "images/gallery/1858-transatlantic2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#b87333'/><circle cx='50' cy='50' r='40' fill='none' stroke='#000' stroke-width='2'/>",
+      "parts": [
+        {
+          "name": "Copper Conductor",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#b87333"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "Why did the 1858 cable fail after weeks?",
+        "options": [
+          "Shark bites",
+          "Manufacturing defect",
+          "Over‑voltage damage",
+          "Anchor strikes"
+        ],
+        "correct": 2,
+        "fact": "High test voltages damaged the insulation, dooming the first attempt."
+      }
+    ]
+  },
+  {
+    "id": "1866-transatlantic",
+    "title": "Durable Transatlantic Telegraph Cable",
+    "years": "1866",
+    "summary": "A successful, reliable Atlantic link ushered in the true era of global telegraphy.",
+    "keyAdvancement": "Long‑lived undersea telegraph systems",
+    "image": "images/eras/1866-transatlantic.svg",
+    "video": "https://www.youtube.com/embed/0a6c9fK5dCk",
+    "facts": [
+      "Improved manufacture and operating practices fixed early issues.",
+      "Traffic soared across the Atlantic."
+    ],
+    "links": [
+      {
+        "label": "Atlantic Cable 1866",
+        "href": "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable#1866_cables"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1866-transatlantic1.svg",
+      "images/gallery/1866-transatlantic2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#b87333'/><circle cx='50' cy='50' r='40' fill='none' stroke='#000' stroke-width='2'/>",
+      "parts": [
+        {
+          "name": "Copper Conductor",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#b87333"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What changed between 1858 and 1866?",
+        "options": [
+          "More ships",
+          "Better insulation & practices",
+          "Shorter route",
+          "Wireless repeaters"
+        ],
+        "correct": 1,
+        "fact": "Gentler electrical practice and better materials made the 1866 cable endure."
+      }
+    ]
+  },
+  {
+    "id": "1876-first-telephone",
+    "title": "First Outdoor Two‑Way Telephone Call",
+    "years": "1876",
+    "summary": "Bell and Watson’s outdoor call demonstrated voice over wire networks.",
+    "keyAdvancement": "Analog voice over copper loops",
+    "image": "images/eras/1876-first-telephone.svg",
+    "video": "https://www.youtube.com/embed/0a6c9fK5dCk",
+    "facts": [
+      "Set the stage for rapid telephone expansion.",
+      "Early lines used simple iron/copper pairs."
+    ],
+    "links": [
+      {
+        "label": "Telephone history",
+        "href": "https://en.wikipedia.org/wiki/Telephone"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1876-first-telephone1.svg",
+      "images/gallery/1876-first-telephone2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#b87333'/><circle cx='50' cy='50' r='40' fill='none' stroke='#000' stroke-width='2'/>",
+      "parts": [
+        {
+          "name": "Copper Conductor",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#b87333"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What improvement over telegraphy did telephone enable?",
+        "options": [
+          "Higher voltage",
+          "Voice transmission",
+          "Lower latency",
+          "Wireless operation"
+        ],
+        "correct": 1,
+        "fact": "Continuous analog waveforms carried intelligible speech."
+      }
+    ]
+  },
+  {
+    "id": "1881-twisted-pair",
+    "title": "Twisted Pair Technique",
+    "years": "1881",
+    "summary": "Pair twisting reduced crosstalk, becoming the default for telephony and later data.",
+    "keyAdvancement": "Noise reduction via twisting",
+    "image": "images/eras/1881-twisted-pair.svg",
+    "video": "https://www.youtube.com/embed/3QhU9jd03a0",
+    "facts": [
+      "Twists average out external magnetic fields.",
+      "Foundation for modern Ethernet over copper."
+    ],
+    "links": [
+      {
+        "label": "Twisted pair",
+        "href": "https://en.wikipedia.org/wiki/Twisted_pair"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1881-twisted-pair1.svg",
+      "images/gallery/1881-twisted-pair2.svg"
+    ],
+    "crossSection": {
+      "svg": "<rect x='10' y='30' width='80' height='40' fill='#ffa500'/><circle cx='30' cy='50' r='3' fill='#b87333'/><circle cx='50' cy='50' r='3' fill='#b87333'/><circle cx='70' cy='50' r='3' fill='#b87333'/>",
+      "parts": [
+        {
+          "name": "Insulation",
+          "path": "M10 30 L90 30 L90 70 L10 70 Z",
+          "color": "#ffa500"
+        },
+        {
+          "name": "Conductors",
+          "path": "M27 47 A3 3 0 0 1 33 47 A3 3 0 0 1 27 47 Z M47 47 A3 3 0 0 1 53 47 A3 3 0 0 1 47 47 Z M67 47 A3 3 0 0 1 73 47 A3 3 0 0 1 67 47 Z",
+          "color": "#b87333"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "Why are wires twisted in pairs?",
+        "options": [
+          "Cheaper",
+          "Aesthetic",
+          "Reduce interference",
+          "Increase capacitance"
+        ],
+        "correct": 2,
+        "fact": "Twisting cancels induced noise, preserving signal integrity."
+      }
+    ]
+  },
+  {
+    "id": "1931-coax-patent",
+    "title": "Coaxial Cable Patented",
+    "years": "1931",
+    "summary": "Espenschied & Affel’s patent enabled broadband, shielded transmission lines.",
+    "keyAdvancement": "Shared‑axis shielded conductor geometry",
+    "image": "images/eras/1931-coax-patent.svg",
+    "video": "https://www.youtube.com/embed/0qisGSwZym4",
+    "facts": [
+      "Became backbone for early TV and long‑haul telephony.",
+      "Excellent RF performance vs. open wire."
+    ],
+    "links": [
+      {
+        "label": "Coaxial cable",
+        "href": "https://en.wikipedia.org/wiki/Coaxial_cable"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1931-coax-patent1.svg",
+      "images/gallery/1931-coax-patent2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#c0c0c0'/><circle cx='50' cy='50' r='35' fill='#ffa500'/><circle cx='50' cy='50' r='25' fill='#b87333'/>",
+      "parts": [
+        {
+          "name": "Outer Shield",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#c0c0c0"
+        },
+        {
+          "name": "Dielectric",
+          "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+          "color": "#ffa500"
+        },
+        {
+          "name": "Inner Conductor",
+          "path": "M25 50 A25 25 0 0 1 75 50 A25 25 0 0 1 25 50 Z",
+          "color": "#b87333"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What does 'coaxial' mean?",
+        "options": [
+          "Parallel axes",
+          "Same axis",
+          "Offset centers",
+          "No shield"
+        ],
+        "correct": 1,
+        "fact": "Inner and outer conductors share the same axis."
+      }
+    ]
+  },
+  {
+    "id": "1936-coax-trials",
+    "title": "Early Long‑Haul Coax Trials",
+    "years": "1936",
+    "summary": "Prototype coax systems ran between major cities, validating high‑bandwidth trunking.",
+    "keyAdvancement": "Field validation of broadband links",
+    "image": "images/eras/1936-coax-trials.svg",
+    "video": "https://www.youtube.com/embed/0qisGSwZym4",
+    "facts": [
+      "Enabled multi‑channel telephony and TV relays.",
+      "Proved repeater spacing and loss models."
+    ],
+    "links": [
+      {
+        "label": "Coax history",
+        "href": "https://en.wikipedia.org/wiki/Coaxial_cable#History"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1936-coax-trials1.svg",
+      "images/gallery/1936-coax-trials2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#c0c0c0'/><circle cx='50' cy='50' r='35' fill='#ffa500'/><circle cx='50' cy='50' r='25' fill='#b87333'/>",
+      "parts": [
+        {
+          "name": "Outer Shield",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#c0c0c0"
+        },
+        {
+          "name": "Dielectric",
+          "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+          "color": "#ffa500"
+        },
+        {
+          "name": "Inner Conductor",
+          "path": "M25 50 A25 25 0 0 1 75 50 A25 25 0 0 1 25 50 Z",
+          "color": "#b87333"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What did the trials primarily validate?",
+        "options": [
+          "Connector ergonomics",
+          "Bandwidth & repeater spacing",
+          "Color TV",
+          "Satellite links"
+        ],
+        "correct": 1,
+        "fact": "Trials established practical performance for long‑distance coax trunks."
+      }
+    ]
+  },
+  {
+    "id": "1956-tat1",
+    "title": "TAT‑1: First Transatlantic Telephone Cable",
+    "years": "1956",
+    "summary": "Coaxial TAT‑1 provided 35 initial voice circuits across the Atlantic.",
+    "keyAdvancement": "First undersea voice telephony cable",
+    "image": "images/eras/1956-tat1.svg",
+    "video": "https://www.youtube.com/embed/0qisGSwZym4",
+    "facts": [
+      "Expanded to more channels with improved multiplexing.",
+      "Ran between Scotland and Newfoundland."
+    ],
+    "links": [
+      {
+        "label": "TAT‑1",
+        "href": "https://en.wikipedia.org/wiki/TAT-1"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1956-tat11.svg",
+      "images/gallery/1956-tat12.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#c0c0c0'/><circle cx='50' cy='50' r='35' fill='#ffa500'/><circle cx='50' cy='50' r='25' fill='#b87333'/>",
+      "parts": [
+        {
+          "name": "Outer Shield",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#c0c0c0"
+        },
+        {
+          "name": "Dielectric",
+          "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+          "color": "#ffa500"
+        },
+        {
+          "name": "Inner Conductor",
+          "path": "M25 50 A25 25 0 0 1 75 50 A25 25 0 0 1 25 50 Z",
+          "color": "#b87333"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What medium carried TAT‑1 traffic?",
+        "options": [
+          "Fiber",
+          "Microwave",
+          "Coaxial copper",
+          "Radio"
+        ],
+        "correct": 2,
+        "fact": "TAT‑1 used pressurized, loaded coaxial cables and repeaters."
+      }
+    ]
+  },
+  {
+    "id": "1966-fiber-theory",
+    "title": "Kao & Hockham Propose Low‑Loss Fiber",
+    "years": "1966",
+    "summary": "Theoretical groundwork that optical fiber could deliver telecom‑grade losses.",
+    "keyAdvancement": "Optical glass telecom waveguide",
+    "image": "images/eras/1966-fiber-theory.svg",
+    "video": "https://www.youtube.com/embed/3nN4GZkOq2k",
+    "facts": [
+      "<20 dB/km loss target focused research.",
+      "Kao received Nobel Prize in 2009."
+    ],
+    "links": [
+      {
+        "label": "Optical fiber",
+        "href": "https://en.wikipedia.org/wiki/Optical_fiber"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1966-fiber-theory1.svg",
+      "images/gallery/1966-fiber-theory2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#ffffff'/><circle cx='50' cy='50' r='35' fill='#87ceeb'/><circle cx='50' cy='50' r='25' fill='#ffffff'/>",
+      "parts": [
+        {
+          "name": "Cladding",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Core",
+          "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+          "color": "#87ceeb"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What loss target unlocked fiber telecom?",
+        "options": [
+          "2 dB/km",
+          "20 dB/km",
+          "200 dB/km",
+          "0.2 dB/km"
+        ],
+        "correct": 1,
+        "fact": "The 20 dB/km target made fiber practical for telecom."
+      }
+    ]
+  },
+  {
+    "id": "1977-first-fiber",
+    "title": "First Commercial Fiber‑Optic Link",
+    "years": "1977",
+    "summary": "Early metro fiber deployment proved practicality of optical communications.",
+    "keyAdvancement": "Commercialization of optical links",
+    "image": "images/eras/1977-first-fiber.svg",
+    "video": "https://www.youtube.com/embed/3nN4GZkOq2k",
+    "facts": [
+      "Attractive for EMI immunity and bandwidth.",
+      "Led to rapid metro rollouts."
+    ],
+    "links": [
+      {
+        "label": "Fiber history",
+        "href": "https://en.wikipedia.org/wiki/Fiber-optic_communication"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1977-first-fiber1.svg",
+      "images/gallery/1977-first-fiber2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#ffffff'/><circle cx='50' cy='50' r='35' fill='#87ceeb'/><circle cx='50' cy='50' r='25' fill='#ffffff'/>",
+      "parts": [
+        {
+          "name": "Cladding",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Core",
+          "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+          "color": "#87ceeb"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What feature helped fiber win in cities?",
+        "options": [
+          "Lower cost",
+          "No repeaters",
+          "EMI immunity",
+          "Works without splicing"
+        ],
+        "correct": 2,
+        "fact": "EMI immunity and bandwidth density were decisive."
+      }
+    ]
+  },
+  {
+    "id": "1988-tat8",
+    "title": "TAT‑8: First Transatlantic Fiber",
+    "years": "1988",
+    "summary": "TAT‑8 carried digital signals across the Atlantic at hundreds of Mbit/s.",
+    "keyAdvancement": "Long‑haul digital optical undersea link",
+    "image": "images/eras/1988-tat8.svg",
+    "video": "https://www.youtube.com/embed/3nN4GZkOq2k",
+    "facts": [
+      "Heralded the end of coax subsea for new builds.",
+      "Optical amplifiers soon multiplied capacity."
+    ],
+    "links": [
+      {
+        "label": "TAT‑8",
+        "href": "https://en.wikipedia.org/wiki/TAT-8"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1988-tat81.svg",
+      "images/gallery/1988-tat82.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#ffffff'/><circle cx='50' cy='50' r='35' fill='#87ceeb'/><circle cx='50' cy='50' r='25' fill='#ffffff'/>",
+      "parts": [
+        {
+          "name": "Cladding",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Core",
+          "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+          "color": "#87ceeb"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What did TAT‑8 replace for new subsea builds?",
+        "options": [
+          "Microwave",
+          "Satellite only",
+          "Coaxial subsea",
+          "Powerline carriers"
+        ],
+        "correct": 2,
+        "fact": "Fiber displaced coax subsea for capacity and reliability."
+      }
+    ]
+  },
+  {
+    "id": "1990-10baset",
+    "title": "10BASE‑T Ethernet (802.3i)",
+    "years": "1990",
+    "summary": "Brought Ethernet to twisted pair with star topologies and RJ45 connectors.",
+    "keyAdvancement": "Ethernet over twisted pair",
+    "image": "images/eras/1990-10baset.svg",
+    "video": "https://www.youtube.com/embed/3QhU9jd03a0",
+    "facts": [
+      "Catalyzed structured cabling in offices.",
+      "10 Mb/s became the ubiquitous baseline."
+    ],
+    "links": [
+      {
+        "label": "10BASE‑T",
+        "href": "https://en.wikipedia.org/wiki/10BASE-T"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1990-10baset1.svg",
+      "images/gallery/1990-10baset2.svg"
+    ],
+    "crossSection": {
+      "svg": "<rect x='10' y='30' width='80' height='40' fill='#ffa500'/><circle cx='30' cy='50' r='3' fill='#b87333'/><circle cx='50' cy='50' r='3' fill='#b87333'/><circle cx='70' cy='50' r='3' fill='#b87333'/>",
+      "parts": [
+        {
+          "name": "Insulation",
+          "path": "M10 30 L90 30 L90 70 L10 70 Z",
+          "color": "#ffa500"
+        },
+        {
+          "name": "Conductors",
+          "path": "M27 47 A3 3 0 0 1 33 47 A3 3 0 0 1 27 47 Z M47 47 A3 3 0 0 1 53 47 A3 3 0 0 1 47 47 Z M67 47 A3 3 0 0 1 73 47 A3 3 0 0 1 67 47 Z",
+          "color": "#b87333"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "10BASE‑T primarily uses which medium?",
+        "options": [
+          "Coax",
+          "Fiber",
+          "Twisted pair",
+          "Powerline"
+        ],
+        "correct": 2,
+        "fact": "The shift from coax to twisted pair simplified LANs."
+      }
+    ]
+  },
+  {
+    "id": "1991-568-cat5",
+    "title": "TIA/EIA‑568 & Category 5",
+    "years": "1991–1995",
+    "summary": "Structured cabling standards aligned performance and pinouts across buildings.",
+    "keyAdvancement": "Standardized structured cabling",
+    "image": "images/eras/1991-568-cat5.svg",
+    "video": "https://www.youtube.com/embed/3QhU9jd03a0",
+    "facts": [
+      "Enabled multi‑vendor interoperability.",
+      "Set the stage for Fast/Gigabit Ethernet."
+    ],
+    "links": [
+      {
+        "label": "ANSI/TIA‑568",
+        "href": "https://en.wikipedia.org/wiki/ANSI/TIA-568"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1991-568-cat51.svg",
+      "images/gallery/1991-568-cat52.svg"
+    ],
+    "crossSection": {
+      "svg": "<rect x='10' y='30' width='80' height='40' fill='#ffa500'/><circle cx='30' cy='50' r='3' fill='#b87333'/><circle cx='50' cy='50' r='3' fill='#b87333'/><circle cx='70' cy='50' r='3' fill='#b87333'/>",
+      "parts": [
+        {
+          "name": "Insulation",
+          "path": "M10 30 L90 30 L90 70 L10 70 Z",
+          "color": "#ffa500"
+        },
+        {
+          "name": "Conductors",
+          "path": "M27 47 A3 3 0 0 1 33 47 A3 3 0 0 1 27 47 Z M47 47 A3 3 0 0 1 53 47 A3 3 0 0 1 47 47 Z M67 47 A3 3 0 0 1 73 47 A3 3 0 0 1 67 47 Z",
+          "color": "#b87333"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What did ANSI/TIA‑568 standardize?",
+        "options": [
+          "Router CLIs",
+          "Building cabling",
+          "Wi‑Fi channels",
+          "SFP cages"
+        ],
+        "correct": 1,
+        "fact": "The spec unified telecom rooms and channel performance."
+      }
+    ]
+  },
+  {
+    "id": "1995-fast-ethernet",
+    "title": "Fast Ethernet (100BASE‑TX)",
+    "years": "1995",
+    "summary": "100 Mb/s over Cat5 wiring became mainstream for LANs.",
+    "keyAdvancement": "100 Mb/s over twisted pair",
+    "image": "images/eras/1995-fast-ethernet.svg",
+    "video": "https://www.youtube.com/embed/3QhU9jd03a0",
+    "facts": [
+      "Backwards compatibility eased upgrades.",
+      "Full‑duplex switches replaced hubs."
+    ],
+    "links": [
+      {
+        "label": "Fast Ethernet",
+        "href": "https://en.wikipedia.org/wiki/Fast_Ethernet"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1995-fast-ethernet1.svg",
+      "images/gallery/1995-fast-ethernet2.svg"
+    ],
+    "crossSection": {
+      "svg": "<rect x='10' y='30' width='80' height='40' fill='#ffa500'/><circle cx='30' cy='50' r='3' fill='#b87333'/><circle cx='50' cy='50' r='3' fill='#b87333'/><circle cx='70' cy='50' r='3' fill='#b87333'/>",
+      "parts": [
+        {
+          "name": "Insulation",
+          "path": "M10 30 L90 30 L90 70 L10 70 Z",
+          "color": "#ffa500"
+        },
+        {
+          "name": "Conductors",
+          "path": "M27 47 A3 3 0 0 1 33 47 A3 3 0 0 1 27 47 Z M47 47 A3 3 0 0 1 53 47 A3 3 0 0 1 47 47 Z M67 47 A3 3 0 0 1 73 47 A3 3 0 0 1 67 47 Z",
+          "color": "#b87333"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What cable category enabled 100BASE‑TX widely?",
+        "options": [
+          "Cat3",
+          "Cat5",
+          "Cat6A",
+          "Twinax"
+        ],
+        "correct": 1,
+        "fact": "Category 5 met the requirements for 100 Mb/s signaling."
+      }
+    ]
+  },
+  {
+    "id": "1996-usb1",
+    "title": "USB 1.0 Released",
+    "years": "1996",
+    "summary": "USB unified PC peripherals with up to 12 Mb/s data rates.",
+    "keyAdvancement": "Universal peripheral interconnect",
+    "image": "images/eras/1996-usb1.svg",
+    "video": "https://www.youtube.com/embed/fI9VM5zz6NA",
+    "facts": [
+      "Supported 1.5 and 12 Mb/s modes.",
+      "Replaced serial/parallel ports for many devices."
+    ],
+    "links": [
+      {
+        "label": "USB 1.0",
+        "href": "https://en.wikipedia.org/wiki/USB"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1996-usb11.svg",
+      "images/gallery/1996-usb12.svg"
+    ],
+    "crossSection": {
+      "svg": "<rect x='20' y='40' width='60' height='20' fill='#000000'/><rect x='25' y='45' width='50' height='10' fill='#ffd700'/>",
+      "parts": [
+        {
+          "name": "Shell",
+          "path": "M20 40 L80 40 L80 60 L20 60 Z",
+          "color": "#000000"
+        },
+        {
+          "name": "Contacts",
+          "path": "M25 45 L75 45 L75 55 L25 55 Z",
+          "color": "#ffd700"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "Top USB 1.0 speed?",
+        "options": [
+          "1.5 Mb/s",
+          "12 Mb/s",
+          "100 Mb/s",
+          "480 Mb/s"
+        ],
+        "correct": 1,
+        "fact": "USB 1.x topped out at 12 Mb/s before USB 2.0’s 480 Mb/s."
+      }
+    ]
+  },
+  {
+    "id": "1997-docsis1",
+    "title": "DOCSIS 1.0 Cable Internet",
+    "years": "1997",
+    "summary": "Standardized cable‑modem Internet service over HFC networks.",
+    "keyAdvancement": "IP broadband over cable TV",
+    "image": "images/eras/1997-docsis1.svg",
+    "video": "https://www.youtube.com/embed/0qisGSwZym4",
+    "facts": [
+      "Enabled mass‑market broadband in the late 1990s.",
+      "Uses upstream/downstream RF channels."
+    ],
+    "links": [
+      {
+        "label": "DOCSIS",
+        "href": "https://en.wikipedia.org/wiki/DOCSIS"
+      }
+    ],
+    "gallery": [
+      "images/gallery/1997-docsis11.svg",
+      "images/gallery/1997-docsis12.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#c0c0c0'/><circle cx='50' cy='50' r='35' fill='#ffa500'/><circle cx='50' cy='50' r='25' fill='#b87333'/>",
+      "parts": [
+        {
+          "name": "Outer Shield",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#c0c0c0"
+        },
+        {
+          "name": "Dielectric",
+          "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+          "color": "#ffa500"
+        },
+        {
+          "name": "Inner Conductor",
+          "path": "M25 50 A25 25 0 0 1 75 50 A25 25 0 0 1 25 50 Z",
+          "color": "#b87333"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "DOCSIS runs over which plant?",
+        "options": [
+          "Twisted pair",
+          "HFC (coax+fiber)",
+          "Satellite",
+          "Powerline"
+        ],
+        "correct": 1,
+        "fact": "Hybrid Fiber‑Coax architectures carry RF data & TV."
+      }
+    ]
+  },
+  {
+    "id": "2002-hdmi1",
+    "title": "HDMI 1.0",
+    "years": "2002",
+    "summary": "Single‑cable digital audio/video interface for consumer electronics.",
+    "keyAdvancement": "Unified digital A/V connector",
+    "image": "images/eras/2002-hdmi1.svg",
+    "video": "https://www.youtube.com/embed/fI9VM5zz6NA",
+    "facts": [
+      "Carries video, multi‑channel audio, and CEC control.",
+      "Replaced many analog connectors."
+    ],
+    "links": [
+      {
+        "label": "HDMI",
+        "href": "https://en.wikipedia.org/wiki/HDMI"
+      }
+    ],
+    "gallery": [
+      "images/gallery/2002-hdmi11.svg",
+      "images/gallery/2002-hdmi12.svg"
+    ],
+    "crossSection": {
+      "svg": "<rect x='20' y='40' width='60' height='20' fill='#000000'/><rect x='25' y='45' width='50' height='10' fill='#ffd700'/>",
+      "parts": [
+        {
+          "name": "Shell",
+          "path": "M20 40 L80 40 L80 60 L20 60 Z",
+          "color": "#000000"
+        },
+        {
+          "name": "Contacts",
+          "path": "M25 45 L75 45 L75 55 L25 55 Z",
+          "color": "#ffd700"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "HDMI 1.0 first targeted?",
+        "options": [
+          "Data centers",
+          "Home entertainment",
+          "Industrial",
+          "Automotive"
+        ],
+        "correct": 1,
+        "fact": "HDMI simplified home A/V with one cable."
+      }
+    ]
+  },
+  {
+    "id": "2008-usb3",
+    "title": "USB 3.0 (SuperSpeed)",
+    "years": "2008",
+    "summary": "Raised USB throughput to 5 Gb/s and added full‑duplex lanes.",
+    "keyAdvancement": "High‑speed serial peripheral link",
+    "image": "images/eras/2008-usb3.svg",
+    "video": "https://www.youtube.com/embed/fI9VM5zz6NA",
+    "facts": [
+      "New extra pins; backward compatible with USB 2.0.",
+      "Enabled faster storage and peripherals."
+    ],
+    "links": [
+      {
+        "label": "USB 3.0",
+        "href": "https://en.wikipedia.org/wiki/USB_3.0"
+      }
+    ],
+    "gallery": [
+      "images/gallery/2008-usb31.svg",
+      "images/gallery/2008-usb32.svg"
+    ],
+    "crossSection": {
+      "svg": "<rect x='20' y='40' width='60' height='20' fill='#000000'/><rect x='25' y='45' width='50' height='10' fill='#ffd700'/>",
+      "parts": [
+        {
+          "name": "Shell",
+          "path": "M20 40 L80 40 L80 60 L20 60 Z",
+          "color": "#000000"
+        },
+        {
+          "name": "Contacts",
+          "path": "M25 45 L75 45 L75 55 L25 55 Z",
+          "color": "#ffd700"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "Headline speed of USB 3.0?",
+        "options": [
+          "480 Mb/s",
+          "5 Gb/s",
+          "10 Gb/s",
+          "40 Gb/s"
+        ],
+        "correct": 1,
+        "fact": "SuperSpeed at 5 Gb/s was a 10× jump over USB 2.0."
+      }
+    ]
+  },
+  {
+    "id": "2014-usbc",
+    "title": "USB‑C Connector Published",
+    "years": "2014",
+    "summary": "Reversible, compact connector supporting data, display, and high‑power delivery.",
+    "keyAdvancement": "Universal reversible connector",
+    "image": "images/eras/2014-usbc.svg",
+    "video": "https://www.youtube.com/embed/fI9VM5zz6NA",
+    "facts": [
+      "Supports Alternate Modes like DisplayPort.",
+      "Symmetric design removes plug orientation."
+    ],
+    "links": [
+      {
+        "label": "USB‑C",
+        "href": "https://en.wikipedia.org/wiki/USB-C"
+      }
+    ],
+    "gallery": [
+      "images/gallery/2014-usbc1.svg",
+      "images/gallery/2014-usbc2.svg"
+    ],
+    "crossSection": {
+      "svg": "<rect x='20' y='40' width='60' height='20' fill='#000000'/><rect x='25' y='45' width='50' height='10' fill='#ffd700'/>",
+      "parts": [
+        {
+          "name": "Shell",
+          "path": "M20 40 L80 40 L80 60 L20 60 Z",
+          "color": "#000000"
+        },
+        {
+          "name": "Contacts",
+          "path": "M25 45 L75 45 L75 55 L25 55 Z",
+          "color": "#ffd700"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "Why is USB‑C reversible?",
+        "options": [
+          "Flips protocols",
+          "Symmetric connector",
+          "Software flips signals",
+          "Magnets"
+        ],
+        "correct": 1,
+        "fact": "Symmetric contacts let the plug work either way up."
+      }
+    ]
+  },
+  {
+    "id": "2017-8023bs",
+    "title": "IEEE 802.3bs (200/400GbE)",
+    "years": "2017",
+    "summary": "Ethernet standard for 200 and 400 Gb/s over fiber.",
+    "keyAdvancement": "Very‑high‑speed optical Ethernet",
+    "image": "images/eras/2017-8023bs.svg",
+    "video": "https://www.youtube.com/embed/3nN4GZkOq2k",
+    "facts": [
+      "Enabled 400G DC/backbone deployments.",
+      "Often uses PAM4 optics."
+    ],
+    "links": [
+      {
+        "label": "IEEE 802.3bs",
+        "href": "https://en.wikipedia.org/wiki/IEEE_802.3bs"
+      }
+    ],
+    "gallery": [
+      "images/gallery/2017-8023bs1.svg",
+      "images/gallery/2017-8023bs2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#ffffff'/><circle cx='50' cy='50' r='35' fill='#87ceeb'/><circle cx='50' cy='50' r='25' fill='#ffffff'/>",
+      "parts": [
+        {
+          "name": "Cladding",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Core",
+          "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+          "color": "#87ceeb"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "Common modulation for 400G optics?",
+        "options": [
+          "ASK",
+          "PAM4",
+          "FSK",
+          "BPSK"
+        ],
+        "correct": 1,
+        "fact": "PAM4 encodes two bits per symbol for higher throughput."
+      }
+    ]
+  },
+  {
+    "id": "2020-800g",
+    "title": "800G Coherent Optics Era",
+    "years": "2020–2022",
+    "summary": "Coherent 800G moves from trials to early production in subsea & terrestrial backbones.",
+    "keyAdvancement": "Ultra‑high‑capacity coherent DWDM",
+    "image": "images/eras/2020-800g.svg",
+    "video": "https://www.youtube.com/embed/3nN4GZkOq2k",
+    "facts": [
+      "Delivers spectral efficiency for long‑haul links.",
+      "Often pluggable (QSFP‑DD/CFP2‑DCO)."
+    ],
+    "links": [
+      {
+        "label": "Coherent optics",
+        "href": "https://en.wikipedia.org/wiki/Coherent_optical_communication"
+      }
+    ],
+    "gallery": [
+      "images/gallery/2020-800g1.svg",
+      "images/gallery/2020-800g2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#ffffff'/><circle cx='50' cy='50' r='35' fill='#87ceeb'/><circle cx='50' cy='50' r='25' fill='#ffffff'/>",
+      "parts": [
+        {
+          "name": "Cladding",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Core",
+          "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+          "color": "#87ceeb"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What enables long‑haul 800G?",
+        "options": [
+          "Simple OOK",
+          "Coherent detection + DSP",
+          "AM radio",
+          "LED sources"
+        ],
+        "correct": 1,
+        "fact": "Coherent receivers with DSP correct impairments."
+      }
+    ]
+  },
+  {
+    "id": "2024-eu-usbc",
+    "title": "EU USB‑C Charging Mandate",
+    "years": "2024–2025",
+    "summary": "EU law standardizes USB‑C as the common charging port for many devices.",
+    "keyAdvancement": "Regulatory push for connector unification",
+    "image": "images/eras/2024-eu-usbc.svg",
+    "video": "https://www.youtube.com/embed/fI9VM5zz6NA",
+    "facts": [
+      "Aims to reduce e‑waste and consumer friction.",
+      "Accelerates global USB‑C adoption."
+    ],
+    "links": [
+      {
+        "label": "EU common charger",
+        "href": "https://en.wikipedia.org/wiki/Common_charger_directive"
+      }
+    ],
+    "gallery": [
+      "images/gallery/2024-eu-usbc1.svg",
+      "images/gallery/2024-eu-usbc2.svg"
+    ],
+    "crossSection": {
+      "svg": "<rect x='20' y='40' width='60' height='20' fill='#000000'/><rect x='25' y='45' width='50' height='10' fill='#ffd700'/>",
+      "parts": [
+        {
+          "name": "Shell",
+          "path": "M20 40 L80 40 L80 60 L20 60 Z",
+          "color": "#000000"
+        },
+        {
+          "name": "Contacts",
+          "path": "M25 45 L75 45 L75 55 L25 55 Z",
+          "color": "#ffd700"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "One goal of the EU mandate?",
+        "options": [
+          "Sell more chargers",
+          "Ban fast charging",
+          "Reduce e‑waste",
+          "End USB‑IF"
+        ],
+        "correct": 2,
+        "fact": "Standardizing on USB‑C reduces duplicate chargers and cables."
+      }
+    ]
+  }
+]

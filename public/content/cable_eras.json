@@ -1,0 +1,184 @@
+[
+  {
+    "id": "telegraph",
+    "title": "Telegraph Wires",
+    "years": "1840s–1900s",
+    "summary": "The first global networks ran on copper telegraph wires, tapping out messages in Morse code.",
+    "keyAdvancement": "First global communication network",
+    "image": "images/eras/telegraph.svg",
+    "video": "https://www.youtube.com/embed/0a6c9fK5dCk",
+    "facts": [
+      "Undersea telegraph cables connected continents in the 1850s.",
+      "Morse code became a universal language for early networks."
+    ],
+    "links": [
+      { "label": "Submarine Cable Map", "href": "https://www.submarinecablemap.com/" }
+    ],
+    "gallery": [
+      "images/gallery/telegraph1.svg",
+      "images/gallery/telegraph2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#b87333'/><circle cx='50' cy='50' r='40' fill='none' stroke='#000' stroke-width='2'/><text x='50' y='55' text-anchor='middle' fill='white' font-size='12'>Cu</text>",
+      "parts": [
+        { "name": "Copper Conductor", "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z", "color": "#b87333" }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What was the primary material used in telegraph wires?",
+        "options": ["Gold", "Copper", "Iron", "Silver"],
+        "correct": 1,
+        "fact": "Copper's excellent conductivity made it ideal for long-distance telegraph lines connecting continents!"
+      },
+      {
+        "question": "What code was used to send messages via telegraph?",
+        "options": ["Binary", "Morse", "ASCII", "Braille"],
+        "correct": 1,
+        "fact": "Morse code revolutionized communication, allowing operators to tap out letters as dots and dashes."
+      }
+    ]
+  },
+  {
+    "id": "coax",
+    "title": "Coaxial Boom",
+    "years": "1930s–1960s",
+    "summary": "Coaxial cables delivered early television and long-distance phone lines with shielding against noise.",
+    "keyAdvancement": "Shielded transmission for TV signals",
+    "image": "images/eras/coax.svg",
+    "video": "https://www.youtube.com/embed/0qisGSwZym4",
+    "facts": [
+      "A central conductor and braided shield reduce interference.",
+      "Still used today in cable TV and RF links."
+    ],
+    "links": [
+      { "label": "How Coax Works", "href": "https://en.wikipedia.org/wiki/Coaxial_cable" }
+    ],
+    "gallery": [
+      "images/gallery/coax1.svg",
+      "images/gallery/coax2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#c0c0c0'/><circle cx='50' cy='50' r='35' fill='#ffa500'/><circle cx='50' cy='50' r='25' fill='#b87333'/><circle cx='50' cy='50' r='15' fill='none' stroke='#000' stroke-width='2'/><text x='50' y='55' text-anchor='middle' fill='white' font-size='10'>Cu</text>",
+      "parts": [
+        { "name": "Outer Shield", "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z", "color": "#c0c0c0" },
+        { "name": "Dielectric", "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z", "color": "#ffa500" },
+        { "name": "Inner Conductor", "path": "M25 50 A25 25 0 0 1 75 50 A25 25 0 0 1 25 50 Z", "color": "#b87333" }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What does the 'coaxial' in coaxial cable mean?",
+        "options": ["Same axis", "Two axes", "Curved shape", "Flexible core"],
+        "correct": 0,
+        "fact": "Coaxial means 'same axis' - the inner conductor shares the same center line as the outer shield!"
+      }
+    ]
+  },
+  {
+    "id": "fiber",
+    "title": "Fiber Optic Revolution",
+    "years": "1970s–Today",
+    "summary": "Light-speed networking! Glass strands carry terabits across cities and oceans with minimal loss.",
+    "keyAdvancement": "Light-based data transmission",
+    "image": "images/eras/fiber.svg",
+    "video": "https://www.youtube.com/embed/3nN4GZkOq2k",
+    "facts": [
+      "Total internal reflection guides light through the core.",
+      "Modern transoceanic cables are mostly fiber optic."
+    ],
+    "links": [
+      { "label": "Optical Fiber Basics", "href": "https://en.wikipedia.org/wiki/Optical_fiber" }
+    ],
+    "gallery": [
+      "images/gallery/fiber1.svg",
+      "images/gallery/fiber2.svg",
+      "images/gallery/fiber3.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#ffffff'/><circle cx='50' cy='50' r='35' fill='#87ceeb'/><circle cx='50' cy='50' r='25' fill='#ffffff'/><circle cx='50' cy='50' r='15' fill='none' stroke='#000' stroke-width='2'/><text x='50' y='55' text-anchor='middle' fill='black' font-size='10'>SiO2</text>",
+      "parts": [
+        { "name": "Cladding", "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z", "color": "#ffffff" },
+        { "name": "Core", "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z", "color": "#87ceeb" }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What principle allows light to travel through fiber optic cables?",
+        "options": ["Refraction", "Total internal reflection", "Diffraction", "Absorption"],
+        "correct": 1,
+        "fact": "Total internal reflection bounces light rays inside the fiber, preventing signal loss over long distances!"
+      }
+    ]
+  },
+  {
+    "id": "ethernet",
+    "title": "Ethernet & Twisted Pair",
+    "years": "1980s–Today",
+    "summary": "RJ45 connectors and twisted pairs power local networks from 10BASE-T to 10G and beyond.",
+    "keyAdvancement": "Twisted pair for local area networks",
+    "image": "images/eras/ethernet.svg",
+    "video": "https://www.youtube.com/embed/3QhU9jd03a0",
+    "facts": [
+      "Twisting pairs cancels electromagnetic interference.",
+      "Power over Ethernet can deliver data and power together."
+    ],
+    "links": [
+      { "label": "Ethernet", "href": "https://en.wikipedia.org/wiki/Ethernet" }
+    ],
+    "gallery": [
+      "images/gallery/ethernet1.svg"
+    ],
+    "crossSection": {
+      "svg": "<rect x='10' y='30' width='80' height='40' fill='#ffa500'/><circle cx='30' cy='50' r='3' fill='#b87333'/><circle cx='50' cy='50' r='3' fill='#b87333'/><circle cx='70' cy='50' r='3' fill='#b87333'/><text x='50' y='25' text-anchor='middle' fill='black' font-size='10'>Twisted Pair</text>",
+      "parts": [
+        { "name": "Insulation", "path": "M10 30 L90 30 L90 70 L10 70 Z", "color": "#ffa500" },
+        { "name": "Conductors", "path": "M27 47 A3 3 0 0 1 33 47 A3 3 0 0 1 27 47 Z M47 47 A3 3 0 0 1 53 47 A3 3 0 0 1 47 47 Z M67 47 A3 3 0 0 1 73 47 A3 3 0 0 1 67 47 Z", "color": "#b87333" }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "Why are pairs of wires twisted in Ethernet cables?",
+        "options": ["To save space", "To reduce interference", "To increase speed", "To make them colorful"],
+        "correct": 1,
+        "fact": "Twisting cancels out electromagnetic interference, allowing clearer signals over longer distances!"
+      }
+    ]
+  },
+  {
+    "id": "modern",
+    "title": "HDMI, USB‑C & Beyond",
+    "years": "2000s–Future",
+    "summary": "High-speed serial links carry video, power, and data through tiny reversible connectors.",
+    "keyAdvancement": "Universal reversible connectors",
+    "image": "images/eras/modern.svg",
+    "video": "https://www.youtube.com/embed/fI9VM5zz6NA",
+    "facts": [
+      "USB‑C supports up to 240W power delivery.",
+      "Alternate modes tunnel protocols like DisplayPort."
+    ],
+    "links": [
+      { "label": "USB‑C", "href": "https://en.wikipedia.org/wiki/USB-C" },
+      { "label": "HDMI", "href": "https://en.wikipedia.org/wiki/HDMI" }
+    ],
+    "gallery": [
+      "images/gallery/modern1.svg",
+      "images/gallery/modern2.svg"
+    ],
+    "crossSection": {
+      "svg": "<rect x='20' y='40' width='60' height='20' fill='#000000'/><rect x='25' y='45' width='50' height='10' fill='#ffd700'/><text x='50' y='52' text-anchor='middle' fill='black' font-size='8'>Pins</text>",
+      "parts": [
+        { "name": "Shell", "path": "M20 40 L80 40 L80 60 L20 60 Z", "color": "#000000" },
+        { "name": "Contacts", "path": "M25 45 L75 45 L75 55 L25 55 Z", "color": "#ffd700" }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What makes USB-C connectors 'reversible'?",
+        "options": ["They flip upside down", "Symmetrical design", "Magnetic attachment", "Wireless charging"],
+        "correct": 1,
+        "fact": "USB-C's symmetrical shape means it plugs in correctly no matter which way you insert it!"
+      }
+    ]
+  }
+]

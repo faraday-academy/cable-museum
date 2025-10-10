@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <rect width="300" height="200" fill="#0b0d17"/>
+  <circle cx="150" cy="80" r="30" fill="#f472b6" opacity="0.3"/>
+  <circle cx="150" cy="75" r="25" fill="#22d3ee"/>
+  <rect x="140" y="65" width="20" height="15" rx="2" fill="#a78bfa"/>
+  <circle cx="145" cy="72" r="2" fill="#fff"/>
+  <circle cx="155" cy="72" r="2" fill="#fff"/>
+  <path d="M142 82 Q150 88 158 82" stroke="#fff" stroke-width="1" fill="none"/>
+  <circle cx="125" cy="95" r="8" fill="#f472b6" opacity="0.7"/>
+  <circle cx="175" cy="95" r="8" fill="#f472b6" opacity="0.7"/>
+  <text x="150" y="130" text-anchor="middle" fill="#f472b6" font-size="12" font-weight="bold">Alexander Bell</text>
+  <text x="150" y="150" text-anchor="middle" fill="#22d3ee" font-size="10">Voice over Wire</text>
+  <text x="150" y="165" text-anchor="middle" fill="#a78bfa" font-size="8">📞🗣️</text>
+</svg>
