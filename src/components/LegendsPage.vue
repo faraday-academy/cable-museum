@@ -147,6 +147,79 @@
 
     <v-divider class="section-divider" />
 
+    <!-- Section 5: Future Tech -->
+    <section id="future-tech" class="legends-section">
+      <h2 class="section-title">🔮 Future Tech</h2>
+      <p class="section-description">
+        A glimpse into the next generation of cable technologies that are redefining what's possible.
+      </p>
+
+      <v-row class="future-tech-grid">
+        <v-col cols="12" md="6" class="future-tech-col">
+          <v-card class="future-tech-card" hover>
+            <v-img src="images/legends/future/self-healing-wires.jpg" height="250" cover class="future-tech-image">
+              <template #placeholder>
+                <div class="skeleton" />
+              </template>
+              <div class="future-tech-overlay">
+                <h3 class="future-tech-title">Self-Healing Wires</h3>
+                <p class="future-tech-subtitle">Cables that repair themselves</p>
+              </div>
+            </v-img>
+            <v-card-text class="future-tech-content">
+              <p>Imagine a world where cables can fix their own cuts and nicks before they become serious problems. Self-healing cables use advanced materials that can automatically repair damage, extending their lifespan and reducing maintenance costs.</p>
+              
+              <v-expand-transition>
+                <div v-if="expandedCard === 'self-healing'" class="future-tech-details">
+                  <v-divider class="my-4" />
+                  <h4>How It Works</h4>
+                  <ul class="tech-features">
+                    <li><v-icon small color="primary">mdi-check-circle</v-icon> <strong>Microcapsule Technology:</strong> Tiny capsules release healing agents when damaged</li>
+                    <li><v-icon small color="primary">mdi-check-circle</v-icon> <strong>Dynamic Bonds:</strong> Materials that can reform broken molecular bonds</li>
+                    <li><v-icon small color="primary">mdi-check-circle</v-icon> <strong>Conductive Healing:</strong> Some materials can even restore electrical conductivity</li>
+                  </ul>
+                  
+                  <h4 class="mt-4">Potential Applications</h4>
+                  <v-chip-group column>
+                    <v-chip variant="outlined" color="primary" size="small">Aerospace Wiring</v-chip>
+                    <v-chip variant="outlined" color="primary" size="small">Undersea Cables</v-chip>
+                    <v-chip variant="outlined" color="primary" size="small">Medical Devices</v-chip>
+                    <v-chip variant="outlined" color="primary" size="small">Wearable Tech</v-chip>
+                  </v-chip-group>
+                  
+                  <p class="mt-4">While still in development, these technologies promise to revolutionize how we think about cable reliability and maintenance in critical applications.</p>
+                </div>
+              </v-expand-transition>
+              
+              <v-btn
+                size="small"
+                variant="text"
+                color="primary"
+                @click="toggleExpand('self-healing')"
+                class="mt-2"
+              >
+                {{ expandedCard === 'self-healing' ? 'Show Less' : 'Learn More' }}
+                <v-icon end>{{ expandedCard === 'self-healing' ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+              </v-btn>
+            </v-card-text>
+          </v-card>
+        </v-col>
+        
+        <!-- Placeholder for future tech cards -->
+        <v-col cols="12" md="6" class="future-tech-col">
+          <v-card class="future-tech-card coming-soon" height="100%">
+            <v-card-text class="text-center pa-8">
+              <v-icon size="64" color="grey-lighten-1" class="mb-4">mdi-lightbulb-on-outline</v-icon>
+              <h3 class="text-h6 mb-2">The Future of Cables</h3>
+              <p class="text-grey">What revolutionary cable technology will be next? Check back soon for more exciting developments!</p>
+            </v-card-text>
+          </v-card>
+        </v-col>
+      </v-row>
+    </section>
+
+    <v-divider class="section-divider" />
+
     <!-- Back to Timeline Button -->
     <div class="back-button-container">
       <v-btn
@@ -606,6 +679,108 @@ function backToTimeline() {
   100% {
     background-position: -200% 0;
   }
+}
+
+/* Future Tech Section */
+.future-tech-grid {
+  margin-top: 2rem;
+}
+
+.future-tech-card {
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #1a1e2e;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.future-tech-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2) !important;
+}
+
+.future-tech-image {
+  position: relative;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+
+.future-tech-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: white;
+}
+
+.future-tech-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.future-tech-subtitle {
+  margin: 0.25rem 0 0;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.future-tech-content {
+  padding: 1.5rem;
+  background: #1a1e2e;
+}
+
+.future-tech-details {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tech-features {
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+.tech-features li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+  display: flex;
+  align-items: flex-start;
+}
+
+.tech-features .v-icon {
+  margin-right: 0.75rem;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+}
+
+.coming-soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.02) !important;
+  border: 2px dashed rgba(255, 255, 255, 0.1) !important;
+  transition: all 0.3s ease;
+}
+
+.coming-soon:hover {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-color: var(--v-primary-base) !important;
+}
+
+.coming-soon .v-icon {
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.coming-soon:hover .v-icon {
+  color: var(--v-primary-base) !important;
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 /* Responsive */

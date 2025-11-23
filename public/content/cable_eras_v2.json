@@ -52,7 +52,7 @@
     "summary": "Intercontinental telegraphy worked—briefly—proving the concept despite rapid signal loss.",
     "keyAdvancement": "Intercontinental copper telegraphy",
     "image": "images/eras/1858-transatlantic.svg",
-    "video": "https://www.youtube.com/embed/0a6c9fK5dCk",
+    "video": "https://www.youtube.com/watch?v=H8kdhlzueBo",
     "facts": [
       "Queen Victoria exchanged messages with President Buchanan.",
       "High voltages degraded the cable quickly."
@@ -1118,6 +1118,84 @@
         ],
         "correct": 2,
         "fact": "Standardizing on USB‑C reduces duplicate chargers and cables."
+      }
+    ]
+  },
+  {
+    "id": "2020s-self-healing",
+    "title": "Self-Healing Cables: Wires That Fix Themselves",
+    "years": "2020s",
+    "summary": "Cutting-edge materials enable cables to autonomously repair damage and extend lifespan.",
+    "keyAdvancement": "Autonomous repair of insulation and conductors",
+    "image": "images/eras/self-healing-cable.svg",
+    "video": "https://www.youtube.com/embed/example_video_id",
+    "facts": [
+      "Microcapsules release healing agents when cracks form in insulation",
+      "Some materials can restore electrical conductivity after damage",
+      "Potential to reduce maintenance costs in hard-to-reach installations"
+    ],
+    "links": [
+      {
+        "label": "NASA's Self-Healing Wire Insulation",
+        "href": "https://technology.nasa.gov/patent/MFS-TOPS-77"
+      },
+      {
+        "label": "Self-Healing Materials in Power Cables",
+        "href": "https://www.mdpi.com/2076-3417/11/4/1733"
+      }
+    ],
+    "gallery": [
+      "images/gallery/self-healing1.svg",
+      "images/gallery/self-healing2.svg"
+    ],
+    "crossSection": {
+      "svg": "<circle cx='50' cy='50' r='45' fill='#b87333'/><circle cx='50' cy='50' r='40' fill='none' stroke='#000' stroke-width='2' stroke-dasharray='5,5'/>",
+      "parts": [
+        {
+          "name": "Self-Healing Insulation",
+          "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+          "color": "#4CAF50"
+        },
+        {
+          "name": "Conductive Material",
+          "path": "M30 50 A20 20 0 0 1 70 50 A20 20 0 0 1 30 50 Z",
+          "color": "#FFC107"
+        }
+      ]
+    },
+    "trivia": [
+      {
+        "question": "What triggers self-healing in microcapsule-based materials?",
+        "options": [
+          "Electrical current",
+          "Crack formation",
+          "Temperature increase",
+          "Magnetic fields"
+        ],
+        "correct": 1,
+        "fact": "When a crack forms, it ruptures microcapsules, releasing healing agents that flow into and seal the damage."
+      },
+      {
+        "question": "Which industry was an early adopter of self-healing cable technology?",
+        "options": [
+          "Consumer electronics",
+          "Aerospace",
+          "Residential wiring",
+          "Automotive"
+        ],
+        "correct": 1,
+        "fact": "NASA and other aerospace organizations were among the first to explore self-healing wire insulation for spacecraft and aircraft, where repairs are extremely difficult."
+      },
+      {
+        "question": "What is a key advantage of dynamic bond-based self-healing materials?",
+        "options": [
+          "They can heal multiple times",
+          "They're cheaper to produce",
+          "They work at any temperature",
+          "They don't require any external trigger"
+        ],
+        "correct": 0,
+        "fact": "Dynamic bond-based materials can heal the same spot multiple times, making them more durable than single-use microcapsule systems."
       }
     ]
   }
