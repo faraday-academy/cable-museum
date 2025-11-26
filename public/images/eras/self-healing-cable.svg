@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1e2e" />
+  
+  <!-- Cable body with healing effect -->
+  <path d="M100 150 L300 150" stroke="#4CAF50" stroke-width="30" stroke-linecap="round" stroke-dasharray="1,20">
+    <animate attributeName="stroke-dashoffset" values="0;100" dur="10s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Healing effect dots -->
+  <circle cx="200" cy="150" r="8" fill="#FFC107">
+    <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Cable core -->
+  <path d="M100 150 L300 150" stroke="#FFC107" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Title -->
+  <text x="200" y="50" font-family="Arial" font-size="20" fill="#ffffff" text-anchor="middle">Self-Healing Cable</text>
+  <text x="200" y="80" font-family="Arial" font-size="14" fill="#a0a0a0" text-anchor="middle">2020s</text>
+</svg>
