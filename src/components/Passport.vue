@@ -112,12 +112,12 @@ function withBase(path: string) {
 .era-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
 .era-stamp { position: relative; border-radius: 12px; overflow: hidden; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
 .era-stamp:hover { transform: scale(1.05); box-shadow: 0 8px 24px rgba(0,0,0,0.4); }
-.era-stamp.visited { border: 3px solid #22d3ee; cursor: pointer; }
+.era-stamp.visited { border: 3px solid var(--teal); cursor: pointer; }
 .era-stamp.locked { cursor: not-allowed; filter: grayscale(0.7) blur(0.5px); }
 .era-overlay { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.6); }
 .visited-stamp { position: relative; text-align: center; }
 .stamp-icon { animation: bounce 1s ease-in-out; }
-.stamp-ribbon { background: linear-gradient(45deg, #22d3ee, #a78bfa); color: white; padding: 4px 12px; border-radius: 20px; font-weight: bold; font-size: 0.8rem; margin-top: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.3); }
+.stamp-ribbon { background: linear-gradient(45deg, var(--teal), var(--copper)); color: white; padding: 4px 12px; border-radius: 20px; font-weight: bold; font-size: 0.8rem; margin-top: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.3); }
 .locked-stamp { position: relative; text-align: center; }
 .lock-icon { color: #666; animation: shake 0.5s ease-in-out; }
 .lock-text { color: #999; font-weight: bold; margin-top: 8px; }
@@ -125,7 +125,7 @@ function withBase(path: string) {
 .era-info.info-hidden { opacity: 0.3; }
 .era-info .title { font-weight: 700; font-size: 1rem; text-shadow: 0 1px 2px rgba(0,0,0,0.8); }
 .era-info .years { opacity: 0.8; font-size: 0.8rem; text-shadow: 0 1px 2px rgba(0,0,0,0.8); }
-.era-info .advancement { font-size: 0.75rem; color: #22d3ee; margin-top: 2px; text-shadow: 0 1px 2px rgba(0,0,0,0.8); }
+.era-info .advancement { font-size: 0.75rem; color: var(--teal); margin-top: 2px; text-shadow: 0 1px 2px rgba(0,0,0,0.8); }
 @keyframes bounce { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
 @keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-2px); } 75% { transform: translateX(2px); } }
 .stats { display: flex; flex-direction: column; gap: 8px; }

@@ -1,8 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <rect width="100" height="100" fill="#f0f0f0"/>
-  <circle cx="50" cy="50" r="40" fill="#ffffff" stroke="#333" stroke-width="2"/>
-  <circle cx="50" cy="50" r="25" fill="#87ceeb"/>
-  <circle cx="50" cy="50" r="15" fill="#ffffff"/>
-  <text x="50" y="30" text-anchor="middle" font-size="6" fill="#333">Commercial</text>
-  <text x="50" y="85" text-anchor="middle" font-size="8" fill="#333">Fiber Link</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 90" width="160" height="90" role="img">
+<title>Live phone traffic on light, in Chicago.</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#101b2b"/><stop offset="100%" stop-color="#070b14"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/><stop offset="45%" stop-color="#ffffff" stop-opacity="0.02"/><stop offset="100%" stop-color="#000000" stop-opacity="0.22"/></linearGradient>
+</defs>
+<rect width="160" height="90" fill="url(#bg)"/>
+<rect x="0" y="49.5" width="108" height="17" fill="#1b2531"/>
+<rect x="26" y="50.9" width="82" height="14.3" fill="#d9c48a"/>
+<path d="M26 50.9 a 3 7.1 0 0 0 0 14.3" fill="#a89660" opacity="0.85"/>
+<rect x="44" y="52.7" width="64" height="10.5" fill="#244553"/>
+<path d="M44 52.7 a 3 5.3 0 0 0 0 10.5" fill="#152e39" opacity="0.85"/>
+<rect x="62" y="54.1" width="46" height="7.8" fill="#3a6b7d"/>
+<path d="M62 54.1 a 3 3.9 0 0 0 0 7.8" fill="#25495a" opacity="0.85"/>
+<rect x="80" y="56.2" width="28" height="3.5" fill="#d3f4fb"/>
+<rect x="0" y="49.5" width="108" height="17" fill="url(#sheen)"/>
+<g transform="translate(132.00,58.00)"><rect x="-25.50" y="-6.80" width="19.55" height="13.60" rx="1.36" fill="#2f3e52" stroke="#1a2432" stroke-width="0.85"/><rect x="-6.80" y="-2.21" width="9.86" height="4.42" rx="0.85" fill="#e8eef5" opacity="0.9"/><circle cx="2.04" cy="0" r="1.19" fill="#8fd8e8"/></g>
+<rect x="86" y="51.0" width="16" height="14" rx="2" fill="#2f3e52" stroke="#f5d06f" stroke-width="0.9"/>
+<rect x="84.0" y="54.0" width="2" height="1.4" fill="#f5d06f"/>
+<rect x="102.0" y="54.0" width="2" height="1.4" fill="#f5d06f"/>
+<rect x="84.0" y="57.4" width="2" height="1.4" fill="#f5d06f"/>
+<rect x="102.0" y="57.4" width="2" height="1.4" fill="#f5d06f"/>
+<rect x="84.0" y="60.8" width="2" height="1.4" fill="#f5d06f"/>
+<rect x="102.0" y="60.8" width="2" height="1.4" fill="#f5d06f"/>
+<circle cx="94" cy="58.0" r="2.6" fill="#f5d06f" opacity="0.5"/>
+<circle cx="30" cy="26" r="22.5" fill="#070b14" stroke="#1e2a3c" stroke-width="1"/>
+    <circle cx="30.00" cy="26.00" r="20.00" fill="#1b2531" stroke="#0e1620" stroke-width="0.60"/>
+    <circle cx="30.00" cy="26.00" r="16.80" fill="#d9c48a" stroke="#a89660" stroke-width="0.60"/>
+    <circle cx="30.00" cy="10.54" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="34.78" cy="11.30" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="39.08" cy="13.50" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="42.50" cy="16.92" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="44.70" cy="21.22" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="45.46" cy="26.00" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="44.70" cy="30.78" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="42.50" cy="35.08" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="39.08" cy="38.50" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="34.78" cy="40.70" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="30.00" cy="41.46" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="25.22" cy="40.70" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="20.92" cy="38.50" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="17.50" cy="35.08" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="15.30" cy="30.78" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="14.54" cy="26.00" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="15.30" cy="21.22" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="17.50" cy="16.92" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="20.92" cy="13.50" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="25.22" cy="11.30" r="0.52" fill="#f0e0b0" opacity="0.55"/>
+    <circle cx="30.00" cy="26.00" r="12.40" fill="#244553" stroke="#152e39" stroke-width="0.60"/>
+    <circle cx="30.00" cy="26.00" r="9.20" fill="#3a6b7d" stroke="#25495a" stroke-width="0.60"/>
+    <circle cx="30.00" cy="26.00" r="5.20" fill="#8fd8e8" stroke="#4f9db0" stroke-width="0.60"/>
+<circle cx="30" cy="26" r="20" fill="none" stroke="#000" stroke-opacity="0.35" stroke-width="0.8"/>
+<path d="M53 32 L66 46" stroke="#3fbfd4" stroke-width="0.9" opacity="0.55"/>
+<text x="155" y="12" text-anchor="end" font-family="ui-sans-serif,system-ui,sans-serif" font-size="7.5" font-weight="700" fill="#93a1b5" letter-spacing="0.6">5 LAYERS</text>
 </svg>

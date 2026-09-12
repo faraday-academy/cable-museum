@@ -47,3 +47,7 @@ temp/
 sw.js
 sw.js.map
 
+
+# Python bytecode (content generator scripts)
+__pycache__/
+*.pyc

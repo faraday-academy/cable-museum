@@ -395,8 +395,8 @@ function backToTimeline() {
 
 <style scoped>
 .legends-page {
-  background: #0b0d17;
-  color: white;
+  background: transparent;
+  color: var(--text);
   min-height: 100vh;
   padding: 2rem 1rem;
 }
@@ -407,19 +407,20 @@ function backToTimeline() {
 }
 
 .legends-title {
-  background: linear-gradient(90deg, #22d3ee, #a78bfa, #f472b6, #22d3ee);
+  background: linear-gradient(96deg, var(--copper) 0%, var(--brass) 46%, var(--teal) 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-size: 3rem;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 800;
+  letter-spacing: var(--tracking-tight);
   margin-bottom: 1rem;
-  animation: hue 16s linear infinite;
 }
 
 .legends-subtitle {
   font-size: 1.2rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--text-muted);
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
@@ -427,7 +428,7 @@ function backToTimeline() {
 
 .section-divider {
   margin: 4rem 0;
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--line);
 }
 
 .legends-section {
@@ -435,15 +436,16 @@ function backToTimeline() {
 }
 
 .section-title {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: clamp(1.4rem, 2.6vw, 2rem);
+  font-weight: 800;
+  letter-spacing: var(--tracking-tight);
   margin-bottom: 0.5rem;
-  color: #22d3ee;
+  color: var(--text);
 }
 
 .section-description {
   font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--text-muted);
   margin-bottom: 2rem;
   line-height: 1.5;
 }
@@ -455,14 +457,15 @@ function backToTimeline() {
 
 .misfire-card {
   height: 100%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--surface);
+  border: 1px solid var(--line);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .misfire-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(34, 211, 238, 0.2);
+  box-shadow: var(--shadow-2);
+  border-color: var(--line-copper);
 }
 
 .misfire-image {
@@ -470,20 +473,20 @@ function backToTimeline() {
 }
 
 .misfire-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #a78bfa;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--copper-bright);
 }
 
 .misfire-fact {
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--text);
   font-size: 0.95rem;
   line-height: 1.4;
 }
 
 .misfire-details {
-  background: rgba(34, 211, 238, 0.1);
-  border-left: 3px solid #22d3ee;
+  background: var(--teal-tint);
+  border-left: 3px solid var(--teal);
   padding: 1rem;
   margin: 0.5rem 0;
   border-radius: 4px;
@@ -497,8 +500,8 @@ function backToTimeline() {
 .hero-card {
   min-width: 280px;
   height: 100%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--surface);
+  border: 1px solid var(--line);
   transition: transform 0.3s ease;
 }
 
@@ -507,8 +510,8 @@ function backToTimeline() {
 }
 
 .hero-selected {
-  border-color: #22d3ee;
-  box-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
+  border-color: var(--teal);
+  box-shadow: 0 0 20px var(--teal-glow);
 }
 
 .hero-image {
@@ -517,17 +520,17 @@ function backToTimeline() {
 
 .hero-name {
   font-size: 1.1rem;
-  font-weight: 600;
-  color: #f472b6;
+  font-weight: 700;
+  color: var(--brass);
 }
 
 .hero-title {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--text-muted);
   font-size: 0.9rem;
 }
 
 .hero-bio {
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--text);
   font-size: 0.85rem;
   line-height: 1.4;
 }
@@ -544,7 +547,7 @@ function backToTimeline() {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(34, 211, 238, 0.05);
+  background: var(--teal-tint);
   border-radius: 12px;
   opacity: 0.3;
 }
@@ -555,24 +558,24 @@ function backToTimeline() {
 }
 
 .war-card {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: var(--surface-2);
+  border: 1px solid var(--line-strong);
   backdrop-filter: blur(10px);
   transition: transform 0.3s ease;
 }
 
 .war-card:hover {
   transform: translateY(-3px);
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--surface-3);
 }
 
 .war-title {
-  color: #a78bfa;
+  color: var(--copper);
   font-weight: 600;
 }
 
 .war-description {
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--text);
   line-height: 1.4;
 }
 
@@ -580,9 +583,9 @@ function backToTimeline() {
 .progress-container {
   margin-top: 3rem;
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--surface);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--line);
 }
 
 .speed-slider {
@@ -603,32 +606,32 @@ function backToTimeline() {
 
 .speed-icon {
   margin-bottom: 1rem;
-  color: #22d3ee;
+  color: var(--teal);
 }
 
 .speed-technology {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #f472b6;
+  color: var(--brass);
   margin-bottom: 0.5rem;
 }
 
 .speed-value {
   font-size: 1.4rem;
   font-weight: 600;
-  color: #a78bfa;
+  color: var(--copper);
   margin-bottom: 1rem;
 }
 
 .speed-description {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--text-muted);
   line-height: 1.5;
   margin-bottom: 1rem;
 }
 
 .speed-year {
   font-size: 0.9rem;
-  color: #22d3ee;
+  color: var(--teal);
   font-weight: 500;
 }
 
@@ -654,20 +657,10 @@ function backToTimeline() {
   padding-bottom: 2rem;
 }
 
-/* Animations */
-@keyframes hue {
-  from {
-    filter: hue-rotate(0deg);
-  }
-  to {
-    filter: hue-rotate(360deg);
-  }
-}
-
 .skeleton {
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  background: linear-gradient(90deg, var(--line), rgba(255, 255, 255, 0.2), var(--line));
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
 }
@@ -691,8 +684,8 @@ function backToTimeline() {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 12px;
   overflow: hidden;
-  background: #1a1e2e;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--surface);
+  border: 1px solid var(--line);
 }
 
 .future-tech-card:hover {
@@ -731,13 +724,13 @@ function backToTimeline() {
 
 .future-tech-content {
   padding: 1.5rem;
-  background: #1a1e2e;
+  background: var(--surface);
 }
 
 .future-tech-details {
   margin-top: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid var(--line);
 }
 
 .tech-features {
@@ -762,13 +755,13 @@ function backToTimeline() {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.02) !important;
-  border: 2px dashed rgba(255, 255, 255, 0.1) !important;
+  background: var(--surface) !important;
+  border: 2px dashed var(--line) !important;
   transition: all 0.3s ease;
 }
 
 .coming-soon:hover {
-  background: rgba(255, 255, 255, 0.05) !important;
+  background: var(--surface) !important;
   border-color: var(--v-primary-base) !important;
 }
 

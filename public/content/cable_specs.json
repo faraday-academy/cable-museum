@@ -1,0 +1,2808 @@
+{
+ "1850-dover-calais": {
+  "family": "telegraph",
+  "signal": {
+   "kind": "current",
+   "label": "Morse current",
+   "speed": 0.55
+  },
+  "tagline": "One copper wire, wrapped in tree sap, dropped in the Channel.",
+  "layers": [
+   {
+    "label": "Iron wire armour",
+    "material": "iron",
+    "r": 1.0,
+    "pattern": "armour",
+    "note": "Ten iron wires laid in a spiral so trawlers and rock could not cut the core."
+   },
+   {
+    "label": "Tarred hemp",
+    "material": "hemp",
+    "r": 0.72,
+    "pattern": "weave",
+    "note": "A cushion between hard armour and soft insulation."
+   },
+   {
+    "label": "Gutta-percha",
+    "material": "gutta",
+    "r": 0.52,
+    "pattern": "solid",
+    "note": "Latex from a Malayan tree \u2014 the first plastic that stayed watertight in cold seawater."
+   },
+   {
+    "label": "Copper conductor",
+    "material": "copper",
+    "r": 0.24,
+    "pattern": "solid",
+    "note": "A single solid copper wire. Every Morse dot crossed the Channel through this."
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "terminal",
+    "label": "Brass screw terminal",
+    "note": "The wire was simply clamped under a brass screw at the shore station."
+   }
+  ],
+  "chips": []
+ },
+ "1858-transatlantic": {
+  "family": "telegraph",
+  "signal": {
+   "kind": "current",
+   "label": "Morse current",
+   "speed": 0.28
+  },
+  "tagline": "Seven copper strands, 2 500 miles, and about 0.1 words per minute.",
+  "layers": [
+   {
+    "label": "Iron wire armour",
+    "material": "iron",
+    "r": 1.0,
+    "pattern": "armour",
+    "note": "18 iron strands \u2014 too light for the job, which is partly why it failed."
+   },
+   {
+    "label": "Tarred hemp",
+    "material": "hemp",
+    "r": 0.74,
+    "pattern": "weave",
+    "note": "Padding and corrosion protection."
+   },
+   {
+    "label": "Gutta-percha",
+    "material": "gutta",
+    "r": 0.54,
+    "pattern": "solid",
+    "note": "Three coats. Any pinhole meant seawater and a dead cable."
+   },
+   {
+    "label": "Stranded copper",
+    "material": "copper",
+    "r": 0.26,
+    "pattern": "solid",
+    "note": "Seven copper wires twisted together \u2014 stranding survives bending better than one thick wire."
+   }
+  ],
+  "cores": {
+   "count": 7,
+   "material": "copper",
+   "r": 0.085,
+   "ring": 0.155
+  },
+  "connectors": [
+   {
+    "kind": "terminal",
+    "label": "Brass screw terminal",
+    "note": "Shore ends landed on brass terminals in a wooden testing hut."
+   }
+  ],
+  "chips": []
+ },
+ "1866-transatlantic": {
+  "family": "telegraph",
+  "signal": {
+   "kind": "current",
+   "label": "Morse current",
+   "speed": 0.42
+  },
+  "tagline": "Same idea as 1858, built properly. It lasted decades.",
+  "layers": [
+   {
+    "label": "Galvanised steel armour",
+    "material": "steel",
+    "r": 1.0,
+    "pattern": "armour",
+    "note": "Stronger, zinc-coated wires, each wrapped in tarred manila."
+   },
+   {
+    "label": "Jute serving",
+    "material": "jute",
+    "r": 0.76,
+    "pattern": "weave",
+    "note": "Bedding layer that let the armour flex without biting in."
+   },
+   {
+    "label": "Gutta-percha",
+    "material": "gutta",
+    "r": 0.56,
+    "pattern": "solid",
+    "note": "Four alternating layers of gutta-percha and Chatterton's compound."
+   },
+   {
+    "label": "Stranded copper",
+    "material": "copper",
+    "r": 0.27,
+    "pattern": "solid",
+    "note": "Heavier copper than 1858 \u2014 less resistance, faster signalling."
+   }
+  ],
+  "cores": {
+   "count": 7,
+   "material": "copper",
+   "r": 0.088,
+   "ring": 0.16
+  },
+  "connectors": [
+   {
+    "kind": "terminal",
+    "label": "Brass screw terminal",
+    "note": ""
+   }
+  ],
+  "chips": []
+ },
+ "1876-first-telephone": {
+  "family": "telephone",
+  "signal": {
+   "kind": "audio",
+   "label": "Analogue voice",
+   "speed": 0.6
+  },
+  "tagline": "Voice, as a wobbling current, on a bare iron line.",
+  "layers": [
+   {
+    "label": "Cotton braid",
+    "material": "cotton",
+    "r": 1.0,
+    "pattern": "braid",
+    "note": "Waxed cotton \u2014 weatherproofing, 1870s style."
+   },
+   {
+    "label": "Rubber insulation",
+    "material": "rubber",
+    "r": 0.72,
+    "pattern": "solid",
+    "note": "Natural rubber kept the line from shorting on wet poles."
+   },
+   {
+    "label": "Iron line wire",
+    "material": "iron",
+    "r": 0.38,
+    "pattern": "solid",
+    "note": "Iron, not copper \u2014 cheap and strong, but lossy and noisy."
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "binding-post",
+    "label": "Binding post",
+    "note": "A screw post on the telephone box; you wrapped the wire round it by hand."
+   }
+  ],
+  "chips": []
+ },
+ "1878-phone-jack": {
+  "family": "audio",
+  "signal": {
+   "kind": "audio",
+   "label": "Switchboard voice",
+   "speed": 0.6
+  },
+  "tagline": "The plug a telephone operator jammed into a board \u2014 still in your guitar amp.",
+  "layers": [
+   {
+    "label": "Cotton braid",
+    "material": "cotton",
+    "r": 1.0,
+    "pattern": "braid",
+    "note": "Cloth-covered flex, the standard finish before plastics."
+   },
+   {
+    "label": "Rubber insulation",
+    "material": "rubber",
+    "r": 0.74,
+    "pattern": "solid",
+    "note": "Separates the two conductors of the speech circuit."
+   }
+  ],
+  "cores": {
+   "count": 2,
+   "material": "copper",
+   "r": 0.3,
+   "ring": 0.32,
+   "twist": true
+  },
+  "connectors": [
+   {
+    "kind": "binding-post",
+    "label": "\u00bc-inch tip-sleeve plug",
+    "note": "Tip carries the signal, sleeve is the return. The shape has not changed in 145 years."
+   }
+  ],
+  "chips": []
+ },
+ "1881-twisted-pair": {
+  "family": "telephone",
+  "signal": {
+   "kind": "differential",
+   "label": "Balanced pair",
+   "speed": 0.7
+  },
+  "tagline": "Twist the two wires together and the noise cancels itself out.",
+  "layers": [
+   {
+    "label": "Cotton braid",
+    "material": "cotton",
+    "r": 1.0,
+    "pattern": "braid",
+    "note": "Outer protective braid."
+   },
+   {
+    "label": "Paper insulation",
+    "material": "paper",
+    "r": 0.8,
+    "pattern": "solid",
+    "note": "Dry paper wrap \u2014 cheap, and a fine insulator until it got wet."
+   }
+  ],
+  "cores": {
+   "count": 2,
+   "material": "copper",
+   "r": 0.3,
+   "ring": 0.31,
+   "twist": true
+  },
+  "connectors": [
+   {
+    "kind": "binding-post",
+    "label": "Binding post",
+    "note": ""
+   }
+  ],
+  "chips": []
+ },
+ "1931-coax-patent": {
+  "family": "coax",
+  "signal": {
+   "kind": "rf",
+   "label": "RF carrier",
+   "speed": 0.85
+  },
+  "tagline": "Put the return path *around* the signal and the cable stops radiating.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": "Keeps water and hands off the shield."
+   },
+   {
+    "label": "Copper braid shield",
+    "material": "braid",
+    "r": 0.82,
+    "pattern": "braid",
+    "note": "The return conductor AND the shield \u2014 this is the whole trick of coax."
+   },
+   {
+    "label": "Polyethylene dielectric",
+    "material": "pe",
+    "r": 0.66,
+    "pattern": "solid",
+    "note": "Holds the centre wire exactly on the axis. Spacing sets the impedance."
+   },
+   {
+    "label": "Copper centre conductor",
+    "material": "copper",
+    "r": 0.2,
+    "pattern": "solid",
+    "note": "Signal rides here, perfectly surrounded by its own return path."
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "coax-fitting",
+    "label": "Coaxial fitting",
+    "note": "Early screw fittings kept the shield continuous through the joint."
+   }
+  ],
+  "chips": []
+ },
+ "1936-coax-trials": {
+  "family": "coax",
+  "signal": {
+   "kind": "rf",
+   "label": "Broadband carrier",
+   "speed": 0.88
+  },
+  "tagline": "240 telephone calls down one tube of copper.",
+  "layers": [
+   {
+    "label": "Steel tape armour",
+    "material": "steel",
+    "r": 1.0,
+    "pattern": "armour",
+    "note": "Long-haul routes were buried; the tape took the abuse."
+   },
+   {
+    "label": "Lead sheath",
+    "material": "tinned",
+    "r": 0.84,
+    "pattern": "solid",
+    "note": "A sealed metal sheath \u2014 the only reliable moisture barrier of the era."
+   },
+   {
+    "label": "Copper outer tube",
+    "material": "copper",
+    "r": 0.7,
+    "pattern": "solid",
+    "note": "A solid copper tube as the return conductor."
+   },
+   {
+    "label": "Disc spacers / air",
+    "material": "air",
+    "r": 0.6,
+    "pattern": "foam",
+    "note": "Mostly air, with insulating discs every few centimetres. Air is the best dielectric there is."
+   },
+   {
+    "label": "Copper centre conductor",
+    "material": "copper",
+    "r": 0.18,
+    "pattern": "solid",
+    "note": "Carried the multiplexed carrier signal."
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "coax-fitting",
+    "label": "Coaxial fitting",
+    "note": ""
+   }
+  ],
+  "chips": []
+ },
+ "1954-gotland-hvdc": {
+  "family": "power",
+  "signal": {
+   "kind": "current",
+   "label": "100 kV DC",
+   "speed": 0.5
+  },
+  "tagline": "Not data \u2014 raw power, 98 km under the Baltic.",
+  "layers": [
+   {
+    "label": "Steel wire armour",
+    "material": "steel",
+    "r": 1.0,
+    "pattern": "armour",
+    "note": "Double armour against anchors and ice scour."
+   },
+   {
+    "label": "Jute bedding",
+    "material": "jute",
+    "r": 0.82,
+    "pattern": "weave",
+    "note": ""
+   },
+   {
+    "label": "Lead sheath",
+    "material": "tinned",
+    "r": 0.7,
+    "pattern": "solid",
+    "note": "A seamless lead tube \u2014 the only thing that reliably keeps seawater out of paper."
+   },
+   {
+    "label": "Oil-impregnated paper",
+    "material": "paper",
+    "r": 0.58,
+    "pattern": "solid",
+    "note": "Hundreds of paper tapes soaked in insulating oil. Cheap, and it survives 100 kV."
+   },
+   {
+    "label": "Stranded copper conductor",
+    "material": "copper",
+    "r": 0.28,
+    "pattern": "solid",
+    "note": "Carries 20 MW of direct current to the island of Gotland."
+   }
+  ],
+  "cores": {
+   "count": 7,
+   "material": "copper",
+   "r": 0.09,
+   "ring": 0.165
+  },
+  "connectors": [
+   {
+    "kind": "terminal",
+    "label": "Shore termination",
+    "note": "A porcelain bushing the size of a person, transferring the core to the overhead grid."
+   }
+  ],
+  "chips": []
+ },
+ "1950s-xlr": {
+  "family": "audio",
+  "signal": {
+   "kind": "differential",
+   "label": "Balanced audio",
+   "speed": 0.7
+  },
+  "tagline": "Three pins that let a microphone run 100 m without picking up a radio station.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.86,
+    "pattern": "braid",
+    "note": "The shield is the third pin \u2014 it drains interference to ground."
+   }
+  ],
+  "cores": {
+   "count": 2,
+   "material": "copper",
+   "r": 0.26,
+   "ring": 0.3,
+   "twist": true
+  },
+  "connectors": [
+   {
+    "kind": "terminal",
+    "label": "XLR 3-pin",
+    "note": "Pin 1 ground, pins 2 and 3 the balanced pair. Latching, so it cannot fall out mid-show."
+   }
+  ],
+  "chips": []
+ },
+ "1956-tat1": {
+  "family": "coax",
+  "signal": {
+   "kind": "rf",
+   "label": "Voice carrier",
+   "speed": 0.8
+  },
+  "tagline": "The first transatlantic telephone cable \u2014 with valve amplifiers on the seabed.",
+  "layers": [
+   {
+    "label": "Steel wire armour",
+    "material": "steel",
+    "r": 1.0,
+    "pattern": "armour",
+    "note": "Deep-water armour rated for 4 km of ocean."
+   },
+   {
+    "label": "Jute bedding",
+    "material": "jute",
+    "r": 0.8,
+    "pattern": "weave",
+    "note": ""
+   },
+   {
+    "label": "Polyethylene dielectric",
+    "material": "pe",
+    "r": 0.68,
+    "pattern": "solid",
+    "note": "Polyethylene replaced gutta-percha \u2014 stable, low loss, mass-producible."
+   },
+   {
+    "label": "Copper return tube",
+    "material": "copper",
+    "r": 0.4,
+    "pattern": "solid",
+    "note": "Outer conductor completing the coaxial pair."
+   },
+   {
+    "label": "Copper centre conductor",
+    "material": "copper",
+    "r": 0.18,
+    "pattern": "solid",
+    "note": "36 simultaneous telephone calls."
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "repeater",
+    "label": "Submerged repeater",
+    "note": "Vacuum-tube amplifiers spliced inline every ~70 km, built to run 20 years unattended."
+   }
+  ],
+  "chips": []
+ },
+ "1962-rs232": {
+  "family": "serial",
+  "signal": {
+   "kind": "current",
+   "label": "\u00b112 V serial",
+   "speed": 0.35
+  },
+  "tagline": "One bit at a time, at \u00b112 volts, and it still runs factory floors.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Foil shield",
+    "material": "foil",
+    "r": 0.88,
+    "pattern": "foil",
+    "note": "Needed because the big voltage swings radiate badly."
+   }
+  ],
+  "bundle": [
+   {
+    "label": "TxD transmit",
+    "material": "copper",
+    "cx": -0.3,
+    "cy": -0.28,
+    "r": 0.17
+   },
+   {
+    "label": "RxD receive",
+    "material": "copper-lit",
+    "cx": 0.3,
+    "cy": -0.28,
+    "r": 0.17
+   },
+   {
+    "label": "RTS / CTS handshake",
+    "material": "tinned",
+    "cx": -0.3,
+    "cy": 0.28,
+    "r": 0.17
+   },
+   {
+    "label": "Signal ground",
+    "material": "tinned",
+    "cx": 0.3,
+    "cy": 0.28,
+    "r": 0.17
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "terminal",
+    "label": "DB-25 / DE-9 D-sub",
+    "note": "Screw locks on either side, because nobody trusted friction to hold it."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Line driver / UART",
+    "role": "phy",
+    "note": "Converts the computer's 5 V logic into the \u00b112 V swing the standard demands."
+   }
+  ]
+ },
+ "1966-fiber-theory": {
+  "family": "fiber",
+  "signal": {
+   "kind": "light",
+   "label": "Guided light",
+   "speed": 1.0
+  },
+  "tagline": "Kao's insight: the loss wasn't the glass, it was the impurities in it.",
+  "layers": [
+   {
+    "label": "Acrylate coating",
+    "material": "coating",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": "Protects the glass surface \u2014 a scratch is where a fibre breaks."
+   },
+   {
+    "label": "Cladding glass",
+    "material": "cladding",
+    "r": 0.74,
+    "pattern": "solid",
+    "note": "Slightly lower refractive index, so light striking the boundary reflects back inward."
+   },
+   {
+    "label": "Core glass",
+    "material": "glass",
+    "r": 0.34,
+    "pattern": "solid",
+    "note": "Ultra-pure silica. Light bounces along inside it by total internal reflection."
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "bare-fiber",
+    "label": "Cleaved fibre end",
+    "note": "A flat, polished end face \u2014 the whole signal enters through this."
+   }
+  ],
+  "chips": []
+ },
+ "1970-centronics": {
+  "family": "parallel",
+  "signal": {
+   "kind": "differential",
+   "label": "8-bit parallel",
+   "speed": 0.5
+  },
+  "tagline": "Eight bits side by side \u2014 fast, until the wires started talking to each other.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.88,
+    "pattern": "braid",
+    "note": "36 wires in a bundle radiate a lot; the braid contained it."
+   }
+  ],
+  "bundle": [
+   {
+    "label": "Data bits 0\u20133",
+    "material": "copper",
+    "cx": -0.3,
+    "cy": -0.26,
+    "r": 0.18
+   },
+   {
+    "label": "Data bits 4\u20137",
+    "material": "copper",
+    "cx": 0.3,
+    "cy": -0.26,
+    "r": 0.18
+   },
+   {
+    "label": "STROBE / ACK / BUSY",
+    "material": "copper-lit",
+    "cx": -0.3,
+    "cy": 0.28,
+    "r": 0.17
+   },
+   {
+    "label": "Ground returns",
+    "material": "tinned",
+    "cx": 0.3,
+    "cy": 0.28,
+    "r": 0.17
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "rj45",
+    "label": "36-pin Centronics",
+    "note": "A wide ribbon connector held on by two spring clips."
+   }
+  ],
+  "chips": []
+ },
+ "1977-first-fiber": {
+  "family": "fiber",
+  "signal": {
+   "kind": "light",
+   "label": "Pulsed light",
+   "speed": 1.0
+  },
+  "tagline": "Live phone traffic on light, in Chicago.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Aramid yarn",
+    "material": "aramid",
+    "r": 0.84,
+    "pattern": "weave",
+    "note": "Takes the pulling load so the glass never feels the tension."
+   },
+   {
+    "label": "Acrylate coating",
+    "material": "coating",
+    "r": 0.62,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Cladding",
+    "material": "cladding",
+    "r": 0.46,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Multimode core",
+    "material": "glass",
+    "r": 0.26,
+    "pattern": "solid",
+    "note": "A wide core \u2014 easy to couple light into, but modes spread the pulse."
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "sc-fiber",
+    "label": "SC fibre connector",
+    "note": "Spring-loaded ceramic ferrule holds two fibre ends within a micron of each other."
+   }
+  ],
+  "chips": [
+   {
+    "label": "LED / photodiode",
+    "role": "transceiver",
+    "note": "Electricity in, light out at one end; light in, electricity out at the other."
+   }
+  ]
+ },
+ "1980-10base5": {
+  "family": "coax",
+  "signal": {
+   "kind": "rf",
+   "label": "10 Mb/s baseband",
+   "speed": 0.77
+  },
+  "tagline": "The thick yellow hosepipe you drilled into with a 'vampire tap'.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": "Bright yellow by convention, with a black band every 2.5 m marking where you may tap."
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.82,
+    "pattern": "braid",
+    "note": ""
+   },
+   {
+    "label": "Foil shield",
+    "material": "foil",
+    "r": 0.72,
+    "pattern": "foil",
+    "note": "Double shielding \u2014 this cable ran through ceilings full of fluorescent lights."
+   },
+   {
+    "label": "Polyethylene dielectric",
+    "material": "pe",
+    "r": 0.62,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Solid copper core",
+    "material": "copper",
+    "r": 0.22,
+    "pattern": "solid",
+    "note": "The vampire tap's spike bit through everything to reach this."
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "coax-fitting",
+    "label": "N-type / vampire tap",
+    "note": "A clamp that drove a spike into the core without cutting the cable."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Ethernet transceiver (MAU)",
+    "role": "phy",
+    "note": "Bolted onto the tap, it listened for collisions on the shared wire."
+   }
+  ]
+ },
+ "1983-midi": {
+  "family": "serial",
+  "signal": {
+   "kind": "current",
+   "label": "31.25 kb/s current loop",
+   "speed": 0.4
+  },
+  "tagline": "A current loop that let any synth talk to any other \u2014 and still does.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.86,
+    "pattern": "braid",
+    "note": "Connected at one end only, to stop ground loops humming through the PA."
+   }
+  ],
+  "cores": {
+   "count": 2,
+   "material": "copper",
+   "r": 0.28,
+   "ring": 0.3,
+   "twist": true
+  },
+  "connectors": [
+   {
+    "kind": "terminal",
+    "label": "5-pin DIN",
+    "note": "Only three pins are used. The other two were left for a future that never came."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Opto-isolator",
+    "role": "isolator",
+    "note": "Light, not wire, carries the signal across the gap \u2014 so two amps never share a ground."
+   }
+  ]
+ },
+ "1985-10base2": {
+  "family": "coax",
+  "signal": {
+   "kind": "rf",
+   "label": "10 Mb/s baseband",
+   "speed": 0.8
+  },
+  "tagline": "Cheapernet: thin coax, BNC twists, and one loose end killing the whole office.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.84,
+    "pattern": "braid",
+    "note": ""
+   },
+   {
+    "label": "Polyethylene dielectric",
+    "material": "pe",
+    "r": 0.68,
+    "pattern": "solid",
+    "note": "50 \u03a9 \u2014 thinner and far more flexible than 10BASE5."
+   },
+   {
+    "label": "Stranded copper core",
+    "material": "copper",
+    "r": 0.24,
+    "pattern": "solid",
+    "note": ""
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "coax-fitting",
+    "label": "BNC T-connector",
+    "note": "A quarter turn to lock. Every machine sat on the same wire, so one bad terminator downed the segment."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Ethernet transceiver",
+    "role": "phy",
+    "note": ""
+   }
+  ]
+ },
+ "1985-token-ring": {
+  "family": "twisted",
+  "signal": {
+   "kind": "differential",
+   "label": "4/16 Mb/s ring",
+   "speed": 0.72
+  },
+  "tagline": "IBM's orderly answer to Ethernet: you may only speak while holding the token.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Overall braid",
+    "material": "braid",
+    "r": 0.88,
+    "pattern": "braid",
+    "note": "IBM Type 1 was fully shielded \u2014 heavy, expensive, and very quiet electrically."
+   }
+  ],
+  "pairs": {
+   "count": 2,
+   "colors": [
+    "#e8913a",
+    "#3fbfd4"
+   ],
+   "ring": 0.42,
+   "r": 0.26,
+   "twist": true
+  },
+  "connectors": [
+   {
+    "kind": "rj45",
+    "label": "IBM Data Connector",
+    "note": "A hermaphroditic connector \u2014 any plug mates with any other, no male or female."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Ring interface chip",
+    "role": "phy",
+    "note": "Repeats every frame around the ring and strips its own messages back off."
+   }
+  ]
+ },
+ "1986-scsi": {
+  "family": "parallel",
+  "signal": {
+   "kind": "differential",
+   "label": "8-bit parallel bus",
+   "speed": 0.62
+  },
+  "tagline": "Fast, capable, and cursed with termination problems and ID conflicts.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.9,
+    "pattern": "braid",
+    "note": ""
+   },
+   {
+    "label": "Foil shield",
+    "material": "foil",
+    "r": 0.82,
+    "pattern": "foil",
+    "note": ""
+   }
+  ],
+  "bundle": [
+   {
+    "label": "Data bus 0\u20137",
+    "material": "copper",
+    "cx": -0.3,
+    "cy": -0.26,
+    "r": 0.18,
+    "pair": true
+   },
+   {
+    "label": "Parity + control",
+    "material": "copper-lit",
+    "cx": 0.3,
+    "cy": -0.26,
+    "r": 0.18,
+    "pair": true
+   },
+   {
+    "label": "REQ / ACK handshake",
+    "material": "copper",
+    "cx": -0.3,
+    "cy": 0.28,
+    "r": 0.17,
+    "pair": true
+   },
+   {
+    "label": "Ground returns",
+    "material": "tinned",
+    "cx": 0.3,
+    "cy": 0.28,
+    "r": 0.17
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "rj45",
+    "label": "Centronics-50 / DB-25",
+    "note": "Every device needed a unique ID, and the last one on the chain needed a terminator."
+   }
+  ],
+  "chips": [
+   {
+    "label": "SCSI controller",
+    "role": "controller",
+    "note": "Arbitrates which of up to eight devices may drive the shared bus."
+   }
+  ]
+ },
+ "1988-tat8": {
+  "family": "fiber",
+  "signal": {
+   "kind": "light",
+   "label": "Digital optical",
+   "speed": 1.0
+  },
+  "tagline": "The Atlantic goes optical: 40 000 calls at once.",
+  "layers": [
+   {
+    "label": "Polyethylene sheath",
+    "material": "pe",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Steel wire strength member",
+    "material": "steel",
+    "r": 0.86,
+    "pattern": "armour",
+    "note": "Takes the weight of the cable hanging off the back of the ship."
+   },
+   {
+    "label": "Copper power conductor",
+    "material": "copper",
+    "r": 0.7,
+    "pattern": "solid",
+    "note": "Carries DC power to the optical repeaters on the seabed."
+   },
+   {
+    "label": "Filling gel",
+    "material": "gel",
+    "r": 0.54,
+    "pattern": "foam",
+    "note": "Blocks water from running along inside the tube if the sheath is breached."
+   },
+   {
+    "label": "Fibre pairs",
+    "material": "glass",
+    "r": 0.3,
+    "pattern": "solid",
+    "note": "Three working pairs of single-mode fibre."
+   }
+  ],
+  "cores": {
+   "count": 6,
+   "material": "glass",
+   "r": 0.055,
+   "ring": 0.17
+  },
+  "connectors": [
+   {
+    "kind": "repeater",
+    "label": "Optical repeater",
+    "note": "Regenerated the light pulses every ~70 km along the ocean floor."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Laser + regenerator",
+    "role": "transceiver",
+    "note": "Converted light to electrical bits and back to clean light."
+   }
+  ]
+ },
+ "1986-ide-ata": {
+  "family": "parallel",
+  "signal": {
+   "kind": "differential",
+   "label": "16-bit parallel",
+   "speed": 0.6
+  },
+  "tagline": "The grey ribbon inside every beige PC \u2014 40 wires, one red stripe.",
+  "layers": [
+   {
+    "label": "PVC ribbon",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": "Flat, unshielded, and colour-coded by a single red stripe marking pin 1."
+   }
+  ],
+  "bundle": [
+   {
+    "label": "Data bits 0\u20137",
+    "material": "copper",
+    "cx": -0.34,
+    "cy": 0.0,
+    "r": 0.17
+   },
+   {
+    "label": "Data bits 8\u201315",
+    "material": "copper",
+    "cx": 0.0,
+    "cy": 0.0,
+    "r": 0.17
+   },
+   {
+    "label": "Control + ground",
+    "material": "tinned",
+    "cx": 0.34,
+    "cy": 0.0,
+    "r": 0.17
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "rj45",
+    "label": "40-pin IDC header",
+    "note": "Insulation-displacement: the connector's blades slice straight through the ribbon."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Drive controller",
+    "role": "controller",
+    "note": "IDE's trick was moving the controller onto the drive itself \u2014 Integrated Drive Electronics."
+   }
+  ]
+ },
+ "1987-vga": {
+  "family": "av",
+  "signal": {
+   "kind": "rf",
+   "label": "Analogue RGB",
+   "speed": 0.82
+  },
+  "tagline": "Three analogue colour signals, each in its own miniature coax.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Overall braid",
+    "material": "braid",
+    "r": 0.9,
+    "pattern": "braid",
+    "note": ""
+   }
+  ],
+  "bundle": [
+   {
+    "label": "Red channel (coax)",
+    "material": "copper",
+    "cx": -0.32,
+    "cy": -0.26,
+    "r": 0.17,
+    "shielded": true
+   },
+   {
+    "label": "Green channel (coax)",
+    "material": "copper",
+    "cx": 0.32,
+    "cy": -0.26,
+    "r": 0.17,
+    "shielded": true
+   },
+   {
+    "label": "Blue channel (coax)",
+    "material": "copper",
+    "cx": -0.32,
+    "cy": 0.26,
+    "r": 0.17,
+    "shielded": true
+   },
+   {
+    "label": "H/V sync + DDC",
+    "material": "tinned",
+    "cx": 0.32,
+    "cy": 0.26,
+    "r": 0.16
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "terminal",
+    "label": "DE-15 (VGA)",
+    "note": "15 pins in three rows, with thumbscrews. Purely analogue \u2014 the monitor never knew what pixels were."
+   }
+  ],
+  "chips": [
+   {
+    "label": "RAMDAC",
+    "role": "dac",
+    "note": "Converts the digital framebuffer into three smooth analogue voltages, millions of times a second."
+   }
+  ]
+ },
+ "1990-10baset": {
+  "family": "twisted",
+  "signal": {
+   "kind": "differential",
+   "label": "10 Mb/s baseband",
+   "speed": 0.72
+  },
+  "tagline": "Ethernet leaves the thick yellow coax and moves onto phone-style wire.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": "Four pairs in one sheath \u2014 the shape office cabling took for the next 30 years."
+   }
+  ],
+  "pairs": {
+   "count": 4,
+   "colors": [
+    "#3fbfd4",
+    "#e8913a",
+    "#46c98b",
+    "#ef5f5f"
+   ],
+   "ring": 0.52,
+   "r": 0.2
+  },
+  "connectors": [
+   {
+    "kind": "rj45",
+    "label": "RJ45 (8P8C)",
+    "note": "Eight gold-plated contacts that pierce the wire insulation when crimped."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Ethernet PHY",
+    "role": "phy",
+    "note": "Turns bits into the precise voltage waveform the pairs carry."
+   }
+  ]
+ },
+ "1987-ps2": {
+  "family": "serial",
+  "signal": {
+   "kind": "current",
+   "label": "Clocked serial",
+   "speed": 0.3
+  },
+  "tagline": "Purple for keyboard, green for mouse \u2014 and never hot-pluggable.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Foil shield",
+    "material": "foil",
+    "r": 0.86,
+    "pattern": "foil",
+    "note": ""
+   }
+  ],
+  "bundle": [
+   {
+    "label": "Data",
+    "material": "copper",
+    "cx": -0.28,
+    "cy": -0.24,
+    "r": 0.18
+   },
+   {
+    "label": "Clock",
+    "material": "copper-lit",
+    "cx": 0.28,
+    "cy": -0.24,
+    "r": 0.18
+   },
+   {
+    "label": "+5 V",
+    "material": "copper-lit",
+    "cx": -0.28,
+    "cy": 0.28,
+    "r": 0.17
+   },
+   {
+    "label": "Ground",
+    "material": "tinned",
+    "cx": 0.28,
+    "cy": 0.28,
+    "r": 0.17
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "terminal",
+    "label": "6-pin mini-DIN",
+    "note": "Keyed so it only goes in one way \u2014 which you discovered by feel, under a desk."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Keyboard controller",
+    "role": "controller",
+    "note": "Scans the key matrix and clocks each keypress out one bit at a time."
+   }
+  ]
+ },
+ "1991-568-cat5": {
+  "family": "twisted",
+  "signal": {
+   "kind": "differential",
+   "label": "Structured cabling",
+   "speed": 0.78
+  },
+  "tagline": "One standard socket for any building, any vendor.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Rip cord + separator",
+    "material": "aramid",
+    "r": 0.86,
+    "pattern": "weave",
+    "note": "The string you pull to split the jacket without nicking the pairs."
+   }
+  ],
+  "pairs": {
+   "count": 4,
+   "colors": [
+    "#3fbfd4",
+    "#e8913a",
+    "#46c98b",
+    "#ef5f5f"
+   ],
+   "ring": 0.5,
+   "r": 0.19,
+   "twist": true
+  },
+  "connectors": [
+   {
+    "kind": "rj45",
+    "label": "RJ45 (8P8C)",
+    "note": "The standard that made structured cabling interchangeable."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Ethernet PHY",
+    "role": "phy",
+    "note": ""
+   }
+  ]
+ },
+ "1995-fast-ethernet": {
+  "family": "twisted",
+  "signal": {
+   "kind": "differential",
+   "label": "100 Mb/s",
+   "speed": 0.86
+  },
+  "tagline": "Ten times faster on the same four pairs \u2014 by twisting tighter.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Pair separator",
+    "material": "teflon",
+    "r": 0.86,
+    "pattern": "solid",
+    "note": "Each pair gets a different twist rate so neighbours do not couple."
+   }
+  ],
+  "pairs": {
+   "count": 4,
+   "colors": [
+    "#3fbfd4",
+    "#e8913a",
+    "#46c98b",
+    "#ef5f5f"
+   ],
+   "ring": 0.5,
+   "r": 0.19,
+   "twist": true
+  },
+  "connectors": [
+   {
+    "kind": "rj45",
+    "label": "RJ45 (8P8C)",
+    "note": ""
+   }
+  ],
+  "chips": [
+   {
+    "label": "100BASE-TX PHY",
+    "role": "phy",
+    "note": "Encodes data so the signal stays inside the cable's bandwidth."
+   }
+  ]
+ },
+ "1995-firewire": {
+  "family": "usb",
+  "signal": {
+   "kind": "differential",
+   "label": "400 Mb/s peer-to-peer",
+   "speed": 0.9
+  },
+  "tagline": "Faster than USB, and devices could talk to each other without a PC.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Overall braid",
+    "material": "braid",
+    "r": 0.9,
+    "pattern": "braid",
+    "note": ""
+   }
+  ],
+  "bundle": [
+   {
+    "label": "TPA signal pair",
+    "material": "copper",
+    "cx": -0.3,
+    "cy": -0.26,
+    "r": 0.18,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "TPB signal pair",
+    "material": "copper",
+    "cx": 0.3,
+    "cy": -0.26,
+    "r": 0.18,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "Power (up to 30 V)",
+    "material": "copper-lit",
+    "cx": -0.28,
+    "cy": 0.28,
+    "r": 0.17
+   },
+   {
+    "label": "Ground",
+    "material": "tinned",
+    "cx": 0.28,
+    "cy": 0.28,
+    "r": 0.17
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "usb-a",
+    "label": "IEEE 1394 6-pin",
+    "note": "Carried bus power, so a camcorder could run off the cable."
+   }
+  ],
+  "chips": [
+   {
+    "label": "1394 link/PHY",
+    "role": "phy",
+    "note": "Every device is a peer with its own bus arbitration \u2014 no host computer required."
+   }
+  ]
+ },
+ "1996-usb1": {
+  "family": "usb",
+  "signal": {
+   "kind": "differential",
+   "label": "USB 1.0 \u00b7 12 Mb/s",
+   "speed": 0.7
+  },
+  "tagline": "One connector to replace serial, parallel, PS/2 and the rest.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.88,
+    "pattern": "braid",
+    "note": "Keeps USB's fast edges from radiating into your radio."
+   },
+   {
+    "label": "Aluminium foil",
+    "material": "foil",
+    "r": 0.78,
+    "pattern": "foil",
+    "note": "Foil catches the high frequencies the braid misses."
+   }
+  ],
+  "bundle": [
+   {
+    "label": "D+ / D\u2212 data pair",
+    "material": "copper",
+    "cx": -0.22,
+    "cy": 0.0,
+    "r": 0.2,
+    "pair": true
+   },
+   {
+    "label": "VBUS +5 V",
+    "material": "copper-lit",
+    "cx": 0.22,
+    "cy": -0.2,
+    "r": 0.16
+   },
+   {
+    "label": "Ground",
+    "material": "tinned",
+    "cx": 0.22,
+    "cy": 0.2,
+    "r": 0.16
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "usb-a",
+    "label": "USB Type-A",
+    "note": "Deliberately un-reversible \u2014 and famously hard to insert first try."
+   }
+  ],
+  "chips": [
+   {
+    "label": "USB controller",
+    "role": "controller",
+    "note": "Handles enumeration: the handshake where your PC asks 'what are you?'"
+   }
+  ]
+ },
+ "1997-docsis1": {
+  "family": "coax",
+  "signal": {
+   "kind": "rf",
+   "label": "DOCSIS RF",
+   "speed": 0.87
+  },
+  "tagline": "The TV cable learns to talk back.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.84,
+    "pattern": "braid",
+    "note": "60 % coverage braid over the foil."
+   },
+   {
+    "label": "Aluminium foil",
+    "material": "foil",
+    "r": 0.74,
+    "pattern": "foil",
+    "note": "Bonded foil \u2014 the primary shield against ingress."
+   },
+   {
+    "label": "Foamed polyethylene",
+    "material": "foam-pe",
+    "r": 0.64,
+    "pattern": "foam",
+    "note": "Mostly gas bubbles: lower loss than solid plastic."
+   },
+   {
+    "label": "Copper-clad steel core",
+    "material": "copper",
+    "r": 0.18,
+    "pattern": "solid",
+    "note": "Steel for strength, copper skin because RF only travels on the surface."
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "f-type",
+    "label": "F-type screw connector",
+    "note": "The centre conductor of the cable *is* the connector pin \u2014 no separate pin needed."
+   }
+  ],
+  "chips": [
+   {
+    "label": "DOCSIS modem SoC",
+    "role": "modem",
+    "note": "Tunes RF channels and turns them into IP packets."
+   }
+  ]
+ },
+ "1999-dvi": {
+  "family": "av",
+  "signal": {
+   "kind": "differential",
+   "label": "Digital TMDS",
+   "speed": 0.88
+  },
+  "tagline": "The bridge cable: digital pins and analogue pins in one shell.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Overall braid",
+    "material": "braid",
+    "r": 0.9,
+    "pattern": "braid",
+    "note": ""
+   }
+  ],
+  "bundle": [
+   {
+    "label": "TMDS pair 0",
+    "material": "copper",
+    "cx": -0.3,
+    "cy": -0.26,
+    "r": 0.17,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "TMDS pair 1",
+    "material": "copper",
+    "cx": 0.3,
+    "cy": -0.26,
+    "r": 0.17,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "TMDS pair 2",
+    "material": "copper",
+    "cx": -0.3,
+    "cy": 0.26,
+    "r": 0.17,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "Analogue RGB (DVI-I)",
+    "material": "tinned",
+    "cx": 0.3,
+    "cy": 0.26,
+    "r": 0.17
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "hdmi",
+    "label": "DVI-I dual link",
+    "note": "24 digital pins plus 4 analogue ones, so it could drive a VGA monitor through an adapter."
+   }
+  ],
+  "chips": [
+   {
+    "label": "TMDS transmitter",
+    "role": "phy",
+    "note": "The same signalling HDMI would adopt three years later."
+   }
+  ]
+ },
+ "2002-hdmi1": {
+  "family": "av",
+  "signal": {
+   "kind": "differential",
+   "label": "TMDS video",
+   "speed": 0.9
+  },
+  "tagline": "Video, audio and control down one plug.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Overall braid",
+    "material": "braid",
+    "r": 0.9,
+    "pattern": "braid",
+    "note": "A second shield around the whole bundle."
+   }
+  ],
+  "bundle": [
+   {
+    "label": "TMDS pair 0",
+    "material": "copper",
+    "cx": -0.3,
+    "cy": -0.26,
+    "r": 0.17,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "TMDS pair 1",
+    "material": "copper",
+    "cx": 0.3,
+    "cy": -0.26,
+    "r": 0.17,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "TMDS pair 2",
+    "material": "copper",
+    "cx": -0.3,
+    "cy": 0.26,
+    "r": 0.17,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "TMDS clock",
+    "material": "copper",
+    "cx": 0.3,
+    "cy": 0.26,
+    "r": 0.17,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "DDC / CEC / power",
+    "material": "tinned",
+    "cx": 0.0,
+    "cy": 0.0,
+    "r": 0.15
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "hdmi",
+    "label": "HDMI Type-A",
+    "note": "19 pins: three video pairs, a clock, and a control channel."
+   }
+  ],
+  "chips": [
+   {
+    "label": "TMDS transmitter",
+    "role": "phy",
+    "note": "Serialises each colour channel and scrambles it to keep the signal balanced."
+   }
+  ]
+ },
+ "2002-cat6": {
+  "family": "twisted",
+  "signal": {
+   "kind": "differential",
+   "label": "1 Gb/s",
+   "speed": 0.9
+  },
+  "tagline": "A plastic spine down the middle to keep the four pairs apart.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Cross-filler spine",
+    "material": "teflon",
+    "r": 0.88,
+    "pattern": "solid",
+    "note": "An X-shaped plastic spline holding each pair in its own quadrant \u2014 the visual signature of Cat6."
+   }
+  ],
+  "pairs": {
+   "count": 4,
+   "colors": [
+    "#3fbfd4",
+    "#e8913a",
+    "#46c98b",
+    "#ef5f5f"
+   ],
+   "ring": 0.52,
+   "r": 0.19,
+   "twist": true
+  },
+  "connectors": [
+   {
+    "kind": "rj45",
+    "label": "RJ45 (8P8C)",
+    "note": ""
+   }
+  ],
+  "chips": [
+   {
+    "label": "Gigabit PHY",
+    "role": "phy",
+    "note": "Runs all four pairs at once, in both directions simultaneously, and cancels its own echo."
+   }
+  ]
+ },
+ "2003-sata": {
+  "family": "serial",
+  "signal": {
+   "kind": "differential",
+   "label": "1.5\u20136 Gb/s serial",
+   "speed": 0.95
+  },
+  "tagline": "Seven wires beat forty: serial won because parallel ran out of road.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Foil + drain",
+    "material": "foil",
+    "r": 0.86,
+    "pattern": "foil",
+    "note": "Each pair individually wrapped \u2014 at 6 GHz the pairs must not hear each other."
+   }
+  ],
+  "bundle": [
+   {
+    "label": "Transmit pair (A+/A\u2212)",
+    "material": "copper",
+    "cx": -0.32,
+    "cy": 0.0,
+    "r": 0.22,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "Receive pair (B+/B\u2212)",
+    "material": "copper",
+    "cx": 0.32,
+    "cy": 0.0,
+    "r": 0.22,
+    "pair": true,
+    "shielded": true
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "usb-a",
+    "label": "SATA 7-pin",
+    "note": "L-shaped so it only fits one way. Three grounds separate the two pairs."
+   }
+  ],
+  "chips": [
+   {
+    "label": "SATA PHY",
+    "role": "phy",
+    "note": "Serialises at 6 GHz \u2014 far past the point where 40 parallel wires could stay in step."
+   }
+  ]
+ },
+ "2003-poe": {
+  "family": "twisted",
+  "signal": {
+   "kind": "differential",
+   "label": "Data + 48 V DC",
+   "speed": 0.88
+  },
+  "tagline": "One cable that carries the network *and* runs the device off it.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Pair separator",
+    "material": "teflon",
+    "r": 0.88,
+    "pattern": "solid",
+    "note": ""
+   }
+  ],
+  "pairs": {
+   "count": 4,
+   "colors": [
+    "#3fbfd4",
+    "#e8913a",
+    "#46c98b",
+    "#ef5f5f"
+   ],
+   "ring": 0.52,
+   "r": 0.19,
+   "twist": true
+  },
+  "connectors": [
+   {
+    "kind": "rj45",
+    "label": "RJ45 (8P8C)",
+    "note": "Identical plug to plain Ethernet \u2014 the power is negotiated, not wired in."
+   }
+  ],
+  "chips": [
+   {
+    "label": "PoE controller (PSE/PD)",
+    "role": "controller",
+    "note": "The switch probes for a known resistance before it dares apply 48 V, so it never fries a laptop."
+   }
+  ]
+ },
+ "2006-displayport": {
+  "family": "av",
+  "signal": {
+   "kind": "differential",
+   "label": "Packetised video",
+   "speed": 0.97
+  },
+  "tagline": "Video as data packets, not as a scanning beam.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Overall braid",
+    "material": "braid",
+    "r": 0.91,
+    "pattern": "braid",
+    "note": ""
+   },
+   {
+    "label": "Foil shield",
+    "material": "foil",
+    "r": 0.84,
+    "pattern": "foil",
+    "note": ""
+   }
+  ],
+  "bundle": [
+   {
+    "label": "Main lane 0",
+    "material": "copper",
+    "cx": -0.32,
+    "cy": -0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "Main lane 1",
+    "material": "copper",
+    "cx": 0.32,
+    "cy": -0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "Main lane 2",
+    "material": "copper",
+    "cx": -0.32,
+    "cy": 0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "Main lane 3",
+    "material": "copper",
+    "cx": 0.32,
+    "cy": 0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "AUX channel + power",
+    "material": "tinned",
+    "cx": 0.0,
+    "cy": 0.0,
+    "r": 0.14
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "hdmi",
+    "label": "DisplayPort",
+    "note": "A latching plug \u2014 squeeze the release or you will pull your monitor off the desk."
+   }
+  ],
+  "chips": [
+   {
+    "label": "DisplayPort transmitter",
+    "role": "phy",
+    "note": "Chops the image into micro-packets, so one cable can drive several monitors in a chain."
+   }
+  ]
+ },
+ "2006-10gbase-t": {
+  "family": "twisted",
+  "signal": {
+   "kind": "differential",
+   "label": "10 Gb/s",
+   "speed": 0.96
+  },
+  "tagline": "Ten gigabits over twisted copper \u2014 an idea most engineers called impossible.",
+  "layers": [
+   {
+    "label": "LSZH jacket",
+    "material": "lszh",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Overall braid",
+    "material": "braid",
+    "r": 0.9,
+    "pattern": "braid",
+    "note": "Cat6a adds shielding to fight alien crosstalk \u2014 interference from the cable lying next to it."
+   },
+   {
+    "label": "Cross-filler spine",
+    "material": "teflon",
+    "r": 0.8,
+    "pattern": "solid",
+    "note": ""
+   }
+  ],
+  "pairs": {
+   "count": 4,
+   "colors": [
+    "#3fbfd4",
+    "#e8913a",
+    "#46c98b",
+    "#ef5f5f"
+   ],
+   "ring": 0.5,
+   "r": 0.18,
+   "twist": true
+  },
+  "connectors": [
+   {
+    "kind": "rj45",
+    "label": "Shielded RJ45",
+    "note": ""
+   }
+  ],
+  "chips": [
+   {
+    "label": "10GBASE-T DSP",
+    "role": "dsp",
+    "note": "Burns several watts running error correction and echo cancellation just to keep the link alive."
+   }
+  ]
+ },
+ "2008-usb3": {
+  "family": "usb",
+  "signal": {
+   "kind": "differential",
+   "label": "SuperSpeed \u00b7 5 Gb/s",
+   "speed": 0.94
+  },
+  "tagline": "Two extra shielded pairs bolted onto USB 2.0, one each way.",
+  "layers": [
+   {
+    "label": "PVC jacket",
+    "material": "pvc",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.9,
+    "pattern": "braid",
+    "note": ""
+   },
+   {
+    "label": "Aluminium foil",
+    "material": "foil",
+    "r": 0.82,
+    "pattern": "foil",
+    "note": ""
+   }
+  ],
+  "bundle": [
+   {
+    "label": "SuperSpeed TX pair",
+    "material": "copper",
+    "cx": -0.3,
+    "cy": -0.24,
+    "r": 0.18,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "SuperSpeed RX pair",
+    "material": "copper",
+    "cx": 0.3,
+    "cy": -0.24,
+    "r": 0.18,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "USB 2.0 D+/D\u2212 pair",
+    "material": "copper",
+    "cx": -0.28,
+    "cy": 0.28,
+    "r": 0.16,
+    "pair": true
+   },
+   {
+    "label": "VBUS + GND",
+    "material": "copper-lit",
+    "cx": 0.28,
+    "cy": 0.28,
+    "r": 0.16
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "usb-a",
+    "label": "USB 3.0 Type-A",
+    "note": "Five extra contacts set deeper in the shell \u2014 which is why the plug is blue."
+   }
+  ],
+  "chips": [
+   {
+    "label": "SuperSpeed PHY",
+    "role": "phy",
+    "note": "Recovers a 5 GHz clock from the data stream itself."
+   }
+  ]
+ },
+ "2011-thunderbolt": {
+  "family": "usb",
+  "signal": {
+   "kind": "differential",
+   "label": "10\u201340 Gb/s",
+   "speed": 1.0
+  },
+  "tagline": "PCI Express, stretched down a cable \u2014 your GPU on the end of a wire.",
+  "layers": [
+   {
+    "label": "TPE jacket",
+    "material": "lszh",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.91,
+    "pattern": "braid",
+    "note": ""
+   },
+   {
+    "label": "Foil shield",
+    "material": "foil",
+    "r": 0.84,
+    "pattern": "foil",
+    "note": ""
+   }
+  ],
+  "bundle": [
+   {
+    "label": "Lane 1 TX/RX",
+    "material": "copper",
+    "cx": -0.32,
+    "cy": -0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "Lane 2 TX/RX",
+    "material": "copper",
+    "cx": 0.32,
+    "cy": -0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "Lane 3 TX/RX",
+    "material": "copper",
+    "cx": -0.32,
+    "cy": 0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "Bus power",
+    "material": "copper-lit",
+    "cx": 0.32,
+    "cy": 0.26,
+    "r": 0.16
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "usb-c",
+    "label": "Thunderbolt (USB-C shell)",
+    "note": "Same plug as USB-C, but only certified cables carry the full 40 Gb/s."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Thunderbolt retimer",
+    "role": "retimer",
+    "note": "An active chip in each plug that receives the signal, cleans it, and re-sends it \u2014 without it the cable could only be a few centimetres long."
+   },
+   {
+    "label": "E-marker IC",
+    "role": "emarker",
+    "note": "Tells the host this is a 40 Gb/s cable and not a charging lead."
+   }
+  ]
+ },
+ "2012-lightning": {
+  "family": "usb",
+  "signal": {
+   "kind": "differential",
+   "label": "USB 2.0 \u00b7 480 Mb/s",
+   "speed": 0.7
+  },
+  "tagline": "The first reversible phone plug \u2014 with a chip that decides what each pin does.",
+  "layers": [
+   {
+    "label": "TPE jacket",
+    "material": "lszh",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.88,
+    "pattern": "braid",
+    "note": ""
+   }
+  ],
+  "bundle": [
+   {
+    "label": "USB D+/D\u2212 pair",
+    "material": "copper",
+    "cx": -0.28,
+    "cy": -0.22,
+    "r": 0.2,
+    "pair": true
+   },
+   {
+    "label": "Power",
+    "material": "copper-lit",
+    "cx": 0.3,
+    "cy": -0.22,
+    "r": 0.17
+   },
+   {
+    "label": "Accessory ID",
+    "material": "tinned",
+    "cx": -0.28,
+    "cy": 0.28,
+    "r": 0.16
+   },
+   {
+    "label": "Ground",
+    "material": "tinned",
+    "cx": 0.3,
+    "cy": 0.28,
+    "r": 0.16
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "usb-c",
+    "label": "Lightning 8-pin",
+    "note": "Reversible because the plug's chip re-assigns the pins depending on which way up it went in."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Authentication IC",
+    "role": "emarker",
+    "note": "Apple's MFi chip. If it is missing or cloned, the phone refuses the cable \u2014 the reason third-party leads suddenly stopped working after updates."
+   }
+  ]
+ },
+ "2014-usbc": {
+  "family": "usb",
+  "signal": {
+   "kind": "differential",
+   "label": "USB-C \u00b7 up to 40 Gb/s",
+   "speed": 1.0
+  },
+  "tagline": "Reversible, 100 W capable \u2014 and the first cable with a brain inside the plug.",
+  "layers": [
+   {
+    "label": "TPE jacket",
+    "material": "lszh",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.91,
+    "pattern": "braid",
+    "note": ""
+   },
+   {
+    "label": "Aluminium foil",
+    "material": "foil",
+    "r": 0.84,
+    "pattern": "foil",
+    "note": ""
+   }
+  ],
+  "bundle": [
+   {
+    "label": "TX1 pair",
+    "material": "copper",
+    "cx": -0.32,
+    "cy": -0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "RX1 pair",
+    "material": "copper",
+    "cx": 0.32,
+    "cy": -0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "TX2 pair",
+    "material": "copper",
+    "cx": -0.32,
+    "cy": 0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "RX2 pair",
+    "material": "copper",
+    "cx": 0.32,
+    "cy": 0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "VBUS (up to 5 A)",
+    "material": "copper-lit",
+    "cx": 0.0,
+    "cy": -0.3,
+    "r": 0.15
+   },
+   {
+    "label": "CC / SBU signal wires",
+    "material": "tinned",
+    "cx": 0.0,
+    "cy": 0.0,
+    "r": 0.12
+   },
+   {
+    "label": "Ground",
+    "material": "tinned",
+    "cx": 0.0,
+    "cy": 0.3,
+    "r": 0.15
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "usb-c",
+    "label": "USB Type-C",
+    "note": "24 contacts, mirrored top and bottom, so it works either way up."
+   }
+  ],
+  "chips": [
+   {
+    "label": "E-marker IC",
+    "role": "emarker",
+    "note": "A real chip moulded into the plug. The charger asks it how much current the cable can survive \u2014 that is why a cheap cable charges your laptop slowly."
+   },
+   {
+    "label": "Retimer",
+    "role": "retimer",
+    "note": "In long high-speed cables, it cleans up and re-transmits the signal mid-flight."
+   }
+  ]
+ },
+ "2017-8023bs": {
+  "family": "fiber",
+  "signal": {
+   "kind": "light",
+   "label": "400 Gb/s optical",
+   "speed": 1.0
+  },
+  "tagline": "Eight fibres in parallel, 50 Gb/s on each.",
+  "layers": [
+   {
+    "label": "LSZH jacket",
+    "material": "lszh",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": "Low-smoke zero-halogen \u2014 it will not poison a data hall if it burns."
+   },
+   {
+    "label": "Aramid yarn",
+    "material": "aramid",
+    "r": 0.88,
+    "pattern": "weave",
+    "note": ""
+   },
+   {
+    "label": "Ribbon matrix",
+    "material": "coating",
+    "r": 0.72,
+    "pattern": "solid",
+    "note": "Fibres bonded side by side in a flat ribbon so all eight terminate at once."
+   }
+  ],
+  "cores": {
+   "count": 8,
+   "material": "glass",
+   "r": 0.05,
+   "ring": 0.34,
+   "row": true
+  },
+  "connectors": [
+   {
+    "kind": "mpo",
+    "label": "MPO/MTP ribbon connector",
+    "note": "Twelve fibres land in one push-on ferrule, aligned by two steel guide pins."
+   }
+  ],
+  "chips": [
+   {
+    "label": "DSP + optical engine",
+    "role": "dsp",
+    "note": "A digital signal processor drives eight lasers and un-smears what comes back."
+   }
+  ]
+ },
+ "2019-usb4": {
+  "family": "usb",
+  "signal": {
+   "kind": "differential",
+   "label": "40 Gb/s tunnelled",
+   "speed": 1.0
+  },
+  "tagline": "One cable that carries USB, DisplayPort and PCIe at the same time, in shares.",
+  "layers": [
+   {
+    "label": "TPE jacket",
+    "material": "lszh",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.91,
+    "pattern": "braid",
+    "note": ""
+   },
+   {
+    "label": "Foil shield",
+    "material": "foil",
+    "r": 0.84,
+    "pattern": "foil",
+    "note": ""
+   }
+  ],
+  "bundle": [
+   {
+    "label": "TX/RX lane pair 1",
+    "material": "copper",
+    "cx": -0.32,
+    "cy": -0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "TX/RX lane pair 2",
+    "material": "copper",
+    "cx": 0.32,
+    "cy": -0.26,
+    "r": 0.16,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "USB 2.0 fallback pair",
+    "material": "copper",
+    "cx": -0.32,
+    "cy": 0.26,
+    "r": 0.15,
+    "pair": true
+   },
+   {
+    "label": "VBUS + CC",
+    "material": "copper-lit",
+    "cx": 0.32,
+    "cy": 0.26,
+    "r": 0.16
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "usb-c",
+    "label": "USB Type-C",
+    "note": ""
+   }
+  ],
+  "chips": [
+   {
+    "label": "USB4 router",
+    "role": "controller",
+    "note": "Splits the cable's bandwidth on the fly \u2014 give the monitor more, the SSD gets less."
+   },
+   {
+    "label": "E-marker IC",
+    "role": "emarker",
+    "note": "Declares speed and wattage so the host knows what the cable can actually do."
+   }
+  ]
+ },
+ "2020-800g": {
+  "family": "fiber",
+  "signal": {
+   "kind": "light",
+   "label": "Coherent DWDM",
+   "speed": 1.0
+  },
+  "tagline": "Colour, phase and polarisation all carry data at once.",
+  "layers": [
+   {
+    "label": "LSZH jacket",
+    "material": "lszh",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Aramid strength",
+    "material": "aramid",
+    "r": 0.88,
+    "pattern": "weave",
+    "note": ""
+   },
+   {
+    "label": "Buffer tube",
+    "material": "coating",
+    "r": 0.74,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Cladding",
+    "material": "cladding",
+    "r": 0.5,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Single-mode core",
+    "material": "glass",
+    "r": 0.22,
+    "pattern": "solid",
+    "note": "Only ~9 \u00b5m across \u2014 narrow enough that light travels one single path."
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "lc-fiber",
+    "label": "LC duplex connector",
+    "note": "A latching ceramic ferrule; one fibre out, one fibre back."
+   }
+  ],
+  "chips": [
+   {
+    "label": "Coherent DSP",
+    "role": "dsp",
+    "note": "Measures the light's phase and polarisation, then undoes the distortion of 1 000 km of glass \u2014 billions of operations per second."
+   }
+  ]
+ },
+ "2024-eu-usbc": {
+  "family": "usb",
+  "signal": {
+   "kind": "differential",
+   "label": "USB-C PD",
+   "speed": 1.0
+  },
+  "tagline": "One charger for everything, by law.",
+  "layers": [
+   {
+    "label": "TPE jacket",
+    "material": "lszh",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Braided shield",
+    "material": "braid",
+    "r": 0.91,
+    "pattern": "braid",
+    "note": ""
+   },
+   {
+    "label": "Aluminium foil",
+    "material": "foil",
+    "r": 0.84,
+    "pattern": "foil",
+    "note": ""
+   }
+  ],
+  "bundle": [
+   {
+    "label": "High-speed pairs",
+    "material": "copper",
+    "cx": -0.3,
+    "cy": -0.24,
+    "r": 0.17,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "High-speed pairs",
+    "material": "copper",
+    "cx": 0.3,
+    "cy": -0.24,
+    "r": 0.17,
+    "pair": true,
+    "shielded": true
+   },
+   {
+    "label": "VBUS (up to 240 W)",
+    "material": "copper-lit",
+    "cx": -0.28,
+    "cy": 0.28,
+    "r": 0.18
+   },
+   {
+    "label": "CC configuration wires",
+    "material": "tinned",
+    "cx": 0.28,
+    "cy": 0.28,
+    "r": 0.15
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "usb-c",
+    "label": "USB Type-C",
+    "note": "The connector the EU made mandatory for phones, tablets and cameras."
+   }
+  ],
+  "chips": [
+   {
+    "label": "E-marker IC",
+    "role": "emarker",
+    "note": "Declares the cable's wattage and speed rating. Required for anything above 60 W."
+   }
+  ]
+ },
+ "2020s-self-healing": {
+  "family": "smart",
+  "signal": {
+   "kind": "current",
+   "label": "Self-repairing link",
+   "speed": 0.8
+  },
+  "tagline": "Cut it, and the insulation grows back.",
+  "layers": [
+   {
+    "label": "Elastomer jacket",
+    "material": "lszh",
+    "r": 1.0,
+    "pattern": "solid",
+    "note": ""
+   },
+   {
+    "label": "Microcapsule layer",
+    "material": "capsule",
+    "r": 0.86,
+    "pattern": "foam",
+    "note": "Tiny capsules of healing agent. A tear ruptures them and the liquid floods the gap and sets."
+   },
+   {
+    "label": "Self-healing polymer",
+    "material": "polymer",
+    "r": 0.7,
+    "pattern": "solid",
+    "note": "Reversible bonds re-form across a cut when the two faces touch again."
+   },
+   {
+    "label": "Conductive core",
+    "material": "copper",
+    "r": 0.3,
+    "pattern": "solid",
+    "note": "Some designs use a liquid-metal core that simply flows back together."
+   }
+  ],
+  "connectors": [
+   {
+    "kind": "usb-c",
+    "label": "USB Type-C",
+    "note": ""
+   }
+  ],
+  "chips": [
+   {
+    "label": "Health-monitor IC",
+    "role": "monitor",
+    "note": "Watches resistance along the cable and reports damage before the link drops."
+   }
+  ]
+ }
+}

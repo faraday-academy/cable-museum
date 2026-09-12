@@ -1,0 +1,87 @@
+// ─────────────────────────────────────────────────────────────
+//  CABLE MUSEUM — DESIGN TOKENS
+//  Theme: "Abyss & Copper"
+//
+//  One warm hero accent (copper) against a cold deep-water base.
+//  Copper is scarce on purpose: it marks what is ACTIVE or what
+//  the visitor should touch next. Teal is the signal/data colour.
+//  Brass is for rewards, stamps and highlights.
+//
+//  Every colour in the app should come from this file. If you are
+//  about to type a hex code in a component, add a token instead.
+// ─────────────────────────────────────────────────────────────
+
+:root {
+  // ── Base: deep water ────────────────────────────────────────
+  --abyss:        #070b14; // page floor
+  --abyss-deep:   #04070e; // wells, insets, video letterbox
+  --surface:      #0f1724; // raised panel / card
+  --surface-2:    #16202f; // hover, secondary panel
+  --surface-3:    #1e2a3c; // highest panel, segmented track
+
+  // ── Hairlines (cool-tinted, never pure white) ───────────────
+  --line:         rgba(148, 180, 214, 0.12);
+  --line-strong:  rgba(148, 180, 214, 0.22);
+  --line-copper:  rgba(232, 145, 58, 0.38);
+
+  // ── Copper: the hero accent ─────────────────────────────────
+  --copper:        #e8913a;
+  --copper-bright: #ffae5c; // hover / focus
+  --copper-deep:   #b86b22; // pressed / shadow side
+  --copper-tint:   rgba(232, 145, 58, 0.14); // active fills
+  --copper-glow:   rgba(232, 145, 58, 0.34); // shadows, halos
+
+  // ── Teal: signal travelling down the wire ───────────────────
+  --teal:          #3fbfd4;
+  --teal-bright:   #6fd9ea;
+  --teal-tint:     rgba(63, 191, 212, 0.12);
+  --teal-glow:     rgba(63, 191, 212, 0.30);
+
+  // ── Brass: rewards, stamps, highlights ──────────────────────
+  --brass:         #f5d06f;
+  --brass-tint:    rgba(245, 208, 111, 0.14);
+
+  // ── Type ────────────────────────────────────────────────────
+  --text:          #e8edf5;
+  --text-muted:    #93a1b5;
+  --text-dim:      #64748b;
+  --text-on-accent:#1a1005; // sits on copper/brass fills
+
+  // ── Status ──────────────────────────────────────────────────
+  --success:       #46c98b;
+  --warning:       #f5b547;
+  --error:         #ef5f5f;
+  --info:          #3fbfd4;
+
+  // ── Material accents (used by the cable diagrams) ───────────
+  --mat-copper:    #b87333;
+  --mat-gutta:     #6b4f2a;
+  --mat-steel:     #9aa7b4;
+  --mat-glass:     #8fd8e8;
+
+  // ── Radii ───────────────────────────────────────────────────
+  --r-xs:  4px;
+  --r-sm:  6px;
+  --r-md:  10px;
+  --r-lg:  14px;
+  --r-xl:  20px;
+  --r-pill: 999px;
+
+  // ── Elevation — tight and dark, never soft grey blur ────────
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-2: 0 4px 16px rgba(0, 0, 0, 0.45);
+  --shadow-3: 0 12px 36px rgba(0, 0, 0, 0.55);
+  --shadow-copper: 0 4px 18px var(--copper-glow);
+  --shadow-teal:   0 4px 18px var(--teal-glow);
+
+  // ── Motion ──────────────────────────────────────────────────
+  --ease:     cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --t-fast:   140ms;
+  --t-med:    240ms;
+  --t-slow:   420ms;
+
+  // ── Type scale helpers ──────────────────────────────────────
+  --tracking-caps: 0.085em; // uppercase nav / labels
+  --tracking-tight: -0.02em; // display headings
+}

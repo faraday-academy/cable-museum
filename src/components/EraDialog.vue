@@ -12,8 +12,9 @@
 
       <v-tabs v-model="tab" color="primary">
         <v-tab value="overview">Overview</v-tab>
-        <v-tab value="cross-section" :disabled="!store.selectedEra?.crossSection">Cross-Section</v-tab>
-        <v-tab value="explorer">Explorer Mode</v-tab>
+        <v-tab value="history" :disabled="!history">History</v-tab>
+        <v-tab value="cross-section" :disabled="!spec">Cross-Section</v-tab>
+        <v-tab value="explorer">Signal Flow</v-tab>
       </v-tabs>
 
       <v-card-text>
@@ -25,7 +26,7 @@
                 <div v-if="store.selectedEra?.video" class="video rounded">
                   <iframe
                     :src="store.selectedEra?.video"
-                    title="Era video"
+                    :title="store.selectedEra?.videoTitle || 'Era video'"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
@@ -85,28 +86,25 @@
             </div>
           </v-window-item>
 
+          <v-window-item value="history">
+            <div class="pane">
+              <CableHistory v-if="history" :history="history" />
+            </div>
+          </v-window-item>
+
           <v-window-item value="cross-section">
-            <div class="cross-section">
-              <div class="text-subtitle-1 mb-4">Cable Cross-Section</div>
-              <div class="cross-svg" v-html="store.selectedEra?.crossSection?.svg"></div>
-              <div class="parts-list mt-4">
-                <div class="text-body-2 mb-2">Parts:</div>
-                <v-chip
-                  v-for="part in store.selectedEra?.crossSection?.parts"
-                  :key="part.name"
-                  size="small"
-                  :color="part.color"
-                  variant="outlined"
-                  class="me-2 mb-2"
-                >
-                  {{ part.name }}
-                </v-chip>
-              </div>
+            <div class="pane">
+              <p class="pane__tagline" v-if="spec">{{ spec.tagline }}</p>
+              <CableCrossSection v-if="spec" :spec="spec" :title="store.selectedEra?.title" />
+              <p v-else class="pane__empty">No construction data for this exhibit yet.</p>
             </div>
           </v-window-item>
 
           <v-window-item value="explorer">
-            <CableExplorer :era="store.selectedEra" />
+            <div class="pane">
+              <CableCutaway v-if="spec" :spec="spec" :title="store.selectedEra?.title" />
+              <CableExplorer v-else :era="store.selectedEra" />
+            </div>
           </v-window-item>
         </v-window>
       </v-card-text>
@@ -126,13 +124,24 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { useMuseumStore } from '@/stores/museum'
 import CableExplorer from './CableExplorer.vue'
+import CableCrossSection from './CableCrossSection.vue'
+import CableCutaway from './CableCutaway.vue'
+import CableHistory from './CableHistory.vue'
 import TriviaDialog from './TriviaDialog.vue'
 
 const store = useMuseumStore()
 const tab = ref('overview')
+
+/** Construction spec for the open era, if we have one. */
+const history = computed(() => store.selectedEra?.history ?? null)
+
+const spec = computed(() => {
+  const id = store.selectedEraId
+  return id ? store.cableSpecs[id] ?? null : null
+})
 const manualQuizOpen = ref(false)
 
 function withBase(path: string) {
@@ -149,14 +158,28 @@ watch(() => store.dialogOpen, (open: boolean) => {
 </script>
 
 <style scoped>
+.pane { padding: 4px 2px 8px; }
+
+.pane__tagline {
+  font-size: 1rem;
+  color: var(--text);
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 18px;
+  padding-left: 12px;
+  border-left: 3px solid var(--copper);
+}
+
+.pane__empty { color: var(--text-muted); }
+
 .grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px; }
-.video { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border: 1px solid rgba(255,255,255,.08); }
+.video { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border: 1px solid var(--line); }
 .video iframe { position: absolute; top:0; left:0; width:100%; height:100%; }
 .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
 .rounded { border-radius: 10px; overflow: hidden; }
 .years { opacity: .65; font-size: .9rem; margin-left: 8px; }
 .cross-section { text-align: center; }
-.cross-svg { display: inline-block; border: 1px solid rgba(255,255,255,.1); border-radius: 8px; padding: 20px; background: rgba(0,0,0,.05); }
+.cross-svg { display: inline-block; border: 1px solid var(--line); border-radius: 8px; padding: 20px; background: rgba(0,0,0,.05); }
 .parts-list { text-align: left; }
 @media (max-width: 940px){ .grid { grid-template-columns: 1fr; } .gallery { grid-template-columns: repeat(2, 1fr); } }
 </style>

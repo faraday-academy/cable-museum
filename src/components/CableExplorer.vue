@@ -32,7 +32,7 @@
           :cx="particle.x"
           :cy="particle.y"
           r="2"
-          fill="#22d3ee"
+          fill="var(--teal)"
           class="particle"
         />
       </svg>
@@ -130,7 +130,7 @@ onUnmounted(() => {
 
 <style scoped>
 .cable-explorer { text-align: center; }
-.explorer-container { cursor: pointer; display: inline-block; overflow: hidden; border-radius: 8px; border: 1px solid rgba(255,255,255,.1); }
+.explorer-container { cursor: pointer; display: inline-block; overflow: hidden; border-radius: 8px; border: 1px solid var(--line); }
 .explorer-svg { width: 400px; height: 400px; transition: transform 0.5s; }
 .zoomed { transform: scale(2); }
 .part-overlay { cursor: pointer; }

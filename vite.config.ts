@@ -17,8 +17,8 @@ export default defineConfig({
         name: 'Cable Museum',
         short_name: 'CableMuseum',
         description: 'A fun, animated digital museum of cables through time.',
-        theme_color: '#111827',
-        background_color: '#0b1020',
+        theme_color: '#070b14',
+        background_color: '#070b14',
         display: 'standalone',
         // PWA paths should match the base, *with* trailing slash
         start_url: '/cable-museum/',

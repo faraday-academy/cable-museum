@@ -1,23 +1,164 @@
 @use 'sass:color';
+@use './tokens';
 @import 'vuetify/styles';
 @import '@mdi/font/css/materialdesignicons.min.css';
 
 html, body, #app { height: 100%; }
-body { margin: 0; background: radial-gradient(1200px 800px at 20% 10%, rgba(34,211,238,.12), transparent 60%), radial-gradient(1200px 800px at 80% 90%, rgba(167,139,250,.12), transparent 60%), #0b1020; }
 
-.v-application { font-feature-settings: 'ss01' 1, 'cv01' 1; }
+body {
+  margin: 0;
+  color: var(--text);
+  // Cold depth: two faint currents of light through deep water.
+  // Low alpha on purpose — the base must stay dark so copper reads.
+  background:
+    radial-gradient(1100px 700px at 12% -5%, rgba(63, 191, 212, 0.10), transparent 62%),
+    radial-gradient(900px 600px at 92% 8%, rgba(232, 145, 58, 0.07), transparent 58%),
+    var(--abyss);
+  background-attachment: fixed;
+}
 
-// Fun accent animated border utility
-.fx-border {
-  position: relative;
+.v-application {
+  font-feature-settings: 'ss01' 1, 'cv01' 1, 'tnum' 0;
+  letter-spacing: normal;
 }
-.fx-border::after {
-  content: '';
-  position: absolute; inset: -1px;
-  border-radius: inherit;
-  background: linear-gradient(90deg, rgba(34,211,238,.6), rgba(167,139,250,.6), rgba(244,114,182,.6));
-  background-size: 200% 100%;
-  filter: blur(6px); opacity: .4; z-index: -1;
-  animation: fx-shift 12s linear infinite;
+
+// Vuetify paints its own surface over our gradient — let it through.
+.v-application__wrap,
+.v-main { background: transparent; }
+
+// ── Typography ────────────────────────────────────────────────
+h1, h2, h3, .display {
+  letter-spacing: var(--tracking-tight);
+  line-height: 1.1;
 }
-@keyframes fx-shift { from{ background-position-x: 0%; } to { background-position-x: 200%; } }
+
+// Numerals in a museum should line up in columns.
+.tnum,
+.year,
+.years,
+.era-year-badge { font-variant-numeric: tabular-nums; }
+
+// ── The one gradient we allow, and it does NOT rotate hue ─────
+// (The old version spun through all 360° of hue, so the title was
+//  almost never actually on-palette. Static copper→brass instead.)
+.gradient-text {
+  background: linear-gradient(96deg, var(--copper) 0%, var(--brass) 46%, var(--teal) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+// ── Small caps label, used for nav + section eyebrows ─────────
+.eyebrow {
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: var(--tracking-caps);
+  color: var(--text-dim);
+}
+
+// ── Focus ring: copper, visible, keyboard-only ────────────────
+:focus-visible {
+  outline: 2px solid var(--copper);
+  outline-offset: 2px;
+  border-radius: var(--r-xs);
+}
+
+// ── Scrollbars tuned to the theme ─────────────────────────────
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--surface-3) transparent;
+}
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb {
+  background: var(--surface-3);
+  border-radius: var(--r-pill);
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+*::-webkit-scrollbar-thumb:hover { background: var(--copper-deep); background-clip: content-box; }
+
+::selection { background: var(--copper); color: var(--text-on-accent); }
+
+// ── Shared surface treatments ─────────────────────────────────
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+}
+
+// Hairline that fades out at both ends — reads sharper than a
+// full-width divider on dark backgrounds.
+.rule-fade {
+  height: 1px;
+  border: 0;
+  background: linear-gradient(90deg, transparent, var(--line-strong) 18%, var(--line-strong) 82%, transparent);
+}
+
+// ── Segmented control (replaces outlined button toggles) ──────
+// One track, one moving highlight — no boxes around each option.
+.segmented {
+  display: inline-flex;
+  padding: 3px;
+  gap: 2px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: var(--r-pill);
+}
+
+.segmented__btn {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: var(--r-pill);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  transition: color var(--t-fast) var(--ease), background-color var(--t-fast) var(--ease);
+}
+
+.segmented__btn:hover { color: var(--text); }
+
+.segmented__btn.is-active {
+  background: var(--copper-tint);
+  color: var(--copper-bright);
+  box-shadow: inset 0 0 0 1px var(--line-copper);
+}
+
+// ── Vuetify component nudges ──────────────────────────────────
+// Sharper corners + our hairlines, applied once instead of per file.
+.v-card {
+  border-radius: var(--r-lg) !important;
+  background: var(--surface) !important;
+  border: 1px solid var(--line);
+}
+
+.v-btn {
+  text-transform: none;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  border-radius: var(--r-md);
+}
+
+.v-chip { font-weight: 600; }
+
+.v-overlay__scrim { backdrop-filter: blur(3px); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

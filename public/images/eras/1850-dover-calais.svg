@@ -1,6 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <rect width="100" height="100" fill="#e0f7ff"/>
-  <path d="M20 50 Q50 30 80 50 Q50 70 20 50" stroke="#b87333" stroke-width="3" fill="none"/>
-  <circle cx="50" cy="50" r="2" fill="#b87333"/>
-  <text x="50" y="85" text-anchor="middle" font-size="8" fill="#333">Dover-Calais</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 90" width="160" height="90" role="img">
+<title>One copper wire, wrapped in tree sap, dropped in the Channel.</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#101b2b"/><stop offset="100%" stop-color="#070b14"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/><stop offset="45%" stop-color="#ffffff" stop-opacity="0.02"/><stop offset="100%" stop-color="#000000" stop-opacity="0.22"/></linearGradient>
+</defs>
+<rect width="160" height="90" fill="url(#bg)"/>
+<rect x="0" y="49.5" width="108" height="17" fill="#7d8894"/>
+<rect x="26" y="51.9" width="82" height="12.2" fill="#8a6b45"/>
+<path d="M26 51.9 a 3 6.1 0 0 0 0 12.2" fill="#5f4930" opacity="0.85"/>
+<rect x="44" y="53.6" width="64" height="8.8" fill="#6b4f2a"/>
+<path d="M44 53.6 a 3 4.4 0 0 0 0 8.8" fill="#4a3619" opacity="0.85"/>
+<rect x="62" y="55.6" width="46" height="4.8" fill="#b87333"/>
+<path d="M62 55.6 a 3 2.4 0 0 0 0 4.8" fill="#8a5524" opacity="0.85"/>
+<rect x="80" y="56.4" width="28" height="3.3" fill="#e8913a"/>
+<rect x="0" y="49.5" width="108" height="17" fill="url(#sheen)"/>
+<g transform="translate(132.00,58.00)"><rect x="-18.70" y="-8.50" width="12.75" height="17.00" rx="1.36" fill="#3a2c1c" stroke="#241a10" stroke-width="0.85"/><circle cx="-12.24" cy="0" r="4.76" fill="#f5d06f" stroke="#c0a047" stroke-width="0.85"/><rect x="-14.62" y="-0.77" width="4.76" height="1.53" fill="#c0a047"/></g>
+<circle cx="30" cy="26" r="22.5" fill="#070b14" stroke="#1e2a3c" stroke-width="1"/>
+    <circle cx="30.00" cy="26.00" r="20.00" fill="#7d8894" stroke="#586471" stroke-width="0.60"/>
+    <circle cx="30.00" cy="8.00" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="36.89" cy="9.37" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="42.73" cy="13.27" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="46.63" cy="19.11" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="48.00" cy="26.00" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="46.63" cy="32.89" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="42.73" cy="38.73" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="36.89" cy="42.63" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="30.00" cy="44.00" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="23.11" cy="42.63" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="17.27" cy="38.73" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="13.37" cy="32.89" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="12.00" cy="26.00" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="13.37" cy="19.11" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="17.27" cy="13.27" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="23.11" cy="9.37" r="1.24" fill="#a7b2bd" stroke="#586471" stroke-width="0.5"/>
+    <circle cx="30.00" cy="26.00" r="14.40" fill="#8a6b45" stroke="#5f4930" stroke-width="0.60"/>
+    <circle cx="30.00" cy="12.75" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="34.09" cy="13.40" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="37.79" cy="15.28" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="40.72" cy="18.21" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="42.60" cy="21.91" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="43.25" cy="26.00" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="42.60" cy="30.09" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="40.72" cy="33.79" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="37.79" cy="36.72" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="34.09" cy="38.60" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="30.00" cy="39.25" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="25.91" cy="38.60" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="22.21" cy="36.72" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="19.28" cy="33.79" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="17.40" cy="30.09" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="16.75" cy="26.00" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="17.40" cy="21.91" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="19.28" cy="18.21" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="22.21" cy="15.28" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="25.91" cy="13.40" r="0.52" fill="#ab8a60" opacity="0.55"/>
+    <circle cx="30.00" cy="26.00" r="10.40" fill="#6b4f2a" stroke="#4a3619" stroke-width="0.60"/>
+    <circle cx="30.00" cy="26.00" r="4.80" fill="#b87333" stroke="#8a5524" stroke-width="0.60"/>
+<circle cx="30" cy="26" r="20" fill="none" stroke="#000" stroke-opacity="0.35" stroke-width="0.8"/>
+<path d="M53 32 L66 46" stroke="#3fbfd4" stroke-width="0.9" opacity="0.55"/>
+<text x="155" y="12" text-anchor="end" font-family="ui-sans-serif,system-ui,sans-serif" font-size="7.5" font-weight="700" fill="#93a1b5" letter-spacing="0.6">4 LAYERS</text>
 </svg>
