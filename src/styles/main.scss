@@ -1,7 +1,8 @@
 @use 'sass:color';
 @use './tokens';
 @import 'vuetify/styles';
-@import '@mdi/font/css/materialdesignicons.min.css';
+// The icon font is imported from main.ts, not here — see vite.config.ts
+// (mdiWoff2Only) for why it has to be a real module.
 
 html, body, #app { height: 100%; }
 

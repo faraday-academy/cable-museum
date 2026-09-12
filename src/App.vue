@@ -59,7 +59,7 @@
 
       <a
         class="topbar__github"
-        href="https://github.com/"
+        href="https://github.com/faraday-academy/cable-museum"
         target="_blank"
         rel="noopener"
         aria-label="View source on GitHub"
