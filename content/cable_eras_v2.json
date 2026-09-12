@@ -1,0 +1,3952 @@
+[
+ {
+  "id": "1850-dover-calais",
+  "title": "First Submarine Telegraph Cable (Dover–Calais)",
+  "years": "1850",
+  "summary": "The earliest operational undersea telegraph linked England and France.",
+  "keyAdvancement": "Undersea insulated copper conductors",
+  "image": "images/eras/1850-dover-calais.svg",
+  "video": "https://www.youtube.com/embed/PIQhA2h1ERY",
+  "facts": [
+   "Gutta-percha insulation protected copper in seawater.",
+   "Demonstrated feasibility of submarine links."
+  ],
+  "links": [
+   {
+    "label": "History of Submarine Telegraphy",
+    "href": "https://en.wikipedia.org/wiki/Submarine_communications_cable"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1850-dover-calais1.svg",
+   "images/gallery/1850-dover-calais2.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#b87333'/><circle cx='50' cy='50' r='40' fill='none' stroke='#000' stroke-width='2'/>",
+   "parts": [
+    {
+     "name": "Copper Conductor",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#b87333"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What insulated early submarine conductors?",
+    "options": [
+     "PVC",
+     "Gutta-percha",
+     "Polyethylene",
+     "Paper"
+    ],
+    "correct": 1,
+    "fact": "Gutta-percha was the standard underwater insulator for decades."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "England and France were minutes apart by signal fire and days apart by messenger. Nobody had ever run a working wire under the sea.",
+    "breakthrough": "Wrap a copper wire in gutta-percha — a tree latex that stays watertight in cold seawater — and armour it against the seabed.",
+    "legacy": "It proved undersea telegraphy was possible at all. Within twenty years the idea had wired the planet."
+   },
+   "milestones": [
+    {
+     "year": "1850",
+     "label": "First cable laid across the Channel — it failed within hours"
+    },
+    {
+     "year": "1851",
+     "label": "An armoured second attempt works and stays working"
+    },
+    {
+     "year": "1850s",
+     "label": "Gutta-percha becomes the standard undersea insulator"
+    },
+    {
+     "year": "1860s",
+     "label": "Channel model scaled up for the Atlantic"
+    },
+    {
+     "year": "today",
+     "label": "Fibre follows almost the same route"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "~8 bit/s"
+    },
+    {
+     "label": "Length",
+     "value": "40 km"
+    },
+    {
+     "label": "Conductor",
+     "value": "Single copper wire"
+    },
+    {
+     "label": "Still used",
+     "value": "No — historic"
+    }
+   ]
+  },
+  "bitrate": 8,
+  "sortYear": 1850,
+  "videoTitle": "Undersea Internet Cables — Everything You Need to Know"
+ },
+ {
+  "id": "1858-transatlantic",
+  "title": "First Transatlantic Telegraph Cable",
+  "years": "1858",
+  "summary": "Intercontinental telegraphy worked—briefly—proving the concept despite rapid signal loss.",
+  "keyAdvancement": "Intercontinental copper telegraphy",
+  "image": "images/eras/1858-transatlantic.svg",
+  "video": "https://www.youtube.com/embed/D4myQVdvfTY",
+  "facts": [
+   "Queen Victoria exchanged messages with President Buchanan.",
+   "High voltages degraded the cable quickly."
+  ],
+  "links": [
+   {
+    "label": "1858 Atlantic Cable",
+    "href": "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1858-transatlantic1.svg",
+   "images/gallery/1858-transatlantic2.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#b87333'/><circle cx='50' cy='50' r='40' fill='none' stroke='#000' stroke-width='2'/>",
+   "parts": [
+    {
+     "name": "Copper Conductor",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#b87333"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "Why did the 1858 cable fail after weeks?",
+    "options": [
+     "Shark bites",
+     "Manufacturing defect",
+     "Over‑voltage damage",
+     "Anchor strikes"
+    ],
+    "correct": 2,
+    "fact": "High test voltages damaged the insulation, dooming the first attempt."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "A message to America took ten days by ship. Business, diplomacy and news all moved at the speed of the Atlantic crossing.",
+    "breakthrough": "2 500 miles of armoured cable dragged across the ocean floor by two warships meeting in mid-Atlantic.",
+    "legacy": "It worked for three weeks, then died — but Queen Victoria had messaged President Buchanan, and the world had seen it was possible."
+   },
+   "milestones": [
+    {
+     "year": "1857",
+     "label": "First laying attempt fails when the cable snaps"
+    },
+    {
+     "year": "1858",
+     "label": "Cable completed; Victoria messages Buchanan"
+    },
+    {
+     "year": "1858",
+     "label": "Excessive voltage destroys the insulation in weeks"
+    },
+    {
+     "year": "1865",
+     "label": "Brunel's Great Eastern attempts a heavier design"
+    },
+    {
+     "year": "1866",
+     "label": "A durable cable finally succeeds"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "~0.1 words/min"
+    },
+    {
+     "label": "Length",
+     "value": "3 200 km"
+    },
+    {
+     "label": "Lifespan",
+     "value": "3 weeks"
+    },
+    {
+     "label": "Still used",
+     "value": "No — historic"
+    }
+   ]
+  },
+  "bitrate": 8,
+  "sortYear": 1858,
+  "videoTitle": "Diving Deep into Submarine Cables"
+ },
+ {
+  "id": "1866-transatlantic",
+  "title": "Durable Transatlantic Telegraph Cable",
+  "years": "1866",
+  "summary": "A successful, reliable Atlantic link ushered in the true era of global telegraphy.",
+  "keyAdvancement": "Long‑lived undersea telegraph systems",
+  "image": "images/eras/1866-transatlantic.svg",
+  "video": "https://www.youtube.com/embed/1-A9dRXSZcw",
+  "facts": [
+   "Improved manufacture and operating practices fixed early issues.",
+   "Traffic soared across the Atlantic."
+  ],
+  "links": [
+   {
+    "label": "Atlantic Cable 1866",
+    "href": "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable#1866_cables"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1866-transatlantic1.svg",
+   "images/gallery/1866-transatlantic2.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#b87333'/><circle cx='50' cy='50' r='40' fill='none' stroke='#000' stroke-width='2'/>",
+   "parts": [
+    {
+     "name": "Copper Conductor",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#b87333"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What changed between 1858 and 1866?",
+    "options": [
+     "More ships",
+     "Better insulation & practices",
+     "Shorter route",
+     "Wireless repeaters"
+    ],
+    "correct": 1,
+    "fact": "Gentler electrical practice and better materials made the 1866 cable endure."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "The 1858 cable had failed publicly and expensively, and investors were sceptical that a permanent Atlantic link could exist.",
+    "breakthrough": "Heavier copper, four alternating layers of insulation, galvanised armour — and one ship, the Great Eastern, big enough to carry it all.",
+    "legacy": "It lasted decades. News that took ten days now took minutes, and the modern financial market became possible."
+   },
+   "milestones": [
+    {
+     "year": "1865",
+     "label": "Attempt fails; cable lost in deep water"
+    },
+    {
+     "year": "1866",
+     "label": "Great Eastern completes the crossing"
+    },
+    {
+     "year": "1866",
+     "label": "The lost 1865 cable is recovered and completed too"
+    },
+    {
+     "year": "1870s",
+     "label": "Cable networks reach India and Australia"
+    },
+    {
+     "year": "today",
+     "label": "The template for all submarine cable design"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "~8 words/min"
+    },
+    {
+     "label": "Length",
+     "value": "3 200 km"
+    },
+    {
+     "label": "Lifespan",
+     "value": "Decades"
+    },
+    {
+     "label": "Still used",
+     "value": "No — historic"
+    }
+   ]
+  },
+  "bitrate": 12,
+  "sortYear": 1866,
+  "videoTitle": "Underwater Cables: The Technology Connecting the World"
+ },
+ {
+  "id": "1876-first-telephone",
+  "title": "First Outdoor Two‑Way Telephone Call",
+  "years": "1876",
+  "summary": "Bell and Watson’s outdoor call demonstrated voice over wire networks.",
+  "keyAdvancement": "Analog voice over copper loops",
+  "image": "images/eras/1876-first-telephone.svg",
+  "facts": [
+   "Set the stage for rapid telephone expansion.",
+   "Early lines used simple iron/copper pairs."
+  ],
+  "links": [
+   {
+    "label": "Telephone history",
+    "href": "https://en.wikipedia.org/wiki/Telephone"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1876-first-telephone1.svg",
+   "images/gallery/1876-first-telephone2.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#b87333'/><circle cx='50' cy='50' r='40' fill='none' stroke='#000' stroke-width='2'/>",
+   "parts": [
+    {
+     "name": "Copper Conductor",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#b87333"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What improvement over telegraphy did telephone enable?",
+    "options": [
+     "Higher voltage",
+     "Voice transmission",
+     "Lower latency",
+     "Wireless operation"
+    ],
+    "correct": 1,
+    "fact": "Continuous analog waveforms carried intelligible speech."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "The telegraph could send letters, but only trained operators could use it, and it could never carry a human voice.",
+    "breakthrough": "A varying current that copies the shape of a sound wave, so the wire carries speech itself rather than coded symbols.",
+    "legacy": "It turned the wire from a professional instrument into a household object, and built the largest machine humans had ever made."
+   },
+   "milestones": [
+    {
+     "year": "1876",
+     "label": "Bell patents the telephone"
+    },
+    {
+     "year": "1876",
+     "label": "First outdoor two-way call over a real line"
+    },
+    {
+     "year": "1877",
+     "label": "First commercial telephone line installed"
+    },
+    {
+     "year": "1880s",
+     "label": "Exchanges and switchboards spread through cities"
+    },
+    {
+     "year": "today",
+     "label": "The copper local loop still reaches many homes"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Signal",
+     "value": "Analogue voice"
+    },
+    {
+     "label": "Conductor",
+     "value": "Iron line wire"
+    },
+    {
+     "label": "Range",
+     "value": "A few km"
+    },
+    {
+     "label": "Still used",
+     "value": "Principle, yes"
+    }
+   ]
+  },
+  "bitrate": 3000,
+  "sortYear": 1876
+ },
+ {
+  "id": "1878-phone-jack",
+  "title": "The ¼-inch Phone Jack",
+  "years": "1878",
+  "sortYear": 1878,
+  "summary": "A plug designed for telephone switchboards that is still in every guitar amp today.",
+  "keyAdvancement": "Fast, reusable audio connection",
+  "bitrate": 3000,
+  "facts": [
+   "Named 'phone jack' because it was literally for telephones.",
+   "The tip/ring/sleeve layout still names the contacts today."
+  ],
+  "links": [
+   {
+    "label": "Phone connector (audio)",
+    "href": "https://en.wikipedia.org/wiki/Phone_connector_(audio)"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Switchboard operators had to connect any caller to any other caller in seconds, thousands of times a day.",
+    "breakthrough": "A metal plug that could be jammed into a socket and yanked out one-handed, making and breaking a circuit instantly.",
+    "legacy": "It outlived the switchboard by a century. Guitars, headphones and studio gear all still use the same shape."
+   },
+   "milestones": [
+    {
+     "year": "1878",
+     "label": "Appears in the first commercial telephone exchanges"
+    },
+    {
+     "year": "1920s",
+     "label": "Adopted by radio studios for patch bays"
+    },
+    {
+     "year": "1950s",
+     "label": "Becomes the standard guitar and amplifier connector"
+    },
+    {
+     "year": "1964",
+     "label": "The 3.5 mm miniature version ships with pocket radios"
+    },
+    {
+     "year": "today",
+     "label": "Still the default on stage and in the studio"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Signal",
+     "value": "Analogue audio"
+    },
+    {
+     "label": "Contacts",
+     "value": "2–3 (TS / TRS)"
+    },
+    {
+     "label": "Diameter",
+     "value": "6.35 mm"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — everywhere"
+    }
+   ]
+  },
+  "image": "images/eras/1878-phone-jack.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/v1ilwhwb1qU",
+  "videoTitle": "What Is an XLR Cable? Balanced Audio for Beginners"
+ },
+ {
+  "id": "1881-twisted-pair",
+  "title": "Twisted Pair Technique",
+  "years": "1881",
+  "summary": "Pair twisting reduced crosstalk, becoming the default for telephony and later data.",
+  "keyAdvancement": "Noise reduction via twisting",
+  "image": "images/eras/1881-twisted-pair.svg",
+  "video": "https://www.youtube.com/embed/RVzM-b3okH0",
+  "facts": [
+   "Twists average out external magnetic fields.",
+   "Foundation for modern Ethernet over copper."
+  ],
+  "links": [
+   {
+    "label": "Twisted pair",
+    "href": "https://en.wikipedia.org/wiki/Twisted_pair"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1881-twisted-pair1.svg",
+   "images/gallery/1881-twisted-pair2.svg"
+  ],
+  "crossSection": {
+   "svg": "<rect x='10' y='30' width='80' height='40' fill='#ffa500'/><circle cx='30' cy='50' r='3' fill='#b87333'/><circle cx='50' cy='50' r='3' fill='#b87333'/><circle cx='70' cy='50' r='3' fill='#b87333'/>",
+   "parts": [
+    {
+     "name": "Insulation",
+     "path": "M10 30 L90 30 L90 70 L10 70 Z",
+     "color": "#ffa500"
+    },
+    {
+     "name": "Conductors",
+     "path": "M27 47 A3 3 0 0 1 33 47 A3 3 0 0 1 27 47 Z M47 47 A3 3 0 0 1 53 47 A3 3 0 0 1 47 47 Z M67 47 A3 3 0 0 1 73 47 A3 3 0 0 1 67 47 Z",
+     "color": "#b87333"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "Why are wires twisted in pairs?",
+    "options": [
+     "Cheaper",
+     "Aesthetic",
+     "Reduce interference",
+     "Increase capacitance"
+    ],
+    "correct": 2,
+    "fact": "Twisting cancels induced noise, preserving signal integrity."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Telephone lines strung beside electric power and telegraph wires picked up so much hum and crosstalk they became unusable.",
+    "breakthrough": "Twist the two wires of the pair around each other. Interference then hits both wires equally and cancels out at the receiver.",
+    "legacy": "One of the most quietly important ideas in all of electronics — every Ethernet cable in the world still uses it."
+   },
+   "milestones": [
+    {
+     "year": "1881",
+     "label": "Bell patents the twisting technique"
+    },
+    {
+     "year": "1900s",
+     "label": "Becomes standard for all telephone cabling"
+    },
+    {
+     "year": "1980s",
+     "label": "Adopted for computer networking"
+    },
+    {
+     "year": "1990",
+     "label": "10BASE-T runs Ethernet over it"
+    },
+    {
+     "year": "today",
+     "label": "Inside every Cat5/6/6a cable"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Signal",
+     "value": "Balanced pair"
+    },
+    {
+     "label": "Benefit",
+     "value": "Noise cancellation"
+    },
+    {
+     "label": "Twists",
+     "value": "Varies per pair"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — universal"
+    }
+   ]
+  },
+  "bitrate": 3000,
+  "sortYear": 1881,
+  "videoTitle": "Why Are Cables Twisted? Twisted Pair Explained"
+ },
+ {
+  "id": "1931-coax-patent",
+  "title": "Coaxial Cable Patented",
+  "years": "1931",
+  "summary": "Espenschied & Affel’s patent enabled broadband, shielded transmission lines.",
+  "keyAdvancement": "Shared‑axis shielded conductor geometry",
+  "image": "images/eras/1931-coax-patent.svg",
+  "video": "https://www.youtube.com/embed/Xf37jRKNu0I",
+  "facts": [
+   "Became backbone for early TV and long‑haul telephony.",
+   "Excellent RF performance vs. open wire."
+  ],
+  "links": [
+   {
+    "label": "Coaxial cable",
+    "href": "https://en.wikipedia.org/wiki/Coaxial_cable"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1931-coax-patent1.svg",
+   "images/gallery/1931-coax-patent2.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#c0c0c0'/><circle cx='50' cy='50' r='35' fill='#ffa500'/><circle cx='50' cy='50' r='25' fill='#b87333'/>",
+   "parts": [
+    {
+     "name": "Outer Shield",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#c0c0c0"
+    },
+    {
+     "name": "Dielectric",
+     "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+     "color": "#ffa500"
+    },
+    {
+     "name": "Inner Conductor",
+     "path": "M25 50 A25 25 0 0 1 75 50 A25 25 0 0 1 25 50 Z",
+     "color": "#b87333"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What does 'coaxial' mean?",
+    "options": [
+     "Parallel axes",
+     "Same axis",
+     "Offset centers",
+     "No shield"
+    ],
+    "correct": 1,
+    "fact": "Inner and outer conductors share the same axis."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Ordinary parallel wires radiate their signal into the air at high frequencies, losing energy and interfering with everything nearby.",
+    "breakthrough": "Wrap the return conductor completely around the signal conductor. The fields cancel outside the cable, so it neither leaks nor picks up.",
+    "legacy": "Coaxial geometry made broadband possible — television, cable internet and radio all depend on it."
+   },
+   "milestones": [
+    {
+     "year": "1929",
+     "label": "Espenschied and Affel file the patent"
+    },
+    {
+     "year": "1931",
+     "label": "Patent granted to Bell Labs"
+    },
+    {
+     "year": "1936",
+     "label": "First long-haul field trials"
+    },
+    {
+     "year": "1950s",
+     "label": "Carries television across continents"
+    },
+    {
+     "year": "today",
+     "label": "Still delivers cable internet to homes"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Signal",
+     "value": "RF carrier"
+    },
+    {
+     "label": "Impedance",
+     "value": "50 or 75 Ω"
+    },
+    {
+     "label": "Bandwidth",
+     "value": "Very wide"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes"
+    }
+   ]
+  },
+  "bitrate": 1000000,
+  "sortYear": 1931,
+  "videoTitle": "The Amazing Engineering Behind Coaxial Cables"
+ },
+ {
+  "id": "1936-coax-trials",
+  "title": "Early Long‑Haul Coax Trials",
+  "years": "1936",
+  "summary": "Prototype coax systems ran between major cities, validating high‑bandwidth trunking.",
+  "keyAdvancement": "Field validation of broadband links",
+  "image": "images/eras/1936-coax-trials.svg",
+  "video": "https://www.youtube.com/embed/Xf37jRKNu0I",
+  "facts": [
+   "Enabled multi‑channel telephony and TV relays.",
+   "Proved repeater spacing and loss models."
+  ],
+  "links": [
+   {
+    "label": "Coax history",
+    "href": "https://en.wikipedia.org/wiki/Coaxial_cable#History"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1936-coax-trials1.svg",
+   "images/gallery/1936-coax-trials2.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#c0c0c0'/><circle cx='50' cy='50' r='35' fill='#ffa500'/><circle cx='50' cy='50' r='25' fill='#b87333'/>",
+   "parts": [
+    {
+     "name": "Outer Shield",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#c0c0c0"
+    },
+    {
+     "name": "Dielectric",
+     "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+     "color": "#ffa500"
+    },
+    {
+     "name": "Inner Conductor",
+     "path": "M25 50 A25 25 0 0 1 75 50 A25 25 0 0 1 25 50 Z",
+     "color": "#b87333"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What did the trials primarily validate?",
+    "options": [
+     "Connector ergonomics",
+     "Bandwidth & repeater spacing",
+     "Color TV",
+     "Satellite links"
+    ],
+    "correct": 1,
+    "fact": "Trials established practical performance for long‑distance coax trunks."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Long-distance telephony needed many calls on one route, but existing cables could carry only a handful at a time.",
+    "breakthrough": "A coaxial tube, mostly air, carrying a broad band of frequencies with each call stacked on its own carrier frequency.",
+    "legacy": "Frequency-division multiplexing turned one cable into hundreds of channels, and set the pattern for all broadband transmission."
+   },
+   "milestones": [
+    {
+     "year": "1936",
+     "label": "First long-haul coax trials between US cities"
+    },
+    {
+     "year": "1930s",
+     "label": "240 simultaneous calls demonstrated"
+    },
+    {
+     "year": "1940s",
+     "label": "Coax routes span the United States"
+    },
+    {
+     "year": "1950s",
+     "label": "Extended to television distribution"
+    },
+    {
+     "year": "today",
+     "label": "Superseded by fibre for long haul"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Capacity",
+     "value": "~240 calls"
+    },
+    {
+     "label": "Dielectric",
+     "value": "Mostly air"
+    },
+    {
+     "label": "Technique",
+     "value": "Frequency multiplexing"
+    },
+    {
+     "label": "Still used",
+     "value": "No"
+    }
+   ]
+  },
+  "bitrate": 2000000,
+  "sortYear": 1936,
+  "videoTitle": "The Amazing Engineering Behind Coaxial Cables"
+ },
+ {
+  "id": "1954-gotland-hvdc",
+  "title": "Gotland: The First HVDC Submarine Power Cable",
+  "years": "1954",
+  "sortYear": 1954,
+  "summary": "Not data — raw electrical power, 98 km under the Baltic Sea.",
+  "keyAdvancement": "High-voltage DC power under the sea",
+  "bitrate": null,
+  "facts": [
+   "Carried 20 MW at 100 kV DC to the island of Gotland.",
+   "AC cannot cross long undersea distances; the sea itself soaks up the energy."
+  ],
+  "links": [
+   {
+    "label": "HVDC Gotland",
+    "href": "https://en.wikipedia.org/wiki/HVDC_Gotland"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "An island needed mainland electricity, but alternating current wastes almost all its energy in a long undersea cable.",
+    "breakthrough": "Convert to direct current at one end, send it through oil-soaked paper insulation, and convert back at the other.",
+    "legacy": "Every offshore wind farm and cross-border power link since is a descendant of this cable."
+   },
+   "milestones": [
+    {
+     "year": "1954",
+     "label": "Gotland link enters service — 98 km, 100 kV DC"
+    },
+    {
+     "year": "1954",
+     "label": "Mercury-arc valves do the AC/DC conversion"
+    },
+    {
+     "year": "1970",
+     "label": "Upgraded with solid-state thyristor valves"
+    },
+    {
+     "year": "1990s",
+     "label": "HVDC becomes standard for offshore wind"
+    },
+    {
+     "year": "today",
+     "label": "Multi-gigawatt links span the North Sea"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Carries",
+     "value": "Power, not data"
+    },
+    {
+     "label": "Voltage",
+     "value": "100 kV DC"
+    },
+    {
+     "label": "Length",
+     "value": "98 km"
+    },
+    {
+     "label": "Still used",
+     "value": "Superseded, principle universal"
+    }
+   ]
+  },
+  "image": "images/eras/1954-gotland-hvdc.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/_2qB_HGHpIg",
+  "videoTitle": "If HVDC Is Better, Why Don't We Use It Everywhere?"
+ },
+ {
+  "id": "1950s-xlr",
+  "title": "XLR: The Balanced Audio Cable",
+  "years": "1950s",
+  "sortYear": 1955,
+  "summary": "Three pins that let a microphone run 100 metres without picking up a radio station.",
+  "keyAdvancement": "Balanced, shielded, latching audio",
+  "bitrate": 4000,
+  "facts": [
+   "Pin 1 is ground, pins 2 and 3 carry the same signal in opposite polarity.",
+   "The latch exists because a mic cable falling out mid-concert is unacceptable."
+  ],
+  "links": [
+   {
+    "label": "XLR connector",
+    "href": "https://en.wikipedia.org/wiki/XLR_connector"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Long microphone runs acted like antennas, so live sound picked up hum, buzz and the occasional radio broadcast.",
+    "breakthrough": "Send the audio twice down a twisted pair — once inverted. The mixer subtracts the two, and noise picked up by both wires cancels out.",
+    "legacy": "Balanced audio became non-negotiable in professional sound. Every stage and studio on earth runs on it."
+   },
+   "milestones": [
+    {
+     "year": "1950s",
+     "label": "Cannon introduces the X series connector"
+    },
+    {
+     "year": "1950s",
+     "label": "A latch is added — the 'L' in XLR"
+    },
+    {
+     "year": "1960s",
+     "label": "Rubber compound around the contacts completes the name"
+    },
+    {
+     "year": "1980s",
+     "label": "Becomes the universal professional audio standard"
+    },
+    {
+     "year": "today",
+     "label": "Also carries DMX lighting control on the same connector"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Signal",
+     "value": "Balanced analogue"
+    },
+    {
+     "label": "Pins",
+     "value": "3"
+    },
+    {
+     "label": "Usable length",
+     "value": "100 m+"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — industry standard"
+    }
+   ]
+  },
+  "image": "images/eras/1950s-xlr.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/iIFiBpcKkmw",
+  "videoTitle": "Balanced Audio and Phantom Power Explained"
+ },
+ {
+  "id": "1956-tat1",
+  "title": "TAT‑1: First Transatlantic Telephone Cable",
+  "years": "1956",
+  "summary": "Coaxial TAT‑1 provided 35 initial voice circuits across the Atlantic.",
+  "keyAdvancement": "First undersea voice telephony cable",
+  "image": "images/eras/1956-tat1.svg",
+  "video": "https://www.youtube.com/embed/H-aSYKsqjco",
+  "facts": [
+   "Expanded to more channels with improved multiplexing.",
+   "Ran between Scotland and Newfoundland."
+  ],
+  "links": [
+   {
+    "label": "TAT‑1",
+    "href": "https://en.wikipedia.org/wiki/TAT-1"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1956-tat11.svg",
+   "images/gallery/1956-tat12.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#c0c0c0'/><circle cx='50' cy='50' r='35' fill='#ffa500'/><circle cx='50' cy='50' r='25' fill='#b87333'/>",
+   "parts": [
+    {
+     "name": "Outer Shield",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#c0c0c0"
+    },
+    {
+     "name": "Dielectric",
+     "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+     "color": "#ffa500"
+    },
+    {
+     "name": "Inner Conductor",
+     "path": "M25 50 A25 25 0 0 1 75 50 A25 25 0 0 1 25 50 Z",
+     "color": "#b87333"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What medium carried TAT‑1 traffic?",
+    "options": [
+     "Fiber",
+     "Microwave",
+     "Coaxial copper",
+     "Radio"
+    ],
+    "correct": 2,
+    "fact": "TAT‑1 used pressurized, loaded coaxial cables and repeaters."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "You could telegraph across the Atlantic since 1866, but a voice call still had to go by unreliable shortwave radio.",
+    "breakthrough": "A coaxial submarine cable with vacuum-tube amplifiers spliced into it every 70 km, built to run unattended on the seabed for 20 years.",
+    "legacy": "It began the era of intercontinental telephony, and proved that active electronics could survive decades under the ocean."
+   },
+   "milestones": [
+    {
+     "year": "1956",
+     "label": "TAT-1 enters service — 36 simultaneous calls"
+    },
+    {
+     "year": "1956",
+     "label": "Demand immediately exceeds capacity"
+    },
+    {
+     "year": "1960s",
+     "label": "Successive TAT cables add capacity"
+    },
+    {
+     "year": "1978",
+     "label": "TAT-1 retired after 22 years"
+    },
+    {
+     "year": "1988",
+     "label": "TAT-8 makes the route optical"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Capacity",
+     "value": "36 calls"
+    },
+    {
+     "label": "Length",
+     "value": "3 600 km"
+    },
+    {
+     "label": "Repeaters",
+     "value": "Every ~70 km"
+    },
+    {
+     "label": "Still used",
+     "value": "No — retired"
+    }
+   ]
+  },
+  "bitrate": 2000000,
+  "sortYear": 1956,
+  "videoTitle": "How Subsea Cables Keep the World Connected"
+ },
+ {
+  "id": "1962-rs232",
+  "title": "RS-232: The Serial Cable",
+  "years": "1962",
+  "sortYear": 1962,
+  "summary": "One bit at a time, at ±12 volts — and it still runs factory floors sixty years on.",
+  "keyAdvancement": "A standard pinout for serial data",
+  "bitrate": 20000,
+  "facts": [
+   "A '1' is −12 V and a '0' is +12 V — the logic is upside down.",
+   "The RS-232-C revision of 1969 is the one almost everyone actually used."
+  ],
+  "links": [
+   {
+    "label": "RS-232",
+    "href": "https://en.wikipedia.org/wiki/RS-232"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Every terminal and modem maker wired their plugs differently. Connecting two machines meant hand-building a cable and hoping.",
+    "breakthrough": "The EIA published one agreed pinout with defined voltages and a handshake, so any terminal could talk to any modem.",
+    "legacy": "USB buried it for consumers, but it never died: industrial machines, network switches and lab gear still expose a serial port."
+   },
+   "milestones": [
+    {
+     "year": "1962",
+     "label": "EIA publishes the RS-232 standard"
+    },
+    {
+     "year": "1969",
+     "label": "RS-232-C — the revision that stuck"
+    },
+    {
+     "year": "1981",
+     "label": "The IBM PC ships with a serial port"
+    },
+    {
+     "year": "1998",
+     "label": "USB begins replacing it on consumer machines"
+    },
+    {
+     "year": "today",
+     "label": "Still standard for industrial and network console access"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "20 kb/s typical"
+    },
+    {
+     "label": "Max length",
+     "value": "15 m"
+    },
+    {
+     "label": "Pins",
+     "value": "25 (or 9)"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — industrial"
+    }
+   ]
+  },
+  "image": "images/eras/1962-rs232.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/XVEnxipCIJ0",
+  "videoTitle": "The Basics of RS-232 Serial Communications"
+ },
+ {
+  "id": "1966-fiber-theory",
+  "title": "Kao & Hockham Propose Low‑Loss Fiber",
+  "years": "1966",
+  "summary": "Theoretical groundwork that optical fiber could deliver telecom‑grade losses.",
+  "keyAdvancement": "Optical glass telecom waveguide",
+  "image": "images/eras/1966-fiber-theory.svg",
+  "video": "https://www.youtube.com/embed/ftj1rQQds_U",
+  "facts": [
+   "<20 dB/km loss target focused research.",
+   "Kao received Nobel Prize in 2009."
+  ],
+  "links": [
+   {
+    "label": "Optical fiber",
+    "href": "https://en.wikipedia.org/wiki/Optical_fiber"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1966-fiber-theory1.svg",
+   "images/gallery/1966-fiber-theory2.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#ffffff'/><circle cx='50' cy='50' r='35' fill='#87ceeb'/><circle cx='50' cy='50' r='25' fill='#ffffff'/>",
+   "parts": [
+    {
+     "name": "Cladding",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#ffffff"
+    },
+    {
+     "name": "Core",
+     "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+     "color": "#87ceeb"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What loss target unlocked fiber telecom?",
+    "options": [
+     "2 dB/km",
+     "20 dB/km",
+     "200 dB/km",
+     "0.2 dB/km"
+    ],
+    "correct": 1,
+    "fact": "The 20 dB/km target made fiber practical for telecom."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Glass fibre could carry light, but so badly that the signal died within metres. Everyone assumed glass was simply too lossy.",
+    "breakthrough": "Charles Kao showed the loss was not the glass itself but the impurities in it — make the silica pure enough and light could travel kilometres.",
+    "legacy": "It won him a Nobel Prize and created the entire optical industry. Essentially all internet traffic now travels this way."
+   },
+   "milestones": [
+    {
+     "year": "1966",
+     "label": "Kao and Hockham publish the low-loss fibre paper"
+    },
+    {
+     "year": "1970",
+     "label": "Corning produces fibre meeting Kao's target"
+    },
+    {
+     "year": "1977",
+     "label": "First live telephone traffic over fibre"
+    },
+    {
+     "year": "2009",
+     "label": "Kao awarded the Nobel Prize in Physics"
+    },
+    {
+     "year": "today",
+     "label": "The backbone of the global internet"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Signal",
+     "value": "Guided light"
+    },
+    {
+     "label": "Core",
+     "value": "Ultra-pure silica"
+    },
+    {
+     "label": "Loss target",
+     "value": "20 dB/km"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — foundational"
+    }
+   ]
+  },
+  "bitrate": 1000000000,
+  "sortYear": 1966,
+  "videoTitle": "How Does Optic Fibre Work? Total Internal Reflection"
+ },
+ {
+  "id": "1970-centronics",
+  "title": "The Centronics Parallel Printer Cable",
+  "years": "1970",
+  "sortYear": 1970,
+  "summary": "Eight bits side by side — fast, until the wires started interfering with each other.",
+  "keyAdvancement": "Parallel data transfer to peripherals",
+  "bitrate": 1000000,
+  "facts": [
+   "36 pins, and a connector held on with two springy wire clips.",
+   "Sending 8 bits at once is only faster if all 8 arrive at the same moment."
+  ],
+  "links": [
+   {
+    "label": "Parallel port",
+    "href": "https://en.wikipedia.org/wiki/Parallel_port"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Serial cables sent one bit at a time, which made printing a page painfully slow.",
+    "breakthrough": "Run eight wires in parallel and move a whole byte per clock tick, with extra wires for 'ready' and 'busy' handshaking.",
+    "legacy": "Parallel hit a wall: at higher speeds the eight bits drift out of step. Every modern interface went back to serial."
+   },
+   "milestones": [
+    {
+     "year": "1970",
+     "label": "Centronics ships it with its dot-matrix printers"
+    },
+    {
+     "year": "1981",
+     "label": "IBM PC adopts it as the printer port"
+    },
+    {
+     "year": "1994",
+     "label": "IEEE 1284 standardises bidirectional modes"
+    },
+    {
+     "year": "2000s",
+     "label": "USB replaces it completely"
+    },
+    {
+     "year": "today",
+     "label": "Gone from consumer machines"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "~1 Mb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "5 m"
+    },
+    {
+     "label": "Pins",
+     "value": "36"
+    },
+    {
+     "label": "Still used",
+     "value": "No — obsolete"
+    }
+   ]
+  },
+  "image": "images/eras/1970-centronics.svg",
+  "gallery": []
+ },
+ {
+  "id": "1977-first-fiber",
+  "title": "First Commercial Fiber‑Optic Link",
+  "years": "1977",
+  "summary": "Early metro fiber deployment proved practicality of optical communications.",
+  "keyAdvancement": "Commercialization of optical links",
+  "image": "images/eras/1977-first-fiber.svg",
+  "video": "https://www.youtube.com/embed/dy8OIvg7qck",
+  "facts": [
+   "Attractive for EMI immunity and bandwidth.",
+   "Led to rapid metro rollouts."
+  ],
+  "links": [
+   {
+    "label": "Fiber history",
+    "href": "https://en.wikipedia.org/wiki/Fiber-optic_communication"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1977-first-fiber1.svg",
+   "images/gallery/1977-first-fiber2.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#ffffff'/><circle cx='50' cy='50' r='35' fill='#87ceeb'/><circle cx='50' cy='50' r='25' fill='#ffffff'/>",
+   "parts": [
+    {
+     "name": "Cladding",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#ffffff"
+    },
+    {
+     "name": "Core",
+     "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+     "color": "#87ceeb"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What feature helped fiber win in cities?",
+    "options": [
+     "Lower cost",
+     "No repeaters",
+     "EMI immunity",
+     "Works without splicing"
+    ],
+    "correct": 2,
+    "fact": "EMI immunity and bandwidth density were decisive."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Kao's theory was proven in the lab, but no telephone company had risked real customer traffic on strands of glass.",
+    "breakthrough": "A working fibre link carrying live telephone calls under the streets of Chicago, with lasers at one end and photodiodes at the other.",
+    "legacy": "Once it worked in the field, copper's days as a long-distance medium were numbered."
+   },
+   "milestones": [
+    {
+     "year": "1975",
+     "label": "First trials of fibre in telephone networks"
+    },
+    {
+     "year": "1977",
+     "label": "Live traffic carried commercially in Chicago"
+    },
+    {
+     "year": "1980s",
+     "label": "Fibre replaces copper trunk routes"
+    },
+    {
+     "year": "1988",
+     "label": "First transatlantic fibre cable"
+    },
+    {
+     "year": "today",
+     "label": "Fibre reaches individual homes"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "45 Mb/s"
+    },
+    {
+     "label": "Fibre type",
+     "value": "Multimode"
+    },
+    {
+     "label": "Source",
+     "value": "LED / laser"
+    },
+    {
+     "label": "Still used",
+     "value": "Superseded"
+    }
+   ]
+  },
+  "bitrate": 45000000,
+  "sortYear": 1977,
+  "videoTitle": "What Is Inside an Optical Fiber Cable?"
+ },
+ {
+  "id": "1980-10base5",
+  "title": "10BASE5: The Thick Yellow Ethernet",
+  "years": "1980",
+  "sortYear": 1980,
+  "summary": "A rigid yellow hosepipe you drilled into with a spike called a vampire tap.",
+  "keyAdvancement": "The first commercial Ethernet cable",
+  "bitrate": 10000000,
+  "facts": [
+   "Black bands every 2.5 m marked the only legal places to tap in.",
+   "One cable could run 500 m and serve 100 machines — all sharing it."
+  ],
+  "links": [
+   {
+    "label": "10BASE5",
+    "href": "https://en.wikipedia.org/wiki/10BASE5"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Offices had computers that could not talk to each other, and no agreed way to wire a building for data.",
+    "breakthrough": "One thick shared coaxial backbone that every machine clamped onto, with a protocol for detecting when two machines talked at once.",
+    "legacy": "The shared-wire model was doomed — but Ethernet the protocol won everything, and still runs the internet's plumbing."
+   },
+   "milestones": [
+    {
+     "year": "1980",
+     "label": "DEC, Intel and Xerox publish the DIX standard"
+    },
+    {
+     "year": "1983",
+     "label": "Ratified as IEEE 802.3"
+    },
+    {
+     "year": "1985",
+     "label": "Thinner, cheaper 10BASE2 arrives"
+    },
+    {
+     "year": "1990",
+     "label": "10BASE-T over twisted pair kills it"
+    },
+    {
+     "year": "today",
+     "label": "Extinct, but 802.3 is everywhere"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "10 Mb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "500 m"
+    },
+    {
+     "label": "Topology",
+     "value": "Shared bus"
+    },
+    {
+     "label": "Still used",
+     "value": "No — obsolete"
+    }
+   ]
+  },
+  "image": "images/eras/1980-10base5.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/ehCwqMkAxq0",
+  "videoTitle": "10BASE5 Thicknet Vampire Tap Procedure"
+ },
+ {
+  "id": "1983-midi",
+  "title": "MIDI: The Cable That Made Synths Talk",
+  "years": "1983",
+  "sortYear": 1983,
+  "summary": "A slow current loop that let any synthesiser control any other — and still does.",
+  "keyAdvancement": "Universal instrument control protocol",
+  "bitrate": 31250,
+  "facts": [
+   "MIDI sends instructions, not sound: 'note 60, velocity 90, on'.",
+   "Rival manufacturers agreed on it — and never charged a licence fee."
+  ],
+  "links": [
+   {
+    "label": "MIDI",
+    "href": "https://en.wikipedia.org/wiki/MIDI"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Every synthesiser maker used its own control voltages, so two keyboards from different brands could not be played together.",
+    "breakthrough": "A shared serial protocol over a 5-pin DIN cable, with an opto-isolator at each input so no two amplifiers ever share a ground.",
+    "legacy": "Forty years unchanged and still universal — one of the most successful standards in music, precisely because nobody owned it."
+   },
+   "milestones": [
+    {
+     "year": "1981",
+     "label": "Dave Smith proposes a universal synth interface"
+    },
+    {
+     "year": "1983",
+     "label": "MIDI 1.0 published; first cross-brand demo"
+    },
+    {
+     "year": "1980s",
+     "label": "Becomes the backbone of studio sequencing"
+    },
+    {
+     "year": "2020",
+     "label": "MIDI 2.0 adds higher resolution — backwards compatible"
+    },
+    {
+     "year": "today",
+     "label": "Still standard on nearly every instrument"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "31.25 kb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "15 m"
+    },
+    {
+     "label": "Pins",
+     "value": "5 (3 used)"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — universal"
+    }
+   ]
+  },
+  "image": "images/eras/1983-midi.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/xs62GSaP51A",
+  "videoTitle": "MIDI Cables, Connectors, Ports & Daisy Chain"
+ },
+ {
+  "id": "1985-10base2",
+  "title": "10BASE2 'Cheapernet'",
+  "years": "1985",
+  "sortYear": 1985,
+  "summary": "Thin coax and BNC twists — cheap, flexible, and one loose end killed the whole office.",
+  "keyAdvancement": "Affordable coaxial Ethernet",
+  "bitrate": 10000000,
+  "facts": [
+   "Every machine sat on one shared wire via a T-connector.",
+   "Both ends needed a 50 Ω terminator or the whole segment failed."
+  ],
+  "links": [
+   {
+    "label": "10BASE2",
+    "href": "https://en.wikipedia.org/wiki/10BASE2"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "10BASE5 was expensive, rigid, and needed a specialist with a drill to add a machine to the network.",
+    "breakthrough": "Thinner 50 Ω coax with twist-lock BNC connectors, so anyone could add a machine by unplugging a T and clicking it in.",
+    "legacy": "It taught the industry why shared buses are fragile: any single break or missing terminator took down everybody."
+   },
+   "milestones": [
+    {
+     "year": "1985",
+     "label": "Standardised as IEEE 802.3a"
+    },
+    {
+     "year": "late 1980s",
+     "label": "Becomes the default small-office network"
+    },
+    {
+     "year": "1990",
+     "label": "10BASE-T offers per-machine wiring instead"
+    },
+    {
+     "year": "mid 1990s",
+     "label": "Structured cabling wins; thinnet fades"
+    },
+    {
+     "year": "today",
+     "label": "Obsolete"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "10 Mb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "185 m"
+    },
+    {
+     "label": "Topology",
+     "value": "Shared bus"
+    },
+    {
+     "label": "Still used",
+     "value": "No — obsolete"
+    }
+   ]
+  },
+  "image": "images/eras/1985-10base2.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/ehCwqMkAxq0",
+  "videoTitle": "10BASE5 Thicknet Vampire Tap Procedure"
+ },
+ {
+  "id": "1985-token-ring",
+  "title": "Token Ring",
+  "years": "1985",
+  "sortYear": 1986,
+  "summary": "IBM's orderly answer to Ethernet: you may only transmit while holding the token.",
+  "keyAdvancement": "Deterministic, collision-free networking",
+  "bitrate": 16000000,
+  "facts": [
+   "No collisions were possible — a machine waited its turn, always.",
+   "The IBM Data Connector mates with itself: there is no male or female."
+  ],
+  "links": [
+   {
+    "label": "Token Ring",
+    "href": "https://en.wikipedia.org/wiki/Token_Ring"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Early Ethernet let any machine talk whenever it liked, so busy networks wasted time on collisions and slowed unpredictably.",
+    "breakthrough": "Pass a special 'token' frame around a ring. Only the holder may transmit, so the network never collides and timing is guaranteed.",
+    "legacy": "Technically superior and genuinely deterministic — but it was proprietary and dearer, and cheap Ethernet simply outsold it."
+   },
+   "milestones": [
+    {
+     "year": "1985",
+     "label": "IBM launches Token Ring at 4 Mb/s"
+    },
+    {
+     "year": "1989",
+     "label": "16 Mb/s version arrives"
+    },
+    {
+     "year": "1990s",
+     "label": "Loses ground to cheap switched Ethernet"
+    },
+    {
+     "year": "2000s",
+     "label": "Effectively discontinued"
+    },
+    {
+     "year": "today",
+     "label": "A cautionary tale about better-but-pricier"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "4–16 Mb/s"
+    },
+    {
+     "label": "Topology",
+     "value": "Ring"
+    },
+    {
+     "label": "Collisions",
+     "value": "None by design"
+    },
+    {
+     "label": "Still used",
+     "value": "No — obsolete"
+    }
+   ]
+  },
+  "image": "images/eras/1985-token-ring.svg",
+  "gallery": []
+ },
+ {
+  "id": "1986-scsi",
+  "title": "SCSI: The Small Computer System Interface",
+  "years": "1986",
+  "sortYear": 1987,
+  "summary": "Fast and capable, and cursed with termination problems and ID conflicts.",
+  "keyAdvancement": "A standard parallel bus for peripherals",
+  "bitrate": 40000000,
+  "facts": [
+   "Up to eight devices shared one chain, each needing a unique ID.",
+   "Getting termination wrong produced faults that looked like random hardware failure."
+  ],
+  "links": [
+   {
+    "label": "SCSI",
+    "href": "https://en.wikipedia.org/wiki/SCSI"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Every hard disk, scanner and tape drive shipped with its own incompatible controller card.",
+    "breakthrough": "One standard parallel bus that any peripheral could join, addressed by ID, with a defined command set that survives to this day.",
+    "legacy": "The cable is long gone, but SCSI's command language still runs inside USB storage, SAS drives and cloud storage arrays."
+   },
+   "milestones": [
+    {
+     "year": "1986",
+     "label": "Ratified as ANSI X3.131"
+    },
+    {
+     "year": "1986",
+     "label": "Macintosh Plus ships with a SCSI port"
+    },
+    {
+     "year": "1990s",
+     "label": "Fast/Wide/Ultra variants push the bus harder"
+    },
+    {
+     "year": "2003",
+     "label": "Serial Attached SCSI replaces the parallel cable"
+    },
+    {
+     "year": "today",
+     "label": "SCSI commands live on inside USB and SAS"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "5–40 MB/s"
+    },
+    {
+     "label": "Devices",
+     "value": "8 per chain"
+    },
+    {
+     "label": "Pins",
+     "value": "50"
+    },
+    {
+     "label": "Still used",
+     "value": "Command set only"
+    }
+   ]
+  },
+  "image": "images/eras/1986-scsi.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/A3q1x3_7tTg",
+  "videoTitle": "Hard Drive Connectors Explained — SAS, SATA, SCSI, IDE"
+ },
+ {
+  "id": "1988-tat8",
+  "title": "TAT‑8: First Transatlantic Fiber",
+  "years": "1988",
+  "summary": "TAT‑8 carried digital signals across the Atlantic at hundreds of Mbit/s.",
+  "keyAdvancement": "Long‑haul digital optical undersea link",
+  "image": "images/eras/1988-tat8.svg",
+  "video": "https://www.youtube.com/embed/qMRr3dJ0_NM",
+  "facts": [
+   "Heralded the end of coax subsea for new builds.",
+   "Optical amplifiers soon multiplied capacity."
+  ],
+  "links": [
+   {
+    "label": "TAT‑8",
+    "href": "https://en.wikipedia.org/wiki/TAT-8"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1988-tat81.svg",
+   "images/gallery/1988-tat82.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#ffffff'/><circle cx='50' cy='50' r='35' fill='#87ceeb'/><circle cx='50' cy='50' r='25' fill='#ffffff'/>",
+   "parts": [
+    {
+     "name": "Cladding",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#ffffff"
+    },
+    {
+     "name": "Core",
+     "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+     "color": "#87ceeb"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What did TAT‑8 replace for new subsea builds?",
+    "options": [
+     "Microwave",
+     "Satellite only",
+     "Coaxial subsea",
+     "Powerline carriers"
+    ],
+    "correct": 2,
+    "fact": "Fiber displaced coax subsea for capacity and reliability."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Transatlantic copper cables were saturated, and each new one added only a few thousand calls at enormous cost.",
+    "breakthrough": "Three pairs of single-mode fibre on the ocean floor, with optical repeaters powered by a copper conductor in the same cable.",
+    "legacy": "Capacity jumped from thousands of calls to tens of thousands overnight, and the modern internet became economically possible."
+   },
+   "milestones": [
+    {
+     "year": "1988",
+     "label": "TAT-8 enters service — 40 000 calls"
+    },
+    {
+     "year": "1988",
+     "label": "First transatlantic fibre-optic cable"
+    },
+    {
+     "year": "1990s",
+     "label": "Optical amplifiers remove the need for regeneration"
+    },
+    {
+     "year": "2002",
+     "label": "TAT-8 retired"
+    },
+    {
+     "year": "today",
+     "label": "Hundreds of fibre cables cross the oceans"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Capacity",
+     "value": "40 000 calls"
+    },
+    {
+     "label": "Speed",
+     "value": "280 Mb/s"
+    },
+    {
+     "label": "Fibre pairs",
+     "value": "3"
+    },
+    {
+     "label": "Still used",
+     "value": "No — retired"
+    }
+   ]
+  },
+  "bitrate": 280000000,
+  "sortYear": 1988,
+  "videoTitle": "The Internet's Underwater Highway"
+ },
+ {
+  "id": "1986-ide-ata",
+  "title": "The IDE Ribbon Cable",
+  "years": "1986",
+  "sortYear": 1988,
+  "summary": "The grey ribbon inside every beige PC — 40 wires and one red stripe.",
+  "keyAdvancement": "Drive controller moved onto the drive",
+  "bitrate": 1064000000,
+  "facts": [
+   "The red stripe marks pin 1. Getting it backwards was a rite of passage.",
+   "Faster versions needed 80 wires — 40 of them grounds, just to stop crosstalk."
+  ],
+  "links": [
+   {
+    "label": "Parallel ATA",
+    "href": "https://en.wikipedia.org/wiki/Parallel_ATA"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Hard drives needed an expensive dedicated controller card, and every drive maker did it differently.",
+    "breakthrough": "Put the controller on the drive itself — Integrated Drive Electronics — so the cable only had to carry a simple 16-bit bus.",
+    "legacy": "Parallel ATA ran out of headroom exactly like every parallel bus before it, and SATA replaced it with two serial pairs."
+   },
+   "milestones": [
+    {
+     "year": "1986",
+     "label": "Compaq and Western Digital create IDE"
+    },
+    {
+     "year": "1994",
+     "label": "Standardised as ATA-1"
+    },
+    {
+     "year": "1998",
+     "label": "80-wire cable added for faster UDMA modes"
+    },
+    {
+     "year": "2003",
+     "label": "SATA begins replacing it"
+    },
+    {
+     "year": "today",
+     "label": "Obsolete in new machines"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "up to 133 MB/s"
+    },
+    {
+     "label": "Max length",
+     "value": "46 cm"
+    },
+    {
+     "label": "Wires",
+     "value": "40 or 80"
+    },
+    {
+     "label": "Still used",
+     "value": "No — legacy only"
+    }
+   ]
+  },
+  "image": "images/eras/1986-ide-ata.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/A3q1x3_7tTg",
+  "videoTitle": "Hard Drive Connectors Explained — SAS, SATA, SCSI, IDE"
+ },
+ {
+  "id": "1987-vga",
+  "title": "VGA: Analogue Video",
+  "years": "1987",
+  "sortYear": 1989,
+  "summary": "Three analogue colour signals, each in its own miniature coaxial cable.",
+  "keyAdvancement": "A universal monitor connection",
+  "bitrate": 1000000000,
+  "facts": [
+   "VGA is analogue: the monitor never knew what a pixel was.",
+   "Its 15-pin plug survived on projectors for over thirty years."
+  ],
+  "links": [
+   {
+    "label": "VGA connector",
+    "href": "https://en.wikipedia.org/wiki/VGA_connector"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Every graphics card used a different digital monitor connector, each locked to a fixed set of resolutions.",
+    "breakthrough": "Go analogue: send red, green and blue as smooth voltages, and the same cable can carry any resolution the monitor can handle.",
+    "legacy": "That flexibility kept it alive for decades, but analogue meant fuzziness at high resolution — and digital eventually won."
+   },
+   "milestones": [
+    {
+     "year": "1987",
+     "label": "IBM introduces VGA with the PS/2 line"
+    },
+    {
+     "year": "1990s",
+     "label": "Becomes the universal PC monitor connector"
+    },
+    {
+     "year": "1999",
+     "label": "DVI starts the move to digital"
+    },
+    {
+     "year": "2010",
+     "label": "Major vendors announce end of support"
+    },
+    {
+     "year": "today",
+     "label": "Lingers on projectors and older AV kit"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Signal",
+     "value": "Analogue RGB"
+    },
+    {
+     "label": "Pins",
+     "value": "15"
+    },
+    {
+     "label": "Max length",
+     "value": "~10 m usable"
+    },
+    {
+     "label": "Still used",
+     "value": "Rarely — legacy AV"
+    }
+   ]
+  },
+  "image": "images/eras/1987-vga.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/R-mJ0J_ACEM",
+  "videoTitle": "Explaining Display Connectors: HDMI, DP, DVI, VGA"
+ },
+ {
+  "id": "1990-10baset",
+  "title": "10BASE‑T Ethernet (802.3i)",
+  "years": "1990",
+  "summary": "Brought Ethernet to twisted pair with star topologies and RJ45 connectors.",
+  "keyAdvancement": "Ethernet over twisted pair",
+  "image": "images/eras/1990-10baset.svg",
+  "video": "https://www.youtube.com/embed/P7WfY9P2uNY",
+  "facts": [
+   "Catalyzed structured cabling in offices.",
+   "10 Mb/s became the ubiquitous baseline."
+  ],
+  "links": [
+   {
+    "label": "10BASE‑T",
+    "href": "https://en.wikipedia.org/wiki/10BASE-T"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1990-10baset1.svg",
+   "images/gallery/1990-10baset2.svg"
+  ],
+  "crossSection": {
+   "svg": "<rect x='10' y='30' width='80' height='40' fill='#ffa500'/><circle cx='30' cy='50' r='3' fill='#b87333'/><circle cx='50' cy='50' r='3' fill='#b87333'/><circle cx='70' cy='50' r='3' fill='#b87333'/>",
+   "parts": [
+    {
+     "name": "Insulation",
+     "path": "M10 30 L90 30 L90 70 L10 70 Z",
+     "color": "#ffa500"
+    },
+    {
+     "name": "Conductors",
+     "path": "M27 47 A3 3 0 0 1 33 47 A3 3 0 0 1 27 47 Z M47 47 A3 3 0 0 1 53 47 A3 3 0 0 1 47 47 Z M67 47 A3 3 0 0 1 73 47 A3 3 0 0 1 67 47 Z",
+     "color": "#b87333"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "10BASE‑T primarily uses which medium?",
+    "options": [
+     "Coax",
+     "Fiber",
+     "Twisted pair",
+     "Powerline"
+    ],
+    "correct": 2,
+    "fact": "The shift from coax to twisted pair simplified LANs."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Coaxial Ethernet put every machine on one shared wire, so a single break or loose connector took down the entire office.",
+    "breakthrough": "Give every machine its own twisted-pair cable back to a central hub, using the cheap wiring the building already had for telephones.",
+    "legacy": "This is the moment Ethernet took its modern shape. The RJ45 socket on your wall descends directly from it."
+   },
+   "milestones": [
+    {
+     "year": "1990",
+     "label": "Ratified as IEEE 802.3i"
+    },
+    {
+     "year": "1990s",
+     "label": "Hubs give way to switches"
+    },
+    {
+     "year": "1995",
+     "label": "Fast Ethernet raises it to 100 Mb/s"
+    },
+    {
+     "year": "1999",
+     "label": "Gigabit Ethernet over copper arrives"
+    },
+    {
+     "year": "today",
+     "label": "The universal wired network"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "10 Mb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "100 m"
+    },
+    {
+     "label": "Topology",
+     "value": "Star"
+    },
+    {
+     "label": "Still used",
+     "value": "Evolved"
+    }
+   ]
+  },
+  "bitrate": 10000000,
+  "sortYear": 1990,
+  "videoTitle": "Why Are Wires Twisted? Twisted Pair Explained"
+ },
+ {
+  "id": "1987-ps2",
+  "title": "The PS/2 Keyboard & Mouse Cable",
+  "years": "1987",
+  "sortYear": 1990,
+  "summary": "Purple for keyboard, green for mouse — and never, ever hot-pluggable.",
+  "keyAdvancement": "A compact dedicated input port",
+  "bitrate": 12000,
+  "facts": [
+   "Plugging one in while the PC was on could kill the port.",
+   "Colour coding was added because the two plugs are physically identical."
+  ],
+  "links": [
+   {
+    "label": "PS/2 port",
+    "href": "https://en.wikipedia.org/wiki/PS/2_port"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Keyboards used a large 5-pin DIN plug, and mice took up a whole serial port that something else needed.",
+    "breakthrough": "A compact 6-pin mini-DIN for each, keyed so it only fits one way, freeing the serial port entirely.",
+    "legacy": "USB made it redundant, though gamers clung on: PS/2 keyboards interrupt the CPU directly rather than being polled."
+   },
+   "milestones": [
+    {
+     "year": "1987",
+     "label": "Introduced with the IBM PS/2"
+    },
+    {
+     "year": "1990s",
+     "label": "Becomes standard on virtually every PC"
+    },
+    {
+     "year": "2000s",
+     "label": "USB peripherals take over"
+    },
+    {
+     "year": "2010s",
+     "label": "Disappears from most motherboards"
+    },
+    {
+     "year": "today",
+     "label": "Occasionally kept for BIOS access and gaming"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "~12 kb/s"
+    },
+    {
+     "label": "Pins",
+     "value": "6"
+    },
+    {
+     "label": "Hot-plug",
+     "value": "No"
+    },
+    {
+     "label": "Still used",
+     "value": "Rarely"
+    }
+   ]
+  },
+  "image": "images/eras/1987-ps2.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/AHYNxpqKqwo",
+  "videoTitle": "The RS-232 Protocol"
+ },
+ {
+  "id": "1991-568-cat5",
+  "title": "TIA/EIA‑568 & Category 5",
+  "years": "1991–1995",
+  "summary": "Structured cabling standards aligned performance and pinouts across buildings.",
+  "keyAdvancement": "Standardized structured cabling",
+  "image": "images/eras/1991-568-cat5.svg",
+  "video": "https://www.youtube.com/embed/_ibFaE9lCEA",
+  "facts": [
+   "Enabled multi‑vendor interoperability.",
+   "Set the stage for Fast/Gigabit Ethernet."
+  ],
+  "links": [
+   {
+    "label": "ANSI/TIA‑568",
+    "href": "https://en.wikipedia.org/wiki/ANSI/TIA-568"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1991-568-cat51.svg",
+   "images/gallery/1991-568-cat52.svg"
+  ],
+  "crossSection": {
+   "svg": "<rect x='10' y='30' width='80' height='40' fill='#ffa500'/><circle cx='30' cy='50' r='3' fill='#b87333'/><circle cx='50' cy='50' r='3' fill='#b87333'/><circle cx='70' cy='50' r='3' fill='#b87333'/>",
+   "parts": [
+    {
+     "name": "Insulation",
+     "path": "M10 30 L90 30 L90 70 L10 70 Z",
+     "color": "#ffa500"
+    },
+    {
+     "name": "Conductors",
+     "path": "M27 47 A3 3 0 0 1 33 47 A3 3 0 0 1 27 47 Z M47 47 A3 3 0 0 1 53 47 A3 3 0 0 1 47 47 Z M67 47 A3 3 0 0 1 73 47 A3 3 0 0 1 67 47 Z",
+     "color": "#b87333"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What did ANSI/TIA‑568 standardize?",
+    "options": [
+     "Router CLIs",
+     "Building cabling",
+     "Wi‑Fi channels",
+     "SFP cages"
+    ],
+    "correct": 1,
+    "fact": "The spec unified telecom rooms and channel performance."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Every vendor wired buildings differently, so moving a desk could mean rewiring, and nothing was guaranteed to interoperate.",
+    "breakthrough": "A single structured cabling standard defining categories, pinouts and test limits, so any compliant cable works with any compliant device.",
+    "legacy": "It made building wiring a commodity. The reason a network cable from any shop simply works is this standard."
+   },
+   "milestones": [
+    {
+     "year": "1991",
+     "label": "TIA/EIA-568 published"
+    },
+    {
+     "year": "1995",
+     "label": "Category 5 formally specified"
+    },
+    {
+     "year": "2001",
+     "label": "Cat5e improves crosstalk performance"
+    },
+    {
+     "year": "2002",
+     "label": "Cat6 supersedes it"
+    },
+    {
+     "year": "today",
+     "label": "The framework all building cabling follows"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "100 Mb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "100 m"
+    },
+    {
+     "label": "Pairs",
+     "value": "4"
+    },
+    {
+     "label": "Still used",
+     "value": "Superseded by Cat6"
+    }
+   ]
+  },
+  "bitrate": 100000000,
+  "sortYear": 1991,
+  "videoTitle": "Twisted Pair Cable Explained"
+ },
+ {
+  "id": "1995-fast-ethernet",
+  "title": "Fast Ethernet (100BASE‑TX)",
+  "years": "1995",
+  "summary": "100 Mb/s over Cat5 wiring became mainstream for LANs.",
+  "keyAdvancement": "100 Mb/s over twisted pair",
+  "image": "images/eras/1995-fast-ethernet.svg",
+  "video": "https://www.youtube.com/embed/RVzM-b3okH0",
+  "facts": [
+   "Backwards compatibility eased upgrades.",
+   "Full‑duplex switches replaced hubs."
+  ],
+  "links": [
+   {
+    "label": "Fast Ethernet",
+    "href": "https://en.wikipedia.org/wiki/Fast_Ethernet"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1995-fast-ethernet1.svg",
+   "images/gallery/1995-fast-ethernet2.svg"
+  ],
+  "crossSection": {
+   "svg": "<rect x='10' y='30' width='80' height='40' fill='#ffa500'/><circle cx='30' cy='50' r='3' fill='#b87333'/><circle cx='50' cy='50' r='3' fill='#b87333'/><circle cx='70' cy='50' r='3' fill='#b87333'/>",
+   "parts": [
+    {
+     "name": "Insulation",
+     "path": "M10 30 L90 30 L90 70 L10 70 Z",
+     "color": "#ffa500"
+    },
+    {
+     "name": "Conductors",
+     "path": "M27 47 A3 3 0 0 1 33 47 A3 3 0 0 1 27 47 Z M47 47 A3 3 0 0 1 53 47 A3 3 0 0 1 47 47 Z M67 47 A3 3 0 0 1 73 47 A3 3 0 0 1 67 47 Z",
+     "color": "#b87333"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What cable category enabled 100BASE‑TX widely?",
+    "options": [
+     "Cat3",
+     "Cat5",
+     "Cat6A",
+     "Twinax"
+    ],
+    "correct": 1,
+    "fact": "Category 5 met the requirements for 100 Mb/s signaling."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Ten megabits stopped being enough as networks filled with graphics, shared files and early multimedia.",
+    "breakthrough": "Tighter twist rates and smarter encoding pushed the same four-pair cable ten times faster without rewiring the building.",
+    "legacy": "It established the pattern Ethernet has followed ever since: keep the cable and the socket, change the silicon."
+   },
+   "milestones": [
+    {
+     "year": "1995",
+     "label": "100BASE-TX standardised as IEEE 802.3u"
+    },
+    {
+     "year": "late 1990s",
+     "label": "Becomes the default desktop speed"
+    },
+    {
+     "year": "1999",
+     "label": "Gigabit Ethernet standardised"
+    },
+    {
+     "year": "2006",
+     "label": "10 Gb/s over copper arrives"
+    },
+    {
+     "year": "today",
+     "label": "Superseded but still widely present"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "100 Mb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "100 m"
+    },
+    {
+     "label": "Pairs used",
+     "value": "2 of 4"
+    },
+    {
+     "label": "Still used",
+     "value": "Legacy"
+    }
+   ]
+  },
+  "bitrate": 100000000,
+  "sortYear": 1995,
+  "videoTitle": "Why Are Cables Twisted? Twisted Pair Explained"
+ },
+ {
+  "id": "1995-firewire",
+  "title": "FireWire (IEEE 1394)",
+  "years": "1995",
+  "sortYear": 1995.5,
+  "summary": "Faster than early USB, and devices could talk to each other without a computer.",
+  "keyAdvancement": "Peer-to-peer high-speed peripheral bus",
+  "bitrate": 400000000,
+  "facts": [
+   "Two camcorders could copy to each other with no PC involved.",
+   "It could deliver up to 45 W down the cable, long before USB could."
+  ],
+  "links": [
+   {
+    "label": "IEEE 1394",
+    "href": "https://en.wikipedia.org/wiki/IEEE_1394"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Digital video needed guaranteed, uninterrupted bandwidth, and USB 1.0 was far too slow to carry it.",
+    "breakthrough": "A peer-to-peer bus with guaranteed isochronous timeslots, bus power, and no need for a host computer to mediate.",
+    "legacy": "Technically ahead of USB for years, but Apple's licence fees and USB's ubiquity decided it. USB-C finally absorbed the ideas."
+   },
+   "milestones": [
+    {
+     "year": "1995",
+     "label": "Standardised as IEEE 1394"
+    },
+    {
+     "year": "1999",
+     "label": "Apple ships FireWire 400 across the Mac line"
+    },
+    {
+     "year": "2002",
+     "label": "FireWire 800 doubles the speed"
+    },
+    {
+     "year": "2008",
+     "label": "USB 3.0 removes the speed advantage"
+    },
+    {
+     "year": "2011",
+     "label": "Thunderbolt inherits the concept"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "400–800 Mb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "4.5 m"
+    },
+    {
+     "label": "Power",
+     "value": "up to 45 W"
+    },
+    {
+     "label": "Still used",
+     "value": "No — superseded"
+    }
+   ]
+  },
+  "image": "images/eras/1995-firewire.svg",
+  "gallery": []
+ },
+ {
+  "id": "1996-usb1",
+  "title": "USB 1.0 Released",
+  "years": "1996",
+  "summary": "USB unified PC peripherals with up to 12 Mb/s data rates.",
+  "keyAdvancement": "Universal peripheral interconnect",
+  "image": "images/eras/1996-usb1.svg",
+  "facts": [
+   "Supported 1.5 and 12 Mb/s modes.",
+   "Replaced serial/parallel ports for many devices."
+  ],
+  "links": [
+   {
+    "label": "USB 1.0",
+    "href": "https://en.wikipedia.org/wiki/USB"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1996-usb11.svg",
+   "images/gallery/1996-usb12.svg"
+  ],
+  "crossSection": {
+   "svg": "<rect x='20' y='40' width='60' height='20' fill='#000000'/><rect x='25' y='45' width='50' height='10' fill='#ffd700'/>",
+   "parts": [
+    {
+     "name": "Shell",
+     "path": "M20 40 L80 40 L80 60 L20 60 Z",
+     "color": "#000000"
+    },
+    {
+     "name": "Contacts",
+     "path": "M25 45 L75 45 L75 55 L25 55 Z",
+     "color": "#ffd700"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "Top USB 1.0 speed?",
+    "options": [
+     "1.5 Mb/s",
+     "12 Mb/s",
+     "100 Mb/s",
+     "480 Mb/s"
+    ],
+    "correct": 1,
+    "fact": "USB 1.x topped out at 12 Mb/s before USB 2.0’s 480 Mb/s."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "The back of a PC held a serial port, a parallel port, PS/2 sockets and a game port — each incompatible, most needing a reboot to use.",
+    "breakthrough": "One connector for everything, with power in the cable, automatic detection of what you plugged in, and no reboot required.",
+    "legacy": "It became the most widely deployed connector in history, and quietly killed every port it replaced."
+   },
+   "milestones": [
+    {
+     "year": "1996",
+     "label": "USB 1.0 released"
+    },
+    {
+     "year": "1998",
+     "label": "The iMac ships USB-only and forces adoption"
+    },
+    {
+     "year": "2000",
+     "label": "USB 2.0 reaches 480 Mb/s"
+    },
+    {
+     "year": "2008",
+     "label": "USB 3.0 adds SuperSpeed lanes"
+    },
+    {
+     "year": "today",
+     "label": "Billions of ports in use"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "12 Mb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "5 m"
+    },
+    {
+     "label": "Power",
+     "value": "2.5 W"
+    },
+    {
+     "label": "Still used",
+     "value": "Evolved"
+    }
+   ]
+  },
+  "bitrate": 12000000,
+  "sortYear": 1996
+ },
+ {
+  "id": "1997-docsis1",
+  "title": "DOCSIS 1.0 Cable Internet",
+  "years": "1997",
+  "summary": "Standardized cable‑modem Internet service over HFC networks.",
+  "keyAdvancement": "IP broadband over cable TV",
+  "image": "images/eras/1997-docsis1.svg",
+  "video": "https://www.youtube.com/embed/Xf37jRKNu0I",
+  "facts": [
+   "Enabled mass‑market broadband in the late 1990s.",
+   "Uses upstream/downstream RF channels."
+  ],
+  "links": [
+   {
+    "label": "DOCSIS",
+    "href": "https://en.wikipedia.org/wiki/DOCSIS"
+   }
+  ],
+  "gallery": [
+   "images/gallery/1997-docsis11.svg",
+   "images/gallery/1997-docsis12.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#c0c0c0'/><circle cx='50' cy='50' r='35' fill='#ffa500'/><circle cx='50' cy='50' r='25' fill='#b87333'/>",
+   "parts": [
+    {
+     "name": "Outer Shield",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#c0c0c0"
+    },
+    {
+     "name": "Dielectric",
+     "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+     "color": "#ffa500"
+    },
+    {
+     "name": "Inner Conductor",
+     "path": "M25 50 A25 25 0 0 1 75 50 A25 25 0 0 1 25 50 Z",
+     "color": "#b87333"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "DOCSIS runs over which plant?",
+    "options": [
+     "Twisted pair",
+     "HFC (coax+fiber)",
+     "Satellite",
+     "Powerline"
+    ],
+    "correct": 1,
+    "fact": "Hybrid Fiber‑Coax architectures carry RF data & TV."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Cable TV reached most homes but only sent signal one way, while internet access meant tying up a phone line at 56 kb/s.",
+    "breakthrough": "A standard for two-way IP data over the existing television coax, using spare frequency channels above and below the TV bands.",
+    "legacy": "It brought always-on broadband to millions of homes without laying a single new cable."
+   },
+   "milestones": [
+    {
+     "year": "1997",
+     "label": "DOCSIS 1.0 published"
+    },
+    {
+     "year": "2001",
+     "label": "DOCSIS 2.0 improves upstream capacity"
+    },
+    {
+     "year": "2006",
+     "label": "DOCSIS 3.0 bonds channels for 100 Mb/s+"
+    },
+    {
+     "year": "2017",
+     "label": "DOCSIS 3.1 reaches gigabit speeds"
+    },
+    {
+     "year": "today",
+     "label": "Still serves a large share of home broadband"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "40 Mb/s down"
+    },
+    {
+     "label": "Medium",
+     "value": "TV coax"
+    },
+    {
+     "label": "Connector",
+     "value": "F-type"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — evolved"
+    }
+   ]
+  },
+  "bitrate": 40000000,
+  "sortYear": 1997,
+  "videoTitle": "The Amazing Engineering Behind Coaxial Cables"
+ },
+ {
+  "id": "1999-dvi",
+  "title": "DVI: The Bridge to Digital",
+  "years": "1999",
+  "sortYear": 1999,
+  "summary": "One shell carrying both digital and analogue pins, so it could talk to either world.",
+  "keyAdvancement": "Digital video with analogue fallback",
+  "bitrate": 9900000000,
+  "facts": [
+   "DVI-I carries digital and analogue at once; DVI-D drops the analogue pins.",
+   "Its TMDS signalling is the same one HDMI adopted three years later."
+  ],
+  "links": [
+   {
+    "label": "Digital Visual Interface",
+    "href": "https://en.wikipedia.org/wiki/Digital_Visual_Interface"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Flat panels are digital, but PCs output analogue VGA — so the signal was converted to analogue and back, losing quality twice.",
+    "breakthrough": "Send the pixels digitally with TMDS signalling, and include analogue pins in the same connector so old monitors still work.",
+    "legacy": "The transitional design did its job and was retired: HDMI took its signalling to televisions, DisplayPort took it to computers."
+   },
+   "milestones": [
+    {
+     "year": "1999",
+     "label": "Digital Display Working Group publishes DVI"
+    },
+    {
+     "year": "2000s",
+     "label": "Becomes the standard PC flat-panel connector"
+    },
+    {
+     "year": "2002",
+     "label": "HDMI adopts DVI's TMDS signalling"
+    },
+    {
+     "year": "2008",
+     "label": "DisplayPort begins displacing it"
+    },
+    {
+     "year": "today",
+     "label": "Largely retired"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Signal",
+     "value": "Digital + analogue"
+    },
+    {
+     "label": "Bandwidth",
+     "value": "9.9 Gb/s dual link"
+    },
+    {
+     "label": "Pins",
+     "value": "24 + 4"
+    },
+    {
+     "label": "Still used",
+     "value": "Rarely — legacy"
+    }
+   ]
+  },
+  "image": "images/eras/1999-dvi.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/R-mJ0J_ACEM",
+  "videoTitle": "Explaining Display Connectors: HDMI, DP, DVI, VGA"
+ },
+ {
+  "id": "2002-hdmi1",
+  "title": "HDMI 1.0",
+  "years": "2002",
+  "summary": "Single‑cable digital audio/video interface for consumer electronics.",
+  "keyAdvancement": "Unified digital A/V connector",
+  "image": "images/eras/2002-hdmi1.svg",
+  "video": "https://www.youtube.com/embed/R-mJ0J_ACEM",
+  "facts": [
+   "Carries video, multi‑channel audio, and CEC control.",
+   "Replaced many analog connectors."
+  ],
+  "links": [
+   {
+    "label": "HDMI",
+    "href": "https://en.wikipedia.org/wiki/HDMI"
+   }
+  ],
+  "gallery": [
+   "images/gallery/2002-hdmi11.svg",
+   "images/gallery/2002-hdmi12.svg"
+  ],
+  "crossSection": {
+   "svg": "<rect x='20' y='40' width='60' height='20' fill='#000000'/><rect x='25' y='45' width='50' height='10' fill='#ffd700'/>",
+   "parts": [
+    {
+     "name": "Shell",
+     "path": "M20 40 L80 40 L80 60 L20 60 Z",
+     "color": "#000000"
+    },
+    {
+     "name": "Contacts",
+     "path": "M25 45 L75 45 L75 55 L25 55 Z",
+     "color": "#ffd700"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "HDMI 1.0 first targeted?",
+    "options": [
+     "Data centers",
+     "Home entertainment",
+     "Industrial",
+     "Automotive"
+    ],
+    "correct": 1,
+    "fact": "HDMI simplified home A/V with one cable."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "A home cinema needed separate cables for video and audio, and the move to digital screens had produced a mess of incompatible connectors.",
+    "breakthrough": "One connector carrying digital video, multichannel audio and device control together, with content protection built in.",
+    "legacy": "It became the single connector on the back of every television, and made the AV receiver's cable spaghetti largely disappear."
+   },
+   "milestones": [
+    {
+     "year": "2002",
+     "label": "HDMI 1.0 released"
+    },
+    {
+     "year": "2006",
+     "label": "Adopted across televisions and consoles"
+    },
+    {
+     "year": "2009",
+     "label": "HDMI 1.4 adds ethernet and audio return"
+    },
+    {
+     "year": "2017",
+     "label": "HDMI 2.1 supports 8K and 120 Hz"
+    },
+    {
+     "year": "today",
+     "label": "Universal on televisions"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Bandwidth",
+     "value": "4.9 Gb/s (v1.0)"
+    },
+    {
+     "label": "Pins",
+     "value": "19"
+    },
+    {
+     "label": "Carries",
+     "value": "Video + audio + control"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes"
+    }
+   ]
+  },
+  "bitrate": 4900000000,
+  "sortYear": 2002,
+  "videoTitle": "Explaining Display Connectors: HDMI, DP, DVI, VGA"
+ },
+ {
+  "id": "2002-cat6",
+  "title": "Category 6 Cable",
+  "years": "2002",
+  "sortYear": 2002.5,
+  "summary": "A plastic spine down the middle, holding the four pairs apart at gigabit speeds.",
+  "keyAdvancement": "Gigabit Ethernet over copper",
+  "bitrate": 1000000000,
+  "facts": [
+   "The X-shaped spline inside is the visual signature of Cat6.",
+   "Gigabit uses all four pairs at once, in both directions simultaneously."
+  ],
+  "links": [
+   {
+    "label": "Category 6 cable",
+    "href": "https://en.wikipedia.org/wiki/Category_6_cable"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "At gigabit speeds the four pairs inside a Cat5 cable started leaking signal into each other.",
+    "breakthrough": "A rigid plastic cross running the length of the cable, keeping each pair in its own quadrant, plus tighter twist rates.",
+    "legacy": "Cat6 is still the default for new building wiring twenty years on — the format proved remarkably durable."
+   },
+   "milestones": [
+    {
+     "year": "2002",
+     "label": "TIA/EIA ratifies the Category 6 standard"
+    },
+    {
+     "year": "2000s",
+     "label": "Becomes standard for new office installs"
+    },
+    {
+     "year": "2008",
+     "label": "Cat6a adds shielding for 10 Gb/s"
+    },
+    {
+     "year": "2016",
+     "label": "Cat8 pushes to 40 Gb/s over short runs"
+    },
+    {
+     "year": "today",
+     "label": "Still the workhorse of building cabling"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "1 Gb/s (10 Gb/s short)"
+    },
+    {
+     "label": "Max length",
+     "value": "100 m"
+    },
+    {
+     "label": "Pairs",
+     "value": "4"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — standard"
+    }
+   ]
+  },
+  "image": "images/eras/2002-cat6.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/P7WfY9P2uNY",
+  "videoTitle": "Why Are Wires Twisted? Twisted Pair Explained"
+ },
+ {
+  "id": "2003-sata",
+  "title": "SATA: Serial ATA",
+  "years": "2003",
+  "sortYear": 2003,
+  "summary": "Seven wires beat forty — serial won because parallel had run out of road.",
+  "keyAdvancement": "Serial replacement for the drive ribbon",
+  "bitrate": 6000000000,
+  "facts": [
+   "The L-shaped connector physically cannot go in backwards.",
+   "A thin round cable improved airflow inside the case dramatically."
+  ],
+  "links": [
+   {
+    "label": "SATA",
+    "href": "https://en.wikipedia.org/wiki/SATA"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "The 80-wire IDE ribbon blocked airflow, and its parallel bits could no longer be kept in step at higher speeds.",
+    "breakthrough": "Two differential pairs running at gigahertz rates — fewer wires, far faster, and hot-pluggable.",
+    "legacy": "SATA is still how most desktop drives connect, though NVMe over PCIe now carries the fastest storage."
+   },
+   "milestones": [
+    {
+     "year": "2003",
+     "label": "SATA 1.5 Gb/s ships"
+    },
+    {
+     "year": "2004",
+     "label": "SATA II doubles it to 3 Gb/s"
+    },
+    {
+     "year": "2009",
+     "label": "SATA III reaches 6 Gb/s"
+    },
+    {
+     "year": "2013",
+     "label": "NVMe begins taking the high end"
+    },
+    {
+     "year": "today",
+     "label": "Still standard for hard disks and budget SSDs"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "1.5–6 Gb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "1 m"
+    },
+    {
+     "label": "Wires",
+     "value": "7"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — standard"
+    }
+   ]
+  },
+  "image": "images/eras/2003-sata.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/A3q1x3_7tTg",
+  "videoTitle": "Hard Drive Connectors Explained — SAS, SATA, SCSI, IDE"
+ },
+ {
+  "id": "2003-poe",
+  "title": "Power over Ethernet",
+  "years": "2003",
+  "sortYear": 2003.5,
+  "summary": "One cable that carries the network and runs the device off it.",
+  "keyAdvancement": "Data and power down one cable",
+  "bitrate": 1000000000,
+  "facts": [
+   "The switch tests for a known resistance before it dares send 48 V.",
+   "Modern PoE++ can deliver up to 90 W — enough for a laptop."
+  ],
+  "links": [
+   {
+    "label": "Power over Ethernet",
+    "href": "https://en.wikipedia.org/wiki/Power_over_Ethernet"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Ceiling-mounted phones, cameras and access points each needed a network cable and a mains socket next to them.",
+    "breakthrough": "Put DC power on the same twisted pairs as the data, with a negotiation step so the switch never energises a device that cannot take it.",
+    "legacy": "It quietly rewired buildings: security cameras, phones, wireless access points and even LED lighting now run on Ethernet."
+   },
+   "milestones": [
+    {
+     "year": "2003",
+     "label": "IEEE 802.3af — up to 15 W"
+    },
+    {
+     "year": "2009",
+     "label": "802.3at (PoE+) raises it to 30 W"
+    },
+    {
+     "year": "2018",
+     "label": "802.3bt (PoE++) reaches 90 W"
+    },
+    {
+     "year": "2020s",
+     "label": "Used for lighting and building automation"
+    },
+    {
+     "year": "today",
+     "label": "Standard on business network switches"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Power",
+     "value": "15–90 W"
+    },
+    {
+     "label": "Voltage",
+     "value": "48 V DC"
+    },
+    {
+     "label": "Max length",
+     "value": "100 m"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — growing"
+    }
+   ]
+  },
+  "image": "images/eras/2003-poe.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/qveUAeMxd1g",
+  "videoTitle": "PoE 101: What Is Power over Ethernet?"
+ },
+ {
+  "id": "2006-displayport",
+  "title": "DisplayPort",
+  "years": "2006",
+  "sortYear": 2006,
+  "summary": "Video sent as data packets rather than as a scanning beam.",
+  "keyAdvancement": "Packetised, extensible video transport",
+  "bitrate": 80000000000,
+  "facts": [
+   "Because it is packet-based, one port can drive several daisy-chained monitors.",
+   "It is royalty-free, which is why computers favour it over HDMI."
+  ],
+  "links": [
+   {
+    "label": "DisplayPort",
+    "href": "https://en.wikipedia.org/wiki/DisplayPort"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "HDMI and DVI still imitated the scanning pattern of a cathode-ray tube, which limited how the link could be shared or extended.",
+    "breakthrough": "Treat video as micro-packets on a generic high-speed link, so bandwidth can be divided between multiple displays and other data.",
+    "legacy": "DisplayPort became the computer industry's display standard, and its protocol is what runs inside USB-C's video mode."
+   },
+   "milestones": [
+    {
+     "year": "2006",
+     "label": "VESA publishes DisplayPort 1.0"
+    },
+    {
+     "year": "2009",
+     "label": "Multi-Stream Transport enables monitor daisy-chaining"
+    },
+    {
+     "year": "2014",
+     "label": "DisplayPort Alt Mode brings it to USB-C"
+    },
+    {
+     "year": "2019",
+     "label": "DP 2.0 reaches 80 Gb/s"
+    },
+    {
+     "year": "today",
+     "label": "Standard on computers and GPUs"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Bandwidth",
+     "value": "up to 80 Gb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "3 m passive"
+    },
+    {
+     "label": "Lanes",
+     "value": "4"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — standard"
+    }
+   ]
+  },
+  "image": "images/eras/2006-displayport.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/R-mJ0J_ACEM",
+  "videoTitle": "Explaining Display Connectors: HDMI, DP, DVI, VGA"
+ },
+ {
+  "id": "2006-10gbase-t",
+  "title": "10GBASE-T over Cat6a",
+  "years": "2006",
+  "sortYear": 2006.5,
+  "summary": "Ten gigabits over twisted copper — an idea most engineers called impossible.",
+  "keyAdvancement": "10 Gb/s on ordinary building cabling",
+  "bitrate": 10000000000,
+  "facts": [
+   "It fights 'alien crosstalk' — interference from the cable lying next to it.",
+   "The signal processing burns several watts per port just to keep the link up."
+  ],
+  "links": [
+   {
+    "label": "10GBASE-T",
+    "href": "https://en.wikipedia.org/wiki/10GBASE-T"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Data centres needed ten gigabits, and everyone assumed that meant ripping out copper and installing fibre everywhere.",
+    "breakthrough": "Throw enormous digital signal processing at the problem: cancel the echo, cancel the crosstalk, and correct the errors that remain.",
+    "legacy": "It bought copper another decade in the data centre, at the cost of power draw that fibre never had."
+   },
+   "milestones": [
+    {
+     "year": "2006",
+     "label": "Ratified as IEEE 802.3an"
+    },
+    {
+     "year": "2008",
+     "label": "Cat6a cabling standard finalised"
+    },
+    {
+     "year": "2010s",
+     "label": "Becomes common in data centres and servers"
+    },
+    {
+     "year": "2016",
+     "label": "2.5G and 5G variants reuse older cable"
+    },
+    {
+     "year": "today",
+     "label": "Standard on servers and high-end desktops"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "10 Gb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "100 m"
+    },
+    {
+     "label": "Power",
+     "value": "~3 W per port"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes"
+    }
+   ]
+  },
+  "image": "images/eras/2006-10gbase-t.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/_ibFaE9lCEA",
+  "videoTitle": "Twisted Pair Cable Explained"
+ },
+ {
+  "id": "2008-usb3",
+  "title": "USB 3.0 (SuperSpeed)",
+  "years": "2008",
+  "summary": "Raised USB throughput to 5 Gb/s and added full‑duplex lanes.",
+  "keyAdvancement": "High‑speed serial peripheral link",
+  "image": "images/eras/2008-usb3.svg",
+  "facts": [
+   "New extra pins; backward compatible with USB 2.0.",
+   "Enabled faster storage and peripherals."
+  ],
+  "links": [
+   {
+    "label": "USB 3.0",
+    "href": "https://en.wikipedia.org/wiki/USB_3.0"
+   }
+  ],
+  "gallery": [
+   "images/gallery/2008-usb31.svg",
+   "images/gallery/2008-usb32.svg"
+  ],
+  "crossSection": {
+   "svg": "<rect x='20' y='40' width='60' height='20' fill='#000000'/><rect x='25' y='45' width='50' height='10' fill='#ffd700'/>",
+   "parts": [
+    {
+     "name": "Shell",
+     "path": "M20 40 L80 40 L80 60 L20 60 Z",
+     "color": "#000000"
+    },
+    {
+     "name": "Contacts",
+     "path": "M25 45 L75 45 L75 55 L25 55 Z",
+     "color": "#ffd700"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "Headline speed of USB 3.0?",
+    "options": [
+     "480 Mb/s",
+     "5 Gb/s",
+     "10 Gb/s",
+     "40 Gb/s"
+    ],
+    "correct": 1,
+    "fact": "SuperSpeed at 5 Gb/s was a 10× jump over USB 2.0."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "USB 2.0 at 480 Mb/s had become the bottleneck for external hard drives, which could read far faster than the cable could carry.",
+    "breakthrough": "Add two extra shielded pairs — one for each direction — so data flows both ways at once at 5 Gb/s, while staying backwards compatible.",
+    "legacy": "It kept USB competitive against FireWire and eSATA, and set up the lane architecture that USB-C and USB4 would inherit."
+   },
+   "milestones": [
+    {
+     "year": "2008",
+     "label": "USB 3.0 specification released"
+    },
+    {
+     "year": "2010",
+     "label": "First consumer devices ship"
+    },
+    {
+     "year": "2013",
+     "label": "USB 3.1 doubles it to 10 Gb/s"
+    },
+    {
+     "year": "2017",
+     "label": "USB 3.2 reaches 20 Gb/s over USB-C"
+    },
+    {
+     "year": "today",
+     "label": "Folded into the USB4 family"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "5 Gb/s"
+    },
+    {
+     "label": "Max length",
+     "value": "3 m"
+    },
+    {
+     "label": "Pairs",
+     "value": "2 SuperSpeed + 1 USB 2.0"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes"
+    }
+   ]
+  },
+  "bitrate": 5000000000,
+  "sortYear": 2008
+ },
+ {
+  "id": "2011-thunderbolt",
+  "title": "Thunderbolt",
+  "years": "2011",
+  "sortYear": 2011,
+  "summary": "PCI Express stretched down a cable — your graphics card on the end of a wire.",
+  "keyAdvancement": "External PCIe over a cable",
+  "bitrate": 40000000000,
+  "facts": [
+   "Active cables contain retimer chips; without them the cable could only be centimetres long.",
+   "It exposes PCIe directly, which is powerful — and a genuine security consideration."
+  ],
+  "links": [
+   {
+    "label": "Thunderbolt (interface)",
+    "href": "https://en.wikipedia.org/wiki/Thunderbolt_(interface)"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "External devices were always slower than internal ones, because nothing could carry the PC's internal PCIe bus outside the case.",
+    "breakthrough": "Tunnel PCIe and DisplayPort down one cable at 10 Gb/s, using active chips in the plugs to keep the signal intact.",
+    "legacy": "It made external GPUs and single-cable docking real, and merged into USB4 — which is Thunderbolt 3 donated to the USB standard."
+   },
+   "milestones": [
+    {
+     "year": "2011",
+     "label": "Thunderbolt 1 ships on the MacBook Pro, 10 Gb/s"
+    },
+    {
+     "year": "2013",
+     "label": "Thunderbolt 2 reaches 20 Gb/s"
+    },
+    {
+     "year": "2015",
+     "label": "Thunderbolt 3 adopts the USB-C connector, 40 Gb/s"
+    },
+    {
+     "year": "2019",
+     "label": "Intel donates the spec; it becomes USB4"
+    },
+    {
+     "year": "2023",
+     "label": "Thunderbolt 5 reaches 80–120 Gb/s"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "10–120 Gb/s"
+    },
+    {
+     "label": "Max passive length",
+     "value": "0.8 m"
+    },
+    {
+     "label": "Power",
+     "value": "up to 100 W"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — current"
+    }
+   ]
+  },
+  "image": "images/eras/2011-thunderbolt.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/Uj_HSnEsE7s",
+  "videoTitle": "Thunderbolt vs USB4"
+ },
+ {
+  "id": "2012-lightning",
+  "title": "Lightning",
+  "years": "2012",
+  "sortYear": 2012,
+  "summary": "The first reversible phone plug — with a chip deciding what each pin does.",
+  "keyAdvancement": "Reversible connector with active pin assignment",
+  "bitrate": 480000000,
+  "facts": [
+   "It is reversible because a chip re-assigns the pins based on orientation.",
+   "The authentication chip is why some third-party cables stopped working after updates."
+  ],
+  "links": [
+   {
+    "label": "Lightning (connector)",
+    "href": "https://en.wikipedia.org/wiki/Lightning_(connector)"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Apple's 30-pin dock connector was bulky, only went in one way, and wasted space inside increasingly thin phones.",
+    "breakthrough": "A small 8-pin plug with a controller chip inside, so the pins can be re-assigned depending on which way round it is inserted.",
+    "legacy": "It beat USB-C to reversibility by two years, then was retired when EU law required USB-C on phones."
+   },
+   "milestones": [
+    {
+     "year": "2012",
+     "label": "Introduced with the iPhone 5"
+    },
+    {
+     "year": "2014",
+     "label": "USB-C arrives with the same reversible idea"
+    },
+    {
+     "year": "2022",
+     "label": "EU adopts the common charger directive"
+    },
+    {
+     "year": "2023",
+     "label": "iPhone 15 switches to USB-C"
+    },
+    {
+     "year": "today",
+     "label": "Being phased out"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "480 Mb/s"
+    },
+    {
+     "label": "Pins",
+     "value": "8"
+    },
+    {
+     "label": "Reversible",
+     "value": "Yes"
+    },
+    {
+     "label": "Still used",
+     "value": "Phasing out"
+    }
+   ]
+  },
+  "image": "images/eras/2012-lightning.svg",
+  "gallery": []
+ },
+ {
+  "id": "2014-usbc",
+  "title": "USB‑C Connector Published",
+  "years": "2014",
+  "summary": "Reversible, compact connector supporting data, display, and high‑power delivery.",
+  "keyAdvancement": "Universal reversible connector",
+  "image": "images/eras/2014-usbc.svg",
+  "video": "https://www.youtube.com/embed/Uj_HSnEsE7s",
+  "facts": [
+   "Supports Alternate Modes like DisplayPort.",
+   "Symmetric design removes plug orientation."
+  ],
+  "links": [
+   {
+    "label": "USB‑C",
+    "href": "https://en.wikipedia.org/wiki/USB-C"
+   }
+  ],
+  "gallery": [
+   "images/gallery/2014-usbc1.svg",
+   "images/gallery/2014-usbc2.svg"
+  ],
+  "crossSection": {
+   "svg": "<rect x='20' y='40' width='60' height='20' fill='#000000'/><rect x='25' y='45' width='50' height='10' fill='#ffd700'/>",
+   "parts": [
+    {
+     "name": "Shell",
+     "path": "M20 40 L80 40 L80 60 L20 60 Z",
+     "color": "#000000"
+    },
+    {
+     "name": "Contacts",
+     "path": "M25 45 L75 45 L75 55 L25 55 Z",
+     "color": "#ffd700"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "Why is USB‑C reversible?",
+    "options": [
+     "Flips protocols",
+     "Symmetric connector",
+     "Software flips signals",
+     "Magnets"
+    ],
+    "correct": 1,
+    "fact": "Symmetric contacts let the plug work either way up."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "USB plugs only went in one way, came in five incompatible shapes, and could not carry enough power to charge a laptop.",
+    "breakthrough": "A small reversible connector with 24 mirrored contacts, up to 100 W of power, and a chip in the cable declaring its own capabilities.",
+    "legacy": "It is becoming the single connector for nearly everything — and it introduced most people to the idea that a cable can contain a computer."
+   },
+   "milestones": [
+    {
+     "year": "2014",
+     "label": "USB Type-C specification published"
+    },
+    {
+     "year": "2015",
+     "label": "First laptops and phones adopt it"
+    },
+    {
+     "year": "2016",
+     "label": "Thunderbolt 3 adopts the same connector"
+    },
+    {
+     "year": "2021",
+     "label": "USB PD reaches 240 W"
+    },
+    {
+     "year": "today",
+     "label": "Converging on one universal port"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "up to 40 Gb/s"
+    },
+    {
+     "label": "Power",
+     "value": "up to 240 W"
+    },
+    {
+     "label": "Contacts",
+     "value": "24"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — current"
+    }
+   ]
+  },
+  "bitrate": 40000000000,
+  "sortYear": 2014,
+  "videoTitle": "Thunderbolt vs USB4"
+ },
+ {
+  "id": "2017-8023bs",
+  "title": "IEEE 802.3bs (200/400GbE)",
+  "years": "2017",
+  "summary": "Ethernet standard for 200 and 400 Gb/s over fiber.",
+  "keyAdvancement": "Very‑high‑speed optical Ethernet",
+  "image": "images/eras/2017-8023bs.svg",
+  "video": "https://www.youtube.com/embed/Lic3gCS_bKo",
+  "facts": [
+   "Enabled 400G DC/backbone deployments.",
+   "Often uses PAM4 optics."
+  ],
+  "links": [
+   {
+    "label": "Terabit Ethernet (200G/400G)",
+    "href": "https://en.wikipedia.org/wiki/Terabit_Ethernet"
+   },
+   {
+    "label": "100 Gigabit Ethernet",
+    "href": "https://en.wikipedia.org/wiki/100_Gigabit_Ethernet"
+   }
+  ],
+  "gallery": [
+   "images/gallery/2017-8023bs1.svg",
+   "images/gallery/2017-8023bs2.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#ffffff'/><circle cx='50' cy='50' r='35' fill='#87ceeb'/><circle cx='50' cy='50' r='25' fill='#ffffff'/>",
+   "parts": [
+    {
+     "name": "Cladding",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#ffffff"
+    },
+    {
+     "name": "Core",
+     "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+     "color": "#87ceeb"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "Common modulation for 400G optics?",
+    "options": [
+     "ASK",
+     "PAM4",
+     "FSK",
+     "BPSK"
+    ],
+    "correct": 1,
+    "fact": "PAM4 encodes two bits per symbol for higher throughput."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Data centres and cloud providers were exhausting 100 Gb/s links faster than anyone had forecast.",
+    "breakthrough": "Run eight parallel optical lanes at 50 Gb/s each, using multi-level signalling to squeeze more bits into every pulse of light.",
+    "legacy": "It set the speed of the modern cloud: the traffic between data centres largely rides on links like these."
+   },
+   "milestones": [
+    {
+     "year": "2017",
+     "label": "IEEE 802.3bs ratified for 200G and 400G"
+    },
+    {
+     "year": "2018",
+     "label": "First 400G equipment ships"
+    },
+    {
+     "year": "2020s",
+     "label": "400G becomes standard between data centres"
+    },
+    {
+     "year": "2022",
+     "label": "800G products arrive"
+    },
+    {
+     "year": "today",
+     "label": "1.6T under development"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "400 Gb/s"
+    },
+    {
+     "label": "Lanes",
+     "value": "8 × 50 Gb/s"
+    },
+    {
+     "label": "Connector",
+     "value": "MPO/MTP"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — current"
+    }
+   ]
+  },
+  "bitrate": 400000000000,
+  "sortYear": 2017,
+  "videoTitle": "Total Internal Reflection Demo: Optical Fibers"
+ },
+ {
+  "id": "2019-usb4",
+  "title": "USB4",
+  "years": "2019",
+  "sortYear": 2019,
+  "summary": "One cable carrying USB, DisplayPort and PCIe at once — in negotiated shares.",
+  "keyAdvancement": "Protocol tunnelling over one link",
+  "bitrate": 40000000000,
+  "facts": [
+   "Bandwidth is allocated dynamically: give the monitor more, the SSD gets less.",
+   "It is built on Thunderbolt 3, which Intel donated to the USB standard."
+  ],
+  "links": [
+   {
+    "label": "USB4",
+    "href": "https://en.wikipedia.org/wiki/USB4"
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "USB-C had one shape but a bewildering range of capabilities, and no way for a user to tell what a given cable could actually do.",
+    "breakthrough": "One tunnelling architecture carrying USB, DisplayPort and PCIe together, with the cable's e-marker chip declaring its own abilities.",
+    "legacy": "It unified the connector at last — though the naming remains famously confusing, and cables still vary enormously in capability."
+   },
+   "milestones": [
+    {
+     "year": "2019",
+     "label": "USB4 specification published"
+    },
+    {
+     "year": "2020",
+     "label": "First USB4 devices ship"
+    },
+    {
+     "year": "2022",
+     "label": "USB4 v2 targets 80 Gb/s"
+    },
+    {
+     "year": "2024",
+     "label": "Becomes common on laptops and phones"
+    },
+    {
+     "year": "today",
+     "label": "The converged standard"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "20–80 Gb/s"
+    },
+    {
+     "label": "Max passive length",
+     "value": "0.8 m"
+    },
+    {
+     "label": "Power",
+     "value": "up to 240 W"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — current"
+    }
+   ]
+  },
+  "image": "images/eras/2019-usb4.svg",
+  "gallery": [],
+  "video": "https://www.youtube.com/embed/Uj_HSnEsE7s",
+  "videoTitle": "Thunderbolt vs USB4"
+ },
+ {
+  "id": "2020-800g",
+  "title": "800G Coherent Optics Era",
+  "years": "2020–2022",
+  "summary": "Coherent 800G moves from trials to early production in subsea & terrestrial backbones.",
+  "keyAdvancement": "Ultra‑high‑capacity coherent DWDM",
+  "image": "images/eras/2020-800g.svg",
+  "video": "https://www.youtube.com/embed/IlAJJI-qG2k",
+  "facts": [
+   "Delivers spectral efficiency for long‑haul links.",
+   "Often pluggable (QSFP‑DD/CFP2‑DCO)."
+  ],
+  "links": [
+   {
+    "label": "Coherent optical module",
+    "href": "https://en.wikipedia.org/wiki/Coherent_optical_module"
+   },
+   {
+    "label": "Wavelength-division multiplexing",
+    "href": "https://en.wikipedia.org/wiki/Wavelength-division_multiplexing"
+   }
+  ],
+  "gallery": [
+   "images/gallery/2020-800g1.svg",
+   "images/gallery/2020-800g2.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#ffffff'/><circle cx='50' cy='50' r='35' fill='#87ceeb'/><circle cx='50' cy='50' r='25' fill='#ffffff'/>",
+   "parts": [
+    {
+     "name": "Cladding",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#ffffff"
+    },
+    {
+     "name": "Core",
+     "path": "M15 50 A35 35 0 0 1 85 50 A35 35 0 0 1 15 50 Z",
+     "color": "#87ceeb"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What enables long‑haul 800G?",
+    "options": [
+     "Simple OOK",
+     "Coherent detection + DSP",
+     "AM radio",
+     "LED sources"
+    ],
+    "correct": 1,
+    "fact": "Coherent receivers with DSP correct impairments."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Fibre routes were full, and digging new ones across oceans and continents costs a fortune.",
+    "breakthrough": "Encode data in the light's phase and polarisation as well as its brightness, then use a DSP to undo the distortion of 1 000 km of glass.",
+    "legacy": "Coherent optics multiplied the capacity of cables already in the ground — the cheapest possible way to add bandwidth."
+   },
+   "milestones": [
+    {
+     "year": "2020",
+     "label": "800G coherent systems begin deployment"
+    },
+    {
+     "year": "2020s",
+     "label": "Coherent DSPs move to 3 nm silicon"
+    },
+    {
+     "year": "2022",
+     "label": "800G becomes commercially widespread"
+    },
+    {
+     "year": "2024",
+     "label": "1.6T coherent demonstrated"
+    },
+    {
+     "year": "today",
+     "label": "Standard for long-haul and subsea"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Speed",
+     "value": "800 Gb/s per wavelength"
+    },
+    {
+     "label": "Technique",
+     "value": "Coherent DWDM"
+    },
+    {
+     "label": "Reach",
+     "value": "1 000 km+"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — current"
+    }
+   ]
+  },
+  "bitrate": 800000000000,
+  "sortYear": 2020,
+  "videoTitle": "Undersea Cables Power The Internet"
+ },
+ {
+  "id": "2024-eu-usbc",
+  "title": "EU USB‑C Charging Mandate",
+  "years": "2024–2025",
+  "summary": "EU law standardizes USB‑C as the common charging port for many devices.",
+  "keyAdvancement": "Regulatory push for connector unification",
+  "image": "images/eras/2024-eu-usbc.svg",
+  "facts": [
+   "Aims to reduce e‑waste and consumer friction.",
+   "Accelerates global USB‑C adoption."
+  ],
+  "links": [
+   {
+    "label": "Common external power supply (EU)",
+    "href": "https://en.wikipedia.org/wiki/Common_External_Power_Supply"
+   },
+   {
+    "label": "USB-C",
+    "href": "https://en.wikipedia.org/wiki/USB-C"
+   }
+  ],
+  "gallery": [
+   "images/gallery/2024-eu-usbc1.svg",
+   "images/gallery/2024-eu-usbc2.svg"
+  ],
+  "crossSection": {
+   "svg": "<rect x='20' y='40' width='60' height='20' fill='#000000'/><rect x='25' y='45' width='50' height='10' fill='#ffd700'/>",
+   "parts": [
+    {
+     "name": "Shell",
+     "path": "M20 40 L80 40 L80 60 L20 60 Z",
+     "color": "#000000"
+    },
+    {
+     "name": "Contacts",
+     "path": "M25 45 L75 45 L75 55 L25 55 Z",
+     "color": "#ffd700"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "One goal of the EU mandate?",
+    "options": [
+     "Sell more chargers",
+     "Ban fast charging",
+     "Reduce e‑waste",
+     "End USB‑IF"
+    ],
+    "correct": 2,
+    "fact": "Standardizing on USB‑C reduces duplicate chargers and cables."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "Every phone brand used a different charger, generating an estimated 11 000 tonnes of discarded cables and chargers a year in the EU.",
+    "breakthrough": "Legislation: from the end of 2024, most portable electronics sold in the EU must charge over USB-C.",
+    "legacy": "A rare case of regulation settling a standards war outright. Apple moved the iPhone to USB-C the year before it took effect."
+   },
+   "milestones": [
+    {
+     "year": "2022",
+     "label": "EU adopts the common charger directive"
+    },
+    {
+     "year": "2023",
+     "label": "iPhone 15 switches to USB-C ahead of the deadline"
+    },
+    {
+     "year": "2024",
+     "label": "Rules apply to phones, tablets and cameras"
+    },
+    {
+     "year": "2026",
+     "label": "Extends to laptops"
+    },
+    {
+     "year": "today",
+     "label": "One charger for nearly everything"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Mandate",
+     "value": "USB-C on most devices"
+    },
+    {
+     "label": "Region",
+     "value": "European Union"
+    },
+    {
+     "label": "Waste saved",
+     "value": "~11 000 t/year"
+    },
+    {
+     "label": "Still used",
+     "value": "Yes — in force"
+    }
+   ]
+  },
+  "bitrate": 40000000000,
+  "sortYear": 2024
+ },
+ {
+  "id": "2020s-self-healing",
+  "title": "Self-Healing Cables: Wires That Fix Themselves",
+  "years": "2020s",
+  "summary": "Cutting-edge materials enable cables to autonomously repair damage and extend lifespan.",
+  "keyAdvancement": "Autonomous repair of insulation and conductors",
+  "image": "images/eras/self-healing-cable.svg",
+  "facts": [
+   "Microcapsules release healing agents when cracks form in insulation",
+   "Some materials can restore electrical conductivity after damage",
+   "Potential to reduce maintenance costs in hard-to-reach installations"
+  ],
+  "links": [
+   {
+    "label": "Self-healing material",
+    "href": "https://en.wikipedia.org/wiki/Self-healing_material"
+   }
+  ],
+  "gallery": [
+   "images/gallery/self-healing1.svg",
+   "images/gallery/self-healing2.svg"
+  ],
+  "crossSection": {
+   "svg": "<circle cx='50' cy='50' r='45' fill='#b87333'/><circle cx='50' cy='50' r='40' fill='none' stroke='#000' stroke-width='2' stroke-dasharray='5,5'/>",
+   "parts": [
+    {
+     "name": "Self-Healing Insulation",
+     "path": "M5 50 A45 45 0 0 1 95 50 A45 45 0 0 1 5 50 Z",
+     "color": "#4CAF50"
+    },
+    {
+     "name": "Conductive Material",
+     "path": "M30 50 A20 20 0 0 1 70 50 A20 20 0 0 1 30 50 Z",
+     "color": "#FFC107"
+    }
+   ]
+  },
+  "trivia": [
+   {
+    "question": "What triggers self-healing in microcapsule-based materials?",
+    "options": [
+     "Electrical current",
+     "Crack formation",
+     "Temperature increase",
+     "Magnetic fields"
+    ],
+    "correct": 1,
+    "fact": "When a crack forms, it ruptures microcapsules, releasing healing agents that flow into and seal the damage."
+   },
+   {
+    "question": "Which industry was an early adopter of self-healing cable technology?",
+    "options": [
+     "Consumer electronics",
+     "Aerospace",
+     "Residential wiring",
+     "Automotive"
+    ],
+    "correct": 1,
+    "fact": "NASA and other aerospace organizations were among the first to explore self-healing wire insulation for spacecraft and aircraft, where repairs are extremely difficult."
+   },
+   {
+    "question": "What is a key advantage of dynamic bond-based self-healing materials?",
+    "options": [
+     "They can heal multiple times",
+     "They're cheaper to produce",
+     "They work at any temperature",
+     "They don't require any external trigger"
+    ],
+    "correct": 0,
+    "fact": "Dynamic bond-based materials can heal the same spot multiple times, making them more durable than single-use microcapsule systems."
+   }
+  ],
+  "history": {
+   "beats": {
+    "problem": "A cable's insulation is its weakest point: one nick from a chair leg or a door hinge and the cable is scrap.",
+    "breakthrough": "Insulation containing microcapsules of healing agent, or polymers whose bonds re-form when cut faces touch — so damage repairs itself.",
+    "legacy": "Still largely in the laboratory, but it points at cables that report their own health and outlive the devices they connect."
+   },
+   "milestones": [
+    {
+     "year": "2010s",
+     "label": "Self-healing polymers demonstrated in labs"
+    },
+    {
+     "year": "2018",
+     "label": "Liquid-metal conductors that reflow after cutting"
+    },
+    {
+     "year": "2020s",
+     "label": "Microcapsule insulation reaches prototypes"
+    },
+    {
+     "year": "2020s",
+     "label": "Health-monitoring ICs added to cable assemblies"
+    },
+    {
+     "year": "future",
+     "label": "Aiming at aerospace and undersea use"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Status",
+     "value": "Emerging"
+    },
+    {
+     "label": "Mechanism",
+     "value": "Microcapsules / reversible bonds"
+    },
+    {
+     "label": "Target",
+     "value": "Aerospace, subsea"
+    },
+    {
+     "label": "Still used",
+     "value": "Not yet mainstream"
+    }
+   ]
+  },
+  "bitrate": 1000000000,
+  "sortYear": 2026
+ }
+]

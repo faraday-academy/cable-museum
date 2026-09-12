@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <rect width="300" height="200" fill="#0b0d17"/>
+  <circle cx="150" cy="100" r="45" fill="#f472b6" opacity="0.3"/>
+  <path d="M100 100 Q150 70 200 100 Q150 130 100 100" stroke="#22d3ee" stroke-width="3" fill="none"/>
+  <circle cx="100" cy="100" r="4" fill="#a78bfa"/>
+  <circle cx="200" cy="100" r="4" fill="#a78bfa"/>
+  <text x="150" y="85" text-anchor="middle" fill="#fff" font-size="10">⚡</text>
+  <text x="150" y="155" text-anchor="middle" fill="#22d3ee" font-size="12" font-weight="bold">Mystery Failure</text>
+  <text x="150" y="170" text-anchor="middle" fill="#a78bfa" font-size="10">1858 Transatlantic</text>
+</svg>

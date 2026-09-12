@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 90" width="160" height="90" role="img">
+<title>One connector to replace serial, parallel, PS/2 and the rest.</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#101b2b"/><stop offset="100%" stop-color="#070b14"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/><stop offset="45%" stop-color="#ffffff" stop-opacity="0.02"/><stop offset="100%" stop-color="#000000" stop-opacity="0.22"/></linearGradient>
+</defs>
+<rect width="160" height="90" fill="url(#bg)"/>
+<rect x="0" y="49.5" width="108" height="17" fill="#1b2531"/>
+<rect x="26" y="50.5" width="82" height="15.0" fill="#8b98a8"/>
+<path d="M26 50.5 a 3 7.5 0 0 0 0 15.0" fill="#5f6b79" opacity="0.85"/>
+<rect x="44" y="51.4" width="64" height="13.3" fill="#c7d2da"/>
+<path d="M44 51.4 a 3 6.6 0 0 0 0 13.3" fill="#94a1ab" opacity="0.85"/>
+<rect x="62" y="52.7" width="46" height="10.6" fill="#e6eef4"/>
+<rect x="0" y="49.5" width="108" height="17" fill="url(#sheen)"/>
+<g transform="translate(132.00,58.00)"><rect x="-25.50" y="-6.80" width="25.50" height="13.60" rx="1.02" fill="#9aa7b4" stroke="#5f6b79" stroke-width="0.85"/><rect x="-22.10" y="-4.08" width="17.85" height="5.10" fill="#141d29"/><rect x="-20.74" y="-3.06" width="14.45" height="1.70" fill="#f5d06f"/></g>
+<rect x="86" y="51.0" width="16" height="14" rx="2" fill="#2f3e52" stroke="#f5d06f" stroke-width="0.9"/>
+<rect x="84.0" y="54.0" width="2" height="1.4" fill="#f5d06f"/>
+<rect x="102.0" y="54.0" width="2" height="1.4" fill="#f5d06f"/>
+<rect x="84.0" y="57.4" width="2" height="1.4" fill="#f5d06f"/>
+<rect x="102.0" y="57.4" width="2" height="1.4" fill="#f5d06f"/>
+<rect x="84.0" y="60.8" width="2" height="1.4" fill="#f5d06f"/>
+<rect x="102.0" y="60.8" width="2" height="1.4" fill="#f5d06f"/>
+<circle cx="94" cy="58.0" r="2.6" fill="#f5d06f" opacity="0.5"/>
+<circle cx="30" cy="26" r="22.5" fill="#070b14" stroke="#1e2a3c" stroke-width="1"/>
+    <circle cx="30.00" cy="26.00" r="20.00" fill="#1b2531" stroke="#0e1620" stroke-width="0.60"/>
+    <circle cx="30.00" cy="26.00" r="17.60" fill="#8b98a8" stroke="#5f6b79" stroke-width="0.60"/>
+    <circle cx="30.00" cy="9.63" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="34.24" cy="10.19" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="38.18" cy="11.82" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="41.57" cy="14.43" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="44.18" cy="17.82" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="45.81" cy="21.76" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="46.37" cy="26.00" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="45.81" cy="30.24" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="44.18" cy="34.18" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="41.57" cy="37.57" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="38.18" cy="40.18" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="34.24" cy="41.81" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="30.00" cy="42.37" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="25.76" cy="41.81" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="21.82" cy="40.18" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="18.43" cy="37.57" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="15.82" cy="34.18" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="14.19" cy="30.24" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="13.63" cy="26.00" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="14.19" cy="21.76" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="15.82" cy="17.82" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="18.43" cy="14.43" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="21.82" cy="11.82" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="25.76" cy="10.19" r="0.60" fill="#b6c2cf" opacity="0.9"/>
+    <circle cx="30.00" cy="26.00" r="15.60" fill="#c7d2da" stroke="#94a1ab" stroke-width="0.60"/>
+    <circle cx="30.00" cy="26.00" r="15.13" fill="none" stroke="#e6eef4" stroke-width="0.40" opacity="0.85"/>
+    <circle cx="25.60" cy="26.00" r="4.00" fill="#2a3646" stroke="#18212c" stroke-width="0.5"/>
+    <circle cx="23.92" cy="26.00" r="1.36" fill="#b87333" stroke="#8a5524" stroke-width="0.4"/>
+    <circle cx="27.28" cy="26.00" r="1.36" fill="#b87333" stroke="#8a5524" stroke-width="0.4"/>
+    <circle cx="34.40" cy="22.00" r="3.20" fill="#2a3646" stroke="#18212c" stroke-width="0.5"/>
+    <circle cx="34.40" cy="22.00" r="1.66" fill="#e8913a" stroke="#b86b22" stroke-width="0.4"/>
+    <circle cx="34.40" cy="30.00" r="3.20" fill="#2a3646" stroke="#18212c" stroke-width="0.5"/>
+    <circle cx="34.40" cy="30.00" r="1.66" fill="#c3ccd8" stroke="#8d97a4" stroke-width="0.4"/>
+<circle cx="30" cy="26" r="20" fill="none" stroke="#000" stroke-opacity="0.35" stroke-width="0.8"/>
+<path d="M53 32 L66 46" stroke="#3fbfd4" stroke-width="0.9" opacity="0.55"/>
+<text x="155" y="12" text-anchor="end" font-family="ui-sans-serif,system-ui,sans-serif" font-size="7.5" font-weight="700" fill="#93a1b5" letter-spacing="0.6">4 LAYERS</text>
+</svg>

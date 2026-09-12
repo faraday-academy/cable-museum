@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 90" width="160" height="90" role="img">
+<title>Kao's insight: the loss wasn't the glass, it was the impurities in it.</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#101b2b"/><stop offset="100%" stop-color="#070b14"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/><stop offset="45%" stop-color="#ffffff" stop-opacity="0.02"/><stop offset="100%" stop-color="#000000" stop-opacity="0.22"/></linearGradient>
+</defs>
+<rect width="160" height="90" fill="url(#bg)"/>
+<rect x="0" y="49.5" width="108" height="17" fill="#244553"/>
+<rect x="26" y="51.7" width="82" height="12.6" fill="#3a6b7d"/>
+<path d="M26 51.7 a 3 6.3 0 0 0 0 12.6" fill="#25495a" opacity="0.85"/>
+<rect x="44" y="55.1" width="64" height="5.8" fill="#8fd8e8"/>
+<path d="M44 55.1 a 3 2.9 0 0 0 0 5.8" fill="#4f9db0" opacity="0.85"/>
+<rect x="62" y="55.7" width="46" height="4.6" fill="#d3f4fb"/>
+<rect x="0" y="49.5" width="108" height="17" fill="url(#sheen)"/>
+<g transform="translate(132.00,58.00)"><rect x="-25.50" y="-6.80" width="19.55" height="13.60" rx="1.36" fill="#2f3e52" stroke="#1a2432" stroke-width="0.85"/><rect x="-6.80" y="-2.21" width="9.86" height="4.42" rx="0.85" fill="#e8eef5" opacity="0.9"/><circle cx="2.04" cy="0" r="1.19" fill="#8fd8e8"/></g>
+<circle cx="30" cy="26" r="22.5" fill="#070b14" stroke="#1e2a3c" stroke-width="1"/>
+    <circle cx="30.00" cy="26.00" r="20.00" fill="#244553" stroke="#152e39" stroke-width="0.60"/>
+    <circle cx="30.00" cy="26.00" r="14.80" fill="#3a6b7d" stroke="#25495a" stroke-width="0.60"/>
+    <circle cx="30.00" cy="26.00" r="6.80" fill="#8fd8e8" stroke="#4f9db0" stroke-width="0.60"/>
+<circle cx="30" cy="26" r="20" fill="none" stroke="#000" stroke-opacity="0.35" stroke-width="0.8"/>
+<path d="M53 32 L66 46" stroke="#3fbfd4" stroke-width="0.9" opacity="0.55"/>
+<text x="155" y="12" text-anchor="end" font-family="ui-sans-serif,system-ui,sans-serif" font-size="7.5" font-weight="700" fill="#93a1b5" letter-spacing="0.6">3 LAYERS</text>
+</svg>
